@@ -7,10 +7,10 @@
 在包管理器中添加以下地址：
 
 ```
-https://<您的GitHub用户名>.github.io/jailbreak-repo/
+https://enix80126.github.io/jailbreak-repo/
 ```
 
-> ⚠️ **注意**：在正式发布前，请将上方链接中的 `<您的GitHub用户名>` 替换为您的 GitHub 实际账号名称。
+> ⚠️ **注意**：您的越狱源地址就是上方的链接。
 
 ---
 
