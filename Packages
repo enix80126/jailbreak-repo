@@ -927,6 +927,25 @@ MD5sum: e85c38d06188dab37d9b2951e50fe7c2
 SHA1: 524e19cc8d1b5c777d28e94c0da50281d4113257
 SHA256: a3c8bad91dad3f0d2dadd54e6aa474de924b11e3fde3ed72251e63a9b59b84c2
 
+Package: com.huami.dyyy
+Name: DYYY
+Description: 仅供学习交流，请在 24 小时内自觉删除。
+Homepage: https://github.com/huami1314/DYYY
+Section: Tweaks
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: huami
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Architecture: iphoneos-arm64e
+Version: 2.3-0
+Installed-Size: 3208
+Filename: debs/com.huami.dyyy_2.3-0_iphoneos-arm64e.deb
+Size: 706524
+MD5sum: 77f0a60eca5eeef0c7d519eb76ee0cae
+SHA1: a320846fe4bdbaa81bb866d79a973647212d83bd
+SHA256: 597ee43ef39798f2f2d80a49da44c2cfc2611c9158e09173b7899c2b9eb15bae
+
 Package: com.opa334.libundirect
 Name: libundirect
 Description: Patchfinder and rebinder for objc_direct methods
