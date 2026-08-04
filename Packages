@@ -980,6 +980,23 @@ MD5sum: 42f1842748252a4a2af0404210cf97cc
 SHA1: bfa2a221754b8ac0c2fad47c838f0407a280543b
 SHA256: 721fe9211378550280a7ef421292c27cf88e56e8dc1c2c28178bb4d5cac97dc1
 
+Package: com.xx.gaodehook
+Name: 高德地图优化
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
+Maintainer: x✨
+Author: x✨
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 900
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: debs/com.xx.gaodehook_1.0.4_iphoneos-arm64e.deb
+Size: 438904
+MD5sum: 9d2d4b9f73253e4b9e3165a90eff45bf
+SHA1: 2369e9ee03517786854b562fda56c309f3c8869e
+SHA256: 522f79e353a7345f60d4438b2db04f1c137c2635918a988e1a4fe19892f4de8e
+
 Package: com.wkk.icleanerpro
 Section: 应用程序
 Maintainer: Ivano Bilenchi
