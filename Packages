@@ -910,6 +910,24 @@ MD5sum: 3ab98a150fbfdb61fbd8f6aa098c43eb
 SHA1: c257be9a3883166934044e58051e10c53d67ed97
 SHA256: c8f903e868e97bd462fb6eca2d3357568dc63073b7db741c61a1dea1f5345db2
 
+Package: cn.zqbb.hello.memorystatus
+Description: Set memorystatus to avoid being killed by the system
+Maintainer: zqbb
+Author: zqbb
+Name: Hello Memory Status
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
+Section: zqbb Tweaks
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.memorystatus
+Architecture: iphoneos-arm64e
+Version: 3.9.0-5
+Installed-Size: 12328
+Filename: debs/cn.zqbb.hello.memorystatus_3.9.0-5_iphoneos-arm64e.deb
+Size: 3250376
+MD5sum: 3144abe69e5f24b8a724652c5c122378
+SHA1: 51b1f64043dbeef7162941bea51baaaf2e3c9c6c
+SHA256: 40c3924f9139183c03130075f11d07f3152871319aa7549f14021f34d22300f0
+
 Package: cn.zqbb.hello.mnt
 Name: HelloMnt
 Description: Relaxin 挂载器!
