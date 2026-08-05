@@ -981,6 +981,23 @@ MD5sum: 18df4d24819218006fd0f54f29de9ab0
 SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
 SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
 
+Package: com.dao.neofreebird.bht
+Name: NFX 中文版(RootHide)
+Description: 推特多功能插件，NeoFreeBird版的BHTwitter，比常规BHTwitter功能多一点，设置通用，中文优化版，插件选项位于推特设置顶部。
+Maintainer: 刀刀
+Author: NeoFreeBird
+Section: 嗨-工具
+Depends: mobilesubstrate
+Conflicts: com.bandarhl.rootless.bhtwitter, com.bandarhl.bhtwitter, com.daodao.rootless.bhtwitter, com.hk.BHTwitter.cn, com.dao.bhtwitter, com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/nfb-bht/js.json
+Architecture: iphoneos-arm64e
+Version: 7.0
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.dao.neofreebird.bht_7.0_iphoneos-arm64e.deb
+Size: 7883560
+MD5sum: 42b1fa90d5d6e2da34a7b8a92c0bada6
+SHA1: e6cfb2065d97b476bd7d5fb4e34d8f8a733cfc0e
+SHA256: 84291591bd6623c6d800ab9492769e12d2fa5ae462edba282b0dd947300a908d
+
 Package: com.fluoxetine.jumor
 Name: 巨魔R
 Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
