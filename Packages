@@ -1350,24 +1350,6 @@ MD5sum: 495314f950d4c7a7894e5256bc079a81
 SHA1: 769f97ecbd7055f7559d8e9748c6b2b1bd194987
 SHA256: d9dff7c85d634b5aa35eb0047e27f34becbd726018a7b3336a3eb0e8c5aa9eac
 
-Package: com.wkk.txtyhook
-Section: 去广告
-Installed-Size: 168
-Maintainer: wkk
-Architecture: iphoneos-arm64e
-Version: 1.0-1
-Depends: mobilesubstrate (>= 0.9.5000)
-Pre-Depends: rootless-compat (>= 0.9)
-Description: 去开屏广告，版本：7.8.90，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799（如果源内某些去广告插件下载deb安装不生效，请选择用TrollFools注入）
-Name: 腾讯体育NoAds
-Author: wkk
-Icon: https://s1.imagehub.cc/images/2025/12/19/e7f05d5ae0dd964c58131ab814df26d3.png
-Filename: debs/腾讯体育NoAds_1.0-1_iphoneos-arm64e.deb
-Size: 43112
-MD5sum: e4e9c28b2c9ae66d6a785a94133996c7
-SHA1: 9345d534ec3f9449856f7974c40272b0259c3457
-SHA256: bb9eead95e3bb3e270f5fefd6445e9864551810ef9038a91edfbb540368de046
-
 Package: com.wkk.txsphook
 Section: 去广告
 Installed-Size: 400
