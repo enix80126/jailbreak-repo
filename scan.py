@@ -23,7 +23,16 @@ def extract_control(deb_path):
             if name.startswith('control.tar'):
                 data = f.read(size)
                 ext = name.split('.')[-1] if '.' in name[11:] else ''
-                mode = f"r:{ext}" if ext in ('gz','xz','bz2') else "r"
+                if ext == 'zst':
+                    try:
+                        import zstandard
+                        dctx = zstandard.ZstdDecompressor()
+                        data = dctx.decompress(data)
+                        mode = "r"
+                    except ImportError:
+                        raise ImportError("zstandard module is required to extract .zst deb files. Please run 'pip install zstandard'")
+                else:
+                    mode = f"r:{ext}" if ext in ('gz','xz','bz2') else "r"
                 with tarfile.open(fileobj=io.BytesIO(data), mode=mode) as tar:
                     for m in tar.getmembers():
                         if m.name.endswith('control') and m.isfile():

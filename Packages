@@ -995,6 +995,24 @@ MD5sum: 77f0a60eca5eeef0c7d519eb76ee0cae
 SHA1: a320846fe4bdbaa81bb866d79a973647212d83bd
 SHA256: 597ee43ef39798f2f2d80a49da44c2cfc2611c9158e09173b7899c2b9eb15bae
 
+Package: com.lclrc.hammerit
+Name: Hammer It
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
+Description: Control your text or translate as you wish.
+Maintainer: lclrc(SquidForce)
+Author: lclrc(SquidForce)
+Section: Tweaks
+Icon: file:///var/jb/Library/PreferenceBundles/HammerItPrefs.bundle/HammerIt@3x.png
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Installed-Size: 3808
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e-1.deb
+Size: 2753736
+MD5sum: 4ea99b427547edd5db15de1ff08db453
+SHA1: c2fd74c57a5add2adb951bfd9a9bd15fd0ef4bd1
+SHA256: 708b7668a00e35d308cd18e1cb54a79ded461f2a1d2f0d7941a713fa3e027a87
+
 Package: com.opa334.libundirect
 Name: libundirect
 Description: Patchfinder and rebinder for objc_direct methods
@@ -1028,6 +1046,23 @@ Size: 85322
 MD5sum: 6f19eb03dc2759a5ad13565782c14276
 SHA1: 4888abfe511ca727ed8f574ba575d84514f9ae05
 SHA256: cdfba570e317d2770db1b59c823c94a35c6afa989aa81c416471e76800d375d8
+
+Package: com.xx.gaodehook
+Name: 高德地图优化
+Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
+Maintainer: x✨
+Author: x✨
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0.4
+Installed-Size: 900
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.xx.gaodehook_1.0.4_iphoneos-arm64e.deb
+Size: 438904
+MD5sum: 9d2d4b9f73253e4b9e3165a90eff45bf
+SHA1: 2369e9ee03517786854b562fda56c309f3c8869e
+SHA256: 522f79e353a7345f60d4438b2db04f1c137c2635918a988e1a4fe19892f4de8e
 
 Package: com.xybp888.callassist17.roothide
 Version: 1.5.2
