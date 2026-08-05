@@ -482,23 +482,6 @@ MD5sum: 3a7b610e29cfce517aefc29ebf15b0bc
 SHA1: 0739c88d68567bbf4011e529a3dfebf1b94e594d
 SHA256: 91652bef265fbb1bc060db56c2eac5e26912d2e709ddcc798d744385adf59e59
 
-Package: com.dao.neofreebird.bht
-Section: 嗨-工具
-Maintainer: 刀刀
-Architecture: iphoneos-arm64e
-Version: 6.2.1
-Depends: mobilesubstrate
-Conflicts: com.bandarhl.rootless.bhtwitter, com.bandarhl.bhtwitter, com.daodao.rootless.bhtwitter, com.hk.bhtwitter.cn, com.dao.bhtwitter, com.den.twigalaxy, xyz.cypwn.twigalaxy, xyz.cypwn.bhtwitter, com.netskao.twitternoads, xyz.cypwn.bringbacktwitter
-Description: 推特多功能插件，NeoFreeBird版的BHTwitter，比常规BHTwitter功能多一点，设置通用，中文优化版，插件选项位于推特设置顶部。
-Name: NFB-X 中文版(RootHide)
-Author: NeoFreeBird
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/nfb-bht/js.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/NFB-X_6.2.1_iphoneos-arm64e.deb
-Size: 7836056
-MD5sum: 3e7ca0b4dee35e0f998dfcc234d174db
-SHA1: 6b54047f98751ddd707016452df4911384f80073
-SHA256: 04b6a99d2bcdd35624938c60507dfed9c2b51612bd08857d6529609078259158
-
 Package: ws.hbang.newterm33
 Section: Tweaks
 Installed-Size: 25736
