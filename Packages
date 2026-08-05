@@ -48,7 +48,7 @@ Author: Cydiabc
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 17.png
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppDownPercent应用下载百分比-Roothide_1.0.0-1_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppDownPercent%E5%BA%94%E7%94%A8%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%88%86%E6%AF%94-Roothide_1.0.0-1_iphoneos-arm64e.deb
 Size: 113428
 MD5sum: ddbc12bf8e703c77a169243c2a204336
 SHA1: ce3ef640c1ed9d691c41b453849ad059eb0fb300
@@ -68,7 +68,7 @@ Author: Mineek
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 17.png
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppStoreTroller伪装系统-Roothide_1.0-1_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppStoreTroller%E4%BC%AA%E8%A3%85%E7%B3%BB%E7%BB%9F-Roothide_1.0-1_iphoneos-arm64e.deb
 Size: 13324
 MD5sum: 6e09bad022662ab081cc70ed61284144
 SHA1: bbe4fd0747b8d106c46d57c127cfe7c964468e3e
@@ -85,7 +85,7 @@ Conflicts: ai.akemi.appsyncunified
 Description: AppSync Unified 是一款插件，允许用户在其 iOS 设备上自由安装临时签名、伪签名、未签名或过期的 IPA 应用包。
 Name: AppSyncUnified(RootHide)
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppSyncUnified(RootHide)_116.0_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppSyncUnified%28RootHide%29_116.0_iphoneos-arm64e.deb
 Size: 21416
 MD5sum: 69c108d7607759c7990c460a5bb557f8
 SHA1: 685e98b3f6a45112e7b55bdbca0a22e7613e0b3c
@@ -101,7 +101,7 @@ Depends: mobilesubstrate
 Description: AppTools for iOS15-17 Roothide
 Name: AppTools15-17(Roothide)
 Author: aReo
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppTools15-17(Roothide)_2.7.8_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppTools15-17%28Roothide%29_2.7.8_iphoneos-arm64e.deb
 Size: 1228172
 MD5sum: e42daa29691ec414ca9ba1ebf4be2f77
 SHA1: 4ef3e714e7a979fdaa23f04b364238e055e36aa5
@@ -144,7 +144,7 @@ Author: Axs
 Sponsor: Axs
 Icon: https://axs66.github.io/pro/icon/bigshot.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigshot/js.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/BigShot长截图_1.1_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/BigShot%E9%95%BF%E6%88%AA%E5%9B%BE_1.1_iphoneos-arm64e.deb
 Size: 59520
 MD5sum: 07e6cd65d48eb2aa5593fa1091b65b4f
 SHA1: a02c3e4331a6447a26d9855ffd56e9fc44652ccd
@@ -162,7 +162,7 @@ Description: 超级控制中心模块集合！
 Name: CCLess++(RootHide)
 Author: 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CCLess++(RootHide)_2.1.0.1_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CCLess%2B%2B%28RootHide%29_2.1.0.1_iphoneos-arm64e.deb
 Size: 539520
 MD5sum: e98dc0dc6a1f504ab810bfe4d84bea77
 SHA1: 583a7a8147361bf6cc915e2d1670b3b70b02b802
@@ -182,7 +182,7 @@ Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CCSupport_1.3.13-2-15+debug_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CCSupport_1.3.13-2-15%2Bdebug_iphoneos-arm64e.deb
 Size: 73836
 MD5sum: 371970bd9c83d6929fdd17df5e0dcfd8
 SHA1: e212ebc15e473f115c366e3497150eee3f483725
@@ -203,7 +203,7 @@ Author: fiore
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 16.png
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CalculatorHistory计算历史-Rootless_1.3_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CalculatorHistory%E8%AE%A1%E7%AE%97%E5%8E%86%E5%8F%B2-Rootless_1.3_iphoneos-arm64e.deb
 Size: 85392
 MD5sum: c1462697c3fc6973ba89db8b5a3a2c4e
 SHA1: f7cd2501fab1b802ea172392068d6b44b621a9d9
@@ -238,7 +238,7 @@ Description: 激活码用户或需要激活码的用户安装这个，非激活�
 Name: CopyVault(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CopyVault(激活码版)_1.9.0_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CopyVault%28%E6%BF%80%E6%B4%BB%E7%A0%81%E7%89%88%29_1.9.0_iphoneos-arm64e.deb
 Size: 1707608
 MD5sum: e3aff8f3426dde806180138ba7bf65b1
 SHA1: 0261b4c00b20e9369721159bdf2cd271e06c30e9
@@ -305,7 +305,7 @@ Name: CylinderReborn(roothide)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/cylinderreborn/js.json
 Author: Ryan Nair & SINI
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CylinderReborn(roothide)_1.1.2-4_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CylinderReborn%28roothide%29_1.1.2-4_iphoneos-arm64e.deb
 Size: 245764
 MD5sum: 37252877562bdbf977305f8695e10d42
 SHA1: 59ba78746263bb177ecc9db332eecfcb2b6fdf78
@@ -454,7 +454,7 @@ Description: 窗口化分屏，长按APP图标菜单—>窗口分屏；或者后
 Name: MilkyWayReborn(RootHide)
 Author: MilkyWay Reborn
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/MilkyWayReborn(RootHide)_1.4_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/MilkyWayReborn%28RootHide%29_1.4_iphoneos-arm64e.deb
 Size: 49296
 MD5sum: 3a7b610e29cfce517aefc29ebf15b0bc
 SHA1: 0739c88d68567bbf4011e529a3dfebf1b94e594d
@@ -530,7 +530,7 @@ Depends: mobilesubstrate
 Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/PreferenceLoader_2.2.6-11+debug_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/PreferenceLoader_2.2.6-11%2Bdebug_iphoneos-arm64e.deb
 Size: 26560
 MD5sum: be13dc283fa91fbff16ccdf2a201e78d
 SHA1: 19f2e7a484d1e2fe2079844b7269e6b7e0fc7790
@@ -582,7 +582,7 @@ Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksett
 Description: 设置自定义、归类插件，源内有汉化包；v3.0.x版本，功能大体和之前v2.1.1差不多，就改了个插件首页。
 Author: SOPPPra
 Name: SettingsRevamp(RootHide)
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SettingsRevamp(RootHide)_3.0.1.1_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SettingsRevamp%28RootHide%29_3.0.1.1_iphoneos-arm64e.deb
 Size: 407816
 MD5sum: d317f3a28e555efbc5d9ffd605c2904f
 SHA1: 7d1674cd61e261183e2f43928bc21c481c991d7c
@@ -634,7 +634,7 @@ Name: SnowBoard(rootless)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/snowboard/js.json
 Author: Spark & Dennis D. Bednarz
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SnowBoard(rootless)_1.5.37-Beta4-rootless_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SnowBoard%28rootless%29_1.5.37-Beta4-rootless_iphoneos-arm64e.deb
 Size: 1168240
 MD5sum: 862e0fd8c737805c1b2142843b03edb2
 SHA1: 7733f27bd86bbd869113f52b081c6b0151f30060
@@ -691,7 +691,7 @@ Description: 激活码用户或需要激活码的用户安装这个，非激活�
 Name: SquidExtender(激活码版)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SquidExtender(激活码版)_3.7.4_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SquidExtender%28%E6%BF%80%E6%B4%BB%E7%A0%81%E7%89%88%29_3.7.4_iphoneos-arm64e.deb
 Size: 4501860
 MD5sum: 3bb6f63a61a2cfc68c029672c7433a22
 SHA1: af670be549fecd8404595a3c63341b237fd09ef8
@@ -783,7 +783,7 @@ Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
 Conflicts: com.ericasadun.utilities, com.bingner.plutil
 Description: Utility for creating and editing Apple property list files.
 Author: Samuel Bingner
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/_0.2.2+2_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/_0.2.2%2B2_iphoneos-arm64e.deb
 Size: 22676
 MD5sum: d194a8c53de1549b7f81242837779808
 SHA1: 3d0349ba1864d487695a771a995f7401c354af90
@@ -1129,7 +1129,7 @@ Name: libllylly-Rootless【会员依赖】
 Author: lenglengyu
 Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
 Sileodepiction: https://apt.167025.cn/packageInfo/libsupervipsileo
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/libllylly-Rootless【会员依赖】_3.0.5_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/libllylly-Rootless%E3%80%90%E4%BC%9A%E5%91%98%E4%BE%9D%E8%B5%96%E3%80%91_3.0.5_iphoneos-arm64e.deb
 Size: 64544
 MD5sum: 171693176af1e6d03c5190e55723e40e
 SHA1: 39c555207ab6b750657789f4a6d08b03ff6ce8b6
@@ -1195,7 +1195,7 @@ Description: 去开屏广告，测试版本：11.56.3，接大量冷门热门app
 Name: 大众点评NoAds
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/02/11/b8e549c210944f75bdf8d198a3d74e92.jpeg
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/大众点评NoAds_1.1-2_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84NoAds_1.1-2_iphoneos-arm64e.deb
 Size: 42980
 MD5sum: 6077d137c2727a58fb30fbb83adac997
 SHA1: ba8e95f21fabe6fcfdb46408340e3c638512fa7d
@@ -1213,7 +1213,7 @@ Description: 去掉可见的所有广告，版本：7.0.8，接大量冷门热�
 Name: 威锋NoAds
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/10/23/318813ae8987a6ff33c7f64b318b9a70.png
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/威锋NoAds_1.0-3_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%A8%81%E9%94%8BNoAds_1.0-3_iphoneos-arm64e.deb
 Size: 43264
 MD5sum: 89e3d0a2c6e42cf1a03a54f312bd7cfd
 SHA1: 5bcd7eaef9cc4e9bcca3c4ed79c94f4433fdd0aa
@@ -1233,7 +1233,7 @@ Name: 左滑返回(rootless)
 Sponsor: 思念变成海
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/leftpan/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/左滑返回(rootless)_1.0-6_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%B7%A6%E6%BB%91%E8%BF%94%E5%9B%9E%28rootless%29_1.0-6_iphoneos-arm64e.deb
 Size: 83972
 MD5sum: dc71e353b7315281b387dc4544cfd26e
 SHA1: c77004dbabef8e7724decd5fb58d2a4d77f15f66
@@ -1249,7 +1249,7 @@ Depends: ldid, ellekit
 Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
 Name: 巨魔R
 Author: Fluoxetine为Relaxin越狱特别制作
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/巨魔R_1.0.3_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%B7%A8%E9%AD%94R_1.0.3_iphoneos-arm64e.deb
 Size: 590284
 MD5sum: 9fc2ead3b021533082f1e3f06a7592c9
 SHA1: 8f5b87d672731bdc570db3ea0f2dc165b63aebb5
@@ -1267,7 +1267,7 @@ Name: 彩云天气Pro-Rootless【会员破解】
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqipro.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqiprosileo
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/彩云天气Pro-Rootless【会员破解】_1.0.0_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94Pro-Rootless%E3%80%90%E4%BC%9A%E5%91%98%E7%A0%B4%E8%A7%A3%E3%80%91_1.0.0_iphoneos-arm64e.deb
 Size: 160860
 MD5sum: d15e8fe0ef0d1b342143a21409d9b24f
 SHA1: fce0e4582712228cda80bd27d7dd87d82454803e
@@ -1286,7 +1286,7 @@ Name: 微信助手
 Author: Mao
 Sponsor: admin@25mao.com
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/微信助手_3.9-5_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%BE%AE%E4%BF%A1%E5%8A%A9%E6%89%8B_3.9-5_iphoneos-arm64e.deb
 Size: 10166548
 MD5sum: 31f21c6ce147039790dee64ddad70318
 SHA1: d2607d3744ab0a2d92ce8f2c0e36bf189be6482d
@@ -1302,7 +1302,7 @@ Depends: mobilesubstrate
 Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
 Name: 微信输入法_Google配色 Roothide
 Author: colorblack
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/微信输入法_Google配色_1.1.5_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%BE%AE%E4%BF%A1%E8%BE%93%E5%85%A5%E6%B3%95_Google%E9%85%8D%E8%89%B2_1.1.5_iphoneos-arm64e.deb
 Size: 30508
 MD5sum: 62bb93723bad54ac5b606b5c7419f828
 SHA1: f2b364e955604c0b5a72e330bb1ee1b3454222ba
@@ -1321,7 +1321,7 @@ Name: 控制中心美化
 Author: binglan
 Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/控制中心美化_2.3.3-end_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E6%8E%A7%E5%88%B6%E4%B8%AD%E5%BF%83%E7%BE%8E%E5%8C%96_2.3.3-end_iphoneos-arm64e.deb
 Size: 718380
 MD5sum: 61c4e0dcba7590fd9f1f9b42fac09049
 SHA1: b9a09260779c90ee83f91d064c2dbcfef2b7e95b
@@ -1339,7 +1339,7 @@ Description: 去开屏广告，秒过激励式视频（汽水版本请保留在1
 Name: 汽水音乐NoAds
 Author: starry6
 Icon: https://s1.imagehub.cc/images/2025/05/24/565d1c832919445be395db0b02f6a39c.png
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/汽水音乐NoAds_1.1_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90NoAds_1.1_iphoneos-arm64e.deb
 Size: 46988
 MD5sum: 267aa48ef4e4521771f65e9e79181753
 SHA1: d369fb7243f55948b61591232b486695774133f0
@@ -1357,7 +1357,7 @@ Name: 电话助手iOS17-正式版(Roothide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/680
 SileoDepiction: https://apt.htv123.com/sileo/680
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/电话助手iOS17-正式版(Roothide)_1.5.1_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E7%94%B5%E8%AF%9D%E5%8A%A9%E6%89%8BiOS17-%E6%AD%A3%E5%BC%8F%E7%89%88%28Roothide%29_1.5.1_iphoneos-arm64e.deb
 Size: 2753532
 MD5sum: 7be281bec2772c117e8f07404ad604df
 SHA1: fde2ac2975d3e03ecf0a32ba8230a7823714d0ac
@@ -1376,7 +1376,7 @@ Description: 直播吧去广告，无设置选项，自己选择使用。
 Name: 直播吧Plus
 Homepage: https://github.com/wwg135
 Author: wwg135
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/直播吧Plus_1.0.0_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E7%9B%B4%E6%92%AD%E5%90%A7Plus_1.0.0_iphoneos-arm64e.deb
 Size: 48956
 MD5sum: 6340f70c928eabee9e533e45cefa3495
 SHA1: 21a477fd78b48770a30e6271d884cf8d88ddbf68
@@ -1394,7 +1394,7 @@ Description: 去开屏广告，版本：8.68.0
 Name: 美团外卖NoAds
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/07/05/4c47ba0f7be3c4ed094d026ae1dac6ba.jpeg
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/美团外卖NoAds_1.1-7_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96NoAds_1.1-7_iphoneos-arm64e.deb
 Size: 43008
 MD5sum: 495314f950d4c7a7894e5256bc079a81
 SHA1: 769f97ecbd7055f7559d8e9748c6b2b1bd194987
@@ -1412,7 +1412,7 @@ Description: 去开屏广告/首页横幅广告/首页信息流广告/首页下�
 Name: 腾讯视频NoAds
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2026/02/12/c74f8e9014b397f813069c488591aca5.jpeg
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/腾讯视频NoAds_1.2-1_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91NoAds_1.2-1_iphoneos-arm64e.deb
 Size: 44656
 MD5sum: f5f2ab6c45f48cb29bdcb4bc08e3ec49
 SHA1: 176834004abbb4894dd3a95cd5a9d97a9fc30bb1
@@ -1433,7 +1433,7 @@ Name: 语音转文字免跳转
 Author: Lessica
 icon: https://TrollStoreX.Github.io/sileodepiction/Yuyin/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Yuyin/js.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/语音转文字免跳转_1.2_iphoneos-arm64e.deb
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E8%AF%AD%E9%9F%B3%E8%BD%AC%E6%96%87%E5%AD%97%E5%85%8D%E8%B7%B3%E8%BD%AC_1.2_iphoneos-arm64e.deb
 Size: 23324
 MD5sum: 9ee850a390e2f287b97c33b2b48122ca
 SHA1: 1d73e952136e6be365f15c1c13c5174318c8ec36

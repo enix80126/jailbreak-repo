@@ -63,7 +63,9 @@ def main():
             out = [l for l in lines if not any(
                 l.lower().startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:']
             )]
-            out += [f"Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/{deb}", f"Size: {size}",
+            import urllib.parse
+            encoded_deb = urllib.parse.quote(deb)
+            out += [f"Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/{encoded_deb}", f"Size: {size}",
                     f"MD5sum: {md5}", f"SHA1: {sha1}", f"SHA256: {sha256}"]
             entries.append('\n'.join(out))
         except Exception as e:
