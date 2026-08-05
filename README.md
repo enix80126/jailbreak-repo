@@ -4,13 +4,13 @@
 
 ## 📲 添加源地址
 
-在包管理器中添加以下地址：
+在包管理器中添加以下地址（国内直连，秒速下载）：
 
 ```
-https://enix80126.github.io/jailbreak-repo/
+https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/
 ```
 
-> ⚠️ **注意**：您的越狱源地址就是上方的链接。
+> ⚠️ **注意**：链接末尾的斜杠 `/` 必须保留。
 
 ---
 
