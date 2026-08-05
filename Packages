@@ -404,28 +404,6 @@ MD5sum: 2b05e208aa72f70d5e759aaa44c924df
 SHA1: 10cd3aaf5b5c21a0e911a4e06e278637c9941205
 SHA256: 65204ecb497c092549002140a8db9b012900ca8658150f364e4f510f9fa470de
 
-Package: com.lclrc.hammerits
-Section: Bootstrap
-Installed-Size: 3808
-Maintainer: lclrc(SquidForce)
-Architecture: iphoneos-arm64e
-Version: 1.7.0
-Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
-Pre-Depends: rootless-compat (>= 0.9)
-Conflicts: com.lclrc.hammerit
-Description: 控制您的文本或根据您的意愿进行翻译。
- * 支持Twitter Telegram Discord Sileo 等快捷翻译
- * Control your text or translate as you wish.
-Name: Hammer It 翻译
-Author: lclrc(SquidForce)
-Icon: https://TrollStoreX.Github.io/sileodepiction/Hammerit/icon.png
-SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Hammerit/js.json
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Hammer_1.7.0_iphoneos-arm64e.deb
-Size: 1022592
-MD5sum: 9673e2d7d1fd142d262baa125294c8c9
-SHA1: fa27b03c679b402ad49b432bb0ac99188b565977
-SHA256: ad3572feaca50289213095ede137a93be6945f2570cf7c92f34dccf6732afabc
-
 Package: cn.zqbb.holdcpu
 Section: Tweaks
 Installed-Size: 3664
