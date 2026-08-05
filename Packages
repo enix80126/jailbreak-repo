@@ -1015,23 +1015,6 @@ MD5sum: 42f1842748252a4a2af0404210cf97cc
 SHA1: bfa2a221754b8ac0c2fad47c838f0407a280543b
 SHA256: 721fe9211378550280a7ef421292c27cf88e56e8dc1c2c28178bb4d5cac97dc1
 
-Name: BlurryBadges
-Package: com.ps.blurrybadges
-Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges
-Author: PoomSmart & RY7YY
-Maintainer: RY7YY
-Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
-Section: Tweaks
-Description: Color the notifications of each application beautifully
-Architecture: iphoneos-arm64e
-Version: 2.1.3
-Installed-Size: 1032
-Filename: debs/com.ps.blurrybadges_2.1.3_iphoneos-arm64e.deb
-Size: 742696
-MD5sum: f9a63072d7d9d9155a705ba978aca440
-SHA1: 81634f816d64271fd1e5807e2c99b34c4b98b916
-SHA256: a26a827b9faca5c4eff0b86ebe46da10af5c5ec09ad475e5b14299044bcf7b2d
-
 Package: com.xx.gaodehook
 Name: 高德地图优化
 Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
