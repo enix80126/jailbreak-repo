@@ -964,6 +964,23 @@ MD5sum: 2d602d289f7fde739e879d60a1265512
 SHA1: 61172e3da82cfb9cab81bae43c116b50d52609fd
 SHA256: 4ef62dbe2a65c63a4e67e94f2d9a5995a08b501e376f032ff265c3190bd2ec96
 
+Package: com.dao.choicy
+Name: Choicy(RootHide)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 嗨-系统
+Conflicts: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.3-4
+Installed-Size: 1056
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.dao.choicy_1.5.3-4_iphoneos-arm64e.deb
+Size: 161664
+MD5sum: 18df4d24819218006fd0f54f29de9ab0
+SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
+SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
+
 Package: com.fluoxetine.jumor
 Name: 巨魔R
 Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
