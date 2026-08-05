@@ -426,23 +426,6 @@ MD5sum: 9673e2d7d1fd142d262baa125294c8c9
 SHA1: fa27b03c679b402ad49b432bb0ac99188b565977
 SHA256: ad3572feaca50289213095ede137a93be6945f2570cf7c92f34dccf6732afabc
 
-Package: cn.zqbb.hello.mnt
-Name: HelloMnt
-Description: Relaxin 挂载器!
-Maintainer: zqbb
-Author: zqbb
-Section: zqbb Tweaks
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.mnt
-Architecture: iphoneos-arm64e
-Version: 1.2.0
-Installed-Size: 3108
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/HelloMnt-1.2.0-iphoneos-arm64e.deb
-Size: 827612
-MD5sum: e85c38d06188dab37d9b2951e50fe7c2
-SHA1: 524e19cc8d1b5c777d28e94c0da50281d4113257
-SHA256: a3c8bad91dad3f0d2dadd54e6aa474de924b11e3fde3ed72251e63a9b59b84c2
-
 Package: cn.zqbb.holdcpu
 Section: Tweaks
 Installed-Size: 3664
@@ -480,22 +463,6 @@ Size: 90704
 MD5sum: 275de0ae06c9636c6f3ac91b91db16b6
 SHA1: 5713997886fa708a760fa518330b35f5ab6e477d
 SHA256: f39ac14abeac456ef843db140f8bb2a4993948eb0b5912e76916cc187ed371a1
-
-Package: com.charlieleung.liquidify
-Section: Tweaks
-Installed-Size: 37484
-Maintainer: Charlie Leung
-Architecture: iphoneos-arm64e
-Version: 1.3.1
-Depends: mobilesubstrate (>= 0.9.5000)
-Description: 为 iOS 界面注入液态玻璃质感。
-Name: Liquidify
-Author: Charlie Leung
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Liquidify_1.3.1_iphoneos-arm64e.deb
-Size: 9976948
-MD5sum: a749ab4ec229abd8cb893cd7772485aa
-SHA1: e13c40a22c87322d3ed86990e2649071b4aecdc3
-SHA256: 73d297e14fdb7813983fda2a6bddf815b57e74acfa8a772e859f44dedfa131cf
 
 Package: com.dao.milkywayreborn
 Section: 嗨-系统
