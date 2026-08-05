@@ -945,6 +945,22 @@ MD5sum: e85c38d06188dab37d9b2951e50fe7c2
 SHA1: 524e19cc8d1b5c777d28e94c0da50281d4113257
 SHA256: a3c8bad91dad3f0d2dadd54e6aa474de924b11e3fde3ed72251e63a9b59b84c2
 
+Package: com.charlieleung.liquidify
+Name: Liquidify
+Description: 为 iOS 界面注入液态玻璃质感。
+Maintainer: Charlie Leung
+Author: Charlie Leung
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.3.5
+Installed-Size: 37612
+Filename: debs/com.charlieleung.liquidify_1.3.5_iphoneos-arm64e.deb
+Size: 9861550
+MD5sum: 68fb229da9c44a1f2c361872f13a14a7
+SHA1: 4466c6e8ef9f764e9484159d9ecb10a211152f3c
+SHA256: dd6f4994a499c619220cf53e0e30ee948bcce3b3838a9b7159bf76e637cef77e
+
 Package: com.huami.dyyy
 Name: DYYY
 Description: 仅供学习交流，请在 24 小时内自觉删除。
