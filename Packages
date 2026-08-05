@@ -1016,6 +1016,24 @@ MD5sum: 42f1842748252a4a2af0404210cf97cc
 SHA1: bfa2a221754b8ac0c2fad47c838f0407a280543b
 SHA256: 721fe9211378550280a7ef421292c27cf88e56e8dc1c2c28178bb4d5cac97dc1
 
+Package: com.sini921.switchpro
+Name: SwitchPro(roothide)
+Description: 开关简单美化, 旨在为需要SnowBoard的开关美化功能但不需要SnowBoard的其他功能的情况下使用
+Maintainer: SINI
+Author: SINI
+Section: 越狱插件
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.altlist
+Icon: https://sini921.github.io/repo/sileodepiction/icon/switchpro.png
+Sileodepiction: https://sini921.github.io/repo/sileodepiction/switchpro/js.json
+Architecture: iphoneos-arm64e
+Version: 0.0.1-9
+Installed-Size: 524
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.sini921.switchpro_0.0.1-9_iphoneos-arm64e.deb
+Size: 85322
+MD5sum: 6f19eb03dc2759a5ad13565782c14276
+SHA1: 4888abfe511ca727ed8f574ba575d84514f9ae05
+SHA256: cdfba570e317d2770db1b59c823c94a35c6afa989aa81c416471e76800d375d8
+
 Package: com.xx.gaodehook
 Name: 高德地图优化
 Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
