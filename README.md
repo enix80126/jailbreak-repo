@@ -4,8 +4,8 @@
 
 ## 添加到 Sileo
 
-```
-https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/
+```text
+https://enix80126.github.io/jailbreak-repo/
 ```
 
 ## 使用方法
