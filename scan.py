@@ -109,7 +109,7 @@ def generate_packages():
             size, md5, sha1, sha256 = get_hashes(deb_path)
             
             # 3. Format control block
-            control_lines = control_text.strip().split('\n')
+            control_lines = control_text.strip().replace('\r\n', '\n').replace('\r', '\n').split('\n')
             cleaned_lines = []
             for line in control_lines:
                 # Remove any existing location/checksum lines to avoid duplication
@@ -132,7 +132,7 @@ def generate_packages():
             
     # Write Packages
     packages_data = '\n\n'.join(packages_content) + '\n'
-    with open(packages_path, 'w', encoding='utf-8') as f:
+    with open(packages_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(packages_data)
     print(f"Successfully generated {packages_path}")
     
