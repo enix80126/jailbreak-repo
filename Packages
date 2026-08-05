@@ -980,6 +980,23 @@ MD5sum: 68fb229da9c44a1f2c361872f13a14a7
 SHA1: 4466c6e8ef9f764e9484159d9ecb10a211152f3c
 SHA256: dd6f4994a499c619220cf53e0e30ee948bcce3b3838a9b7159bf76e637cef77e
 
+Name: BlurryBadges 中文版(RootHide)
+Package: com.dao.blurrybadges
+Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges, com.ps.blurrybadges, com.hk.rootless.blurrybadges
+Author: PoomSmart
+Maintainer: PoomSmart
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Section: 嗨-工具
+Description: 自定义程序通知角标的边框颜色和透明度，基于PoomSmart的开源直接编译汉化。
+Architecture: iphoneos-arm64e
+Version: 1.5.3
+Installed-Size: 436
+Filename: debs/com.dao.blurrybadges_1.5.3_iphoneos-arm64e.deb
+Size: 42410
+MD5sum: 2d602d289f7fde739e879d60a1265512
+SHA1: 61172e3da82cfb9cab81bae43c116b50d52609fd
+SHA256: 4ef62dbe2a65c63a4e67e94f2d9a5995a08b501e376f032ff265c3190bd2ec96
+
 Package: com.huami.dyyy
 Name: DYYY
 Description: 仅供学习交流，请在 24 小时内自觉删除。
