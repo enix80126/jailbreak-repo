@@ -1050,6 +1050,24 @@ MD5sum: c89a41bc384219f4cd73ce233a935b3d
 SHA1: 780ea948357fb172a62aca902cf6062ff577148d
 SHA256: 107eacc4a334967c62ed514afe2d7f258a268edbbbf7a81b52bab0ebac13a9b0
 
+Package: com.xybp888.callassist17.roothide
+Version: 1.5.2
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Name: 电话助手iOS17-正式版(Roothide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/682
+SileoDepiction: https://apt.htv123.com/sileo/682
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.xybp888.callassist17.roothide_1.5.2_iphoneos-arm64e.deb
+Size: 2812202
+MD5sum: 7f0314002c94f175da377764fa3d32dd
+SHA1: 5eacea8c186122e86e283e7382207706a8ec90d3
+SHA256: b690a2881b90ea1c03db6b3111674fa42cde74cf50d0ca4f6703d39039e28ca7
+
 Package: com.wkk.icleanerpro
 Section: 应用程序
 Maintainer: Ivano Bilenchi
