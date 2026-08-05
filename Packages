@@ -1068,22 +1068,6 @@ MD5sum: 6f19eb03dc2759a5ad13565782c14276
 SHA1: 4888abfe511ca727ed8f574ba575d84514f9ae05
 SHA256: cdfba570e317d2770db1b59c823c94a35c6afa989aa81c416471e76800d375d8
 
-Package: com.xx.gaodehook
-Name: 高德地图优化
-Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
-Maintainer: x✨
-Author: x✨
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64
-Version: 1.0.4
-Installed-Size: 900
-Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.xx.gaodehook_1.0.4_iphoneos-arm64.deb
-Size: 357780
-MD5sum: c89a41bc384219f4cd73ce233a935b3d
-SHA1: 780ea948357fb172a62aca902cf6062ff577148d
-SHA256: 107eacc4a334967c62ed514afe2d7f258a268edbbbf7a81b52bab0ebac13a9b0
-
 Package: com.xybp888.callassist17.roothide
 Version: 1.5.2
 Priority: optional
