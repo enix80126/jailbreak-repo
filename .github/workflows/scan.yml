@@ -1,43 +1,28 @@
-name: Auto Scan and Update Packages
+name: Auto Update Packages
 
 on:
   push:
-    branches:
-      - main
     paths:
       - 'debs/**'
-
-permissions:
-  contents: write
+  workflow_dispatch:
 
 jobs:
-  scan-and-update:
+  update:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
+      - name: Run scan.py
+        run: python3 scan.py
 
-      - name: Run scan script
-        run: python scan.py
-
-      - name: Commit and push changes
+      - name: Commit and push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Packages Packages.bz2
-          
-          # Check if there are any staged changes to commit
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: auto-update packages index [skip ci]"
-            git push
-          else
-            echo "No changes in packages index."
-          fi
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "Auto: update Packages index"
+          git push
