@@ -3,7 +3,7 @@
   "minVersion": "0.4",
   "tabs": [
     {
-      "tabname": "详情",
+      "tabname": "插件介绍",
       "class": "DepictionStackView",
       "views": [
         {
@@ -49,8 +49,40 @@
         },
         {
           "class": "DepictionTableTextView",
+          "title": "文件大小 (File Size)",
+          "text": "8.43 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "更新时间 (Last Updated)",
+          "text": "2026-08-04 23:28:47"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "系统兼容 (Compatibility)",
+          "text": "全部兼容"
+        },
+        {
+          "class": "DepictionTableTextView",
           "title": "依赖关系 (Depends)",
           "text": "mobilesubstrate"
+        }
+      ]
+    },
+    {
+      "tabname": "更新日志",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "更新说明 (Changelog)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本 3.0.1\n\n该版本暂无详细的更新说明。",
+          "useRawFormat": true
         }
       ]
     }

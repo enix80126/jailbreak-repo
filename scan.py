@@ -151,6 +151,35 @@ def main():
 
             # 5. Generate Sileo Depiction
             if pkg_id:
+                # Calculate file size in MB/KB
+                if size >= 1024 * 1024:
+                    size_str = f"{size / (1024 * 1024):.2f} MB"
+                else:
+                    size_str = f"{size / 1024:.2f} KB"
+
+                # Get file modification time
+                import datetime
+                mtime = os.path.getmtime(path)
+                update_time = datetime.datetime.fromtimestamp(mtime).strftime('%Y-%m-%d %H:%M:%S')
+
+                # Parse iOS compatibility from Depends
+                import re
+                min_fw = re.search(r'firmware\s*\(\s*>=\s*([\d\.]+)\s*\)', depends_val)
+                max_fw = re.search(r'firmware\s*\(\s*<=\s*([\d\.]+)\s*\)', depends_val)
+                if min_fw and max_fw:
+                    fw_range = f"iOS {min_fw.group(1)} ~ {max_fw.group(1)}"
+                elif min_fw:
+                    fw_range = f"iOS >= {min_fw.group(1)}"
+                elif max_fw:
+                    fw_range = f"iOS <= {max_fw.group(1)}"
+                else:
+                    fw_range = "全部兼容"
+
+                # Extract Changelog field
+                changelog_text = ctrl_dict.get('Changelog', ctrl_dict.get('Changes', '')).strip()
+                if not changelog_text:
+                    changelog_text = f"#### 版本 {pkg_version}\n\n该版本暂无详细的更新说明。"
+
                 dep_views = [
                     {
                         "class": "DepictionSubheaderView",
@@ -192,6 +221,21 @@ def main():
                         "class": "DepictionTableTextView",
                         "title": "架构 (Architecture)",
                         "text": arch_val
+                    },
+                    {
+                        "class": "DepictionTableTextView",
+                        "title": "文件大小 (File Size)",
+                        "text": size_str
+                    },
+                    {
+                        "class": "DepictionTableTextView",
+                        "title": "更新时间 (Last Updated)",
+                        "text": update_time
+                    },
+                    {
+                        "class": "DepictionTableTextView",
+                        "title": "系统兼容 (Compatibility)",
+                        "text": fw_range
                     }
                 ]
 
@@ -207,9 +251,26 @@ def main():
                     "minVersion": "0.4",
                     "tabs": [
                         {
-                            "tabname": "详情",
+                            "tabname": "插件介绍",
                             "class": "DepictionStackView",
                             "views": dep_views
+                        },
+                        {
+                            "tabname": "更新日志",
+                            "class": "DepictionStackView",
+                            "views": [
+                                {
+                                    "class": "DepictionSubheaderView",
+                                    "title": "更新说明 (Changelog)",
+                                    "useBoldText": True,
+                                    "useBottomMargin": True
+                                },
+                                {
+                                    "class": "DepictionMarkdownView",
+                                    "markdown": changelog_text,
+                                    "useRawFormat": True
+                                }
+                            ]
                         }
                     ]
                 }
