@@ -43,7 +43,7 @@ Version: 1.0.0-1
 Depends: mobilesubstrate
 Description: 应用程序下载添加百分比进度条，效果预览截图
 A12: 1
-Name: AppDownPercent应用下载百分比-Roothide
+Name: AppDownPercent应用下载百分比 (RootHide)
 Author: Cydiabc
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
@@ -63,7 +63,7 @@ Version: 1.0-1
 Depends: mobilesubstrate (>= 0.9.5000)
 Description: 插件会临时把设备系统版本伪装成极高的版本（如 iOS 99.0.0），从而骗过 App Store 的校验，完成“购买”流程，伪装后 App Store 允许你“购买”应用，但下载会因版本不兼容而失败。此时关闭插件，再次进入该应用页面，App Store 就会提供“下载最后兼容版本”的选项（前提是该应用曾发布过你当前系统支持的旧版本），设置移至桌面appstore长按快捷菜单
 A12: 1
-Name: AppStoreTroller伪装系统-Roothide
+Name: AppStoreTroller伪装系统 (RootHide)
 Author: Mineek
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
@@ -83,7 +83,7 @@ Version: 116.0
 Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5100), firmware (<= 18.2)
 Conflicts: ai.akemi.appsyncunified
 Description: AppSync Unified 是一款插件，允许用户在其 iOS 设备上自由安装临时签名、伪签名、未签名或过期的 IPA 应用包。
-Name: AppSyncUnified(RootHide)
+Name: AppSyncUnified (RootHide)
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppSyncUnified%28RootHide%29_116.0_iphoneos-arm64e.deb
 Size: 21416
@@ -99,7 +99,7 @@ Architecture: iphoneos-arm64e
 Version: 2.7.8
 Depends: mobilesubstrate
 Description: AppTools for iOS15-17 Roothide
-Name: AppTools15-17(Roothide)
+Name: AppTools15-17 (RootHide)
 Author: aReo
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/AppTools15-17%28Roothide%29_2.7.8_iphoneos-arm64e.deb
 Size: 1228172
@@ -159,7 +159,7 @@ Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
 Pre-Depends: rootless-compat (>= 0.9)
 Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
 Description: 超级控制中心模块集合！
-Name: CCLess++(RootHide)
+Name: CCLess++ (RootHide)
 Author: 妖刀
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/ccless/js.json
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CCLess%2B%2B%28RootHide%29_2.1.0.1_iphoneos-arm64e.deb
@@ -198,7 +198,7 @@ Depends: mobilesubstrate
 Pre-Depends: rootless-compat (>= 0.9)
 Description: iPhone自带计算器可以查看历史计算过程和结果
 A12: 1
-Name: CalculatorHistory计算历史-RootHide
+Name: CalculatorHistory计算历史 (RootHide)
 Author: fiore
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
@@ -285,7 +285,7 @@ Architecture: iphoneos-arm64e
 Version: 1.3.9-1
 Depends: mobilesubstrate
 Description: Crane 中文修复包(RootHide)。
-Name: Crane 中文修复包(RootHide)
+Name: Crane 中文修复包 (RootHide)
 Author: 妖刀
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Crane_1.3.9-1_iphoneos-arm64e.deb
 Size: 11512
@@ -301,7 +301,7 @@ Architecture: iphoneos-arm64e
 Version: 1.1.2-4
 Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader
 Description: 有点意思的桌面图标动画，基于开源优化编译，修正汉化，适配支持roothide。
-Name: CylinderReborn(roothide)
+Name: CylinderReborn (RootHide)
 Icon: https://sini921.github.io/repo/sileodepiction/icon/cylinderreborn.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/cylinderreborn/js.json
 Author: Ryan Nair & SINI
@@ -358,7 +358,7 @@ Version: 1.2
 Depends: mobilesubstrate
 Description: Filza破解全功能插件，此补丁搭配正版Filza使用，破解版Filza请勿安装此补丁
 A12: 1
-Name: Filza File 文件管理器-Roothide【破解补丁】
+Name: Filza File 文件管理器【破解补丁】 (RootHide)
 Author: Ai-小苹果
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
@@ -451,7 +451,7 @@ Version: 1.4
 Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: com.milkyway.reborn
 Description: 窗口化分屏，长按APP图标菜单—>窗口分屏；或者后台界面，按住程序卡片1.5秒，即可将此程序分屏；点击红按钮—>关闭窗口(长按彻底杀死)、黄按钮—>最小化(长按胶囊彻底杀死)、绿按钮—>最大化。
-Name: MilkyWayReborn(RootHide)
+Name: MilkyWayReborn (RootHide)
 Author: MilkyWay Reborn
 SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/MilkyWayReborn%28RootHide%29_1.4_iphoneos-arm64e.deb
@@ -491,7 +491,7 @@ Architecture: iphoneos-arm64e
 Version: 0.0.1-104
 Depends: mobilesubstrate (>= 0.9.5000)
 Description: No Apple MobileRepair
-Name: No Apple MobileRepair(RootHide)
+Name: No Apple MobileRepair (RootHide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/185
 SileoDepiction: https://apt.htv123.com/sileo/185
@@ -544,7 +544,7 @@ Architecture: iphoneos-arm64e
 Version: 2.1.5
 Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
 Description: patch rootless package to roothide, not work for all packages.
-Name: RootHide Patcher
+Name: Patcher (RootHide)
 Author: roothide
 Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
 Depiction: https://github.com/roothide/RootHidePatcher
@@ -581,7 +581,7 @@ Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmwa
 Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, xyz.cypwn.settingswidgets, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, com.sop.settingsrevamp
 Description: 设置自定义、归类插件，源内有汉化包；v3.0.x版本，功能大体和之前v2.1.1差不多，就改了个插件首页。
 Author: SOPPPra
-Name: SettingsRevamp(RootHide)
+Name: SettingsRevamp (RootHide)
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SettingsRevamp%28RootHide%29_3.0.1.1_iphoneos-arm64e.deb
 Size: 407816
 MD5sum: d317f3a28e555efbc5d9ffd605c2904f
@@ -595,7 +595,7 @@ Architecture: iphoneos-arm64e
 Version: 3.0.1
 Depends: mobilesubstrate
 Description: SettingsRevamp 简体中文包(RootHide)。
-Name: SettingsRevamp 简体中文包(RootHide)
+Name: SettingsRevamp 简体中文包 (RootHide)
 Author: 妖刀
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SettingsRevamp_3.0.1_iphoneos-arm64e.deb
 Size: 8632
@@ -630,7 +630,7 @@ Version: 1.5.37-Beta4-rootless
 Depends: mobilesubstrate, preferenceloader
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 滑雪板主题引擎
-Name: SnowBoard(RootHide)
+Name: SnowBoard (RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/snowboard/js.json
 Author: Spark & Dennis D. Bednarz
@@ -649,7 +649,7 @@ Version: 1.1.1~Beta4-rootless
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 角标扩展
-Name: SnowBoard Labels Extension(RootHide)
+Name: SnowBoard Labels Extension (RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/labels/js.json
 Author: Spark
@@ -668,7 +668,7 @@ Version: 1.3.0~Beta2-rootless
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: UI扩展
-Name: SnowBoard UI Extension(RootHide)
+Name: SnowBoard UI Extension (RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ui/js.json
 Author: Spark
@@ -724,7 +724,7 @@ Version: 4.4.9
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0), firmware (>= 15.0)
 Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
 Description: 超级影视助手，av无限看，直播破解收费。
-Name: SuperVIP-RootHide
+Name: SuperVIP (RootHide)
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
@@ -761,7 +761,7 @@ Version: 3.1.2
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0)
 Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
 Description: 各种梯子破解工具，仅供会员使用。
-Name: VPN Plus-RootHide【VPN助手】
+Name: VPN Plus【VPN助手】 (RootHide)
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
@@ -908,7 +908,7 @@ MD5sum: 68fb229da9c44a1f2c361872f13a14a7
 SHA1: 4466c6e8ef9f764e9484159d9ecb10a211152f3c
 SHA256: dd6f4994a499c619220cf53e0e30ee948bcce3b3838a9b7159bf76e637cef77e
 
-Name: BlurryBadges 中文版(RootHide)
+Name: BlurryBadges 中文版 (RootHide)
 Package: com.dao.blurrybadges
 Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges, com.ps.blurrybadges, com.hk.rootless.blurrybadges
 Author: PoomSmart
@@ -926,7 +926,7 @@ SHA1: 61172e3da82cfb9cab81bae43c116b50d52609fd
 SHA256: 4ef62dbe2a65c63a4e67e94f2d9a5995a08b501e376f032ff265c3190bd2ec96
 
 Package: com.dao.choicy
-Name: Choicy(RootHide)
+Name: Choicy (RootHide)
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
 Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
 Maintainer: opa334 <opa334@protonmail.com>
@@ -943,7 +943,7 @@ SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
 SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
 
 Package: com.dao.neofreebird.bht
-Name: NFX 中文版(RootHide)
+Name: NFX 中文版 (RootHide)
 Description: 推特多功能插件，NeoFreeBird版的BHTwitter，比常规BHTwitter功能多一点，设置通用，中文优化版，插件选项位于推特设置顶部。
 Maintainer: 刀刀
 Author: NeoFreeBird
@@ -1030,7 +1030,7 @@ SHA1: bfa2a221754b8ac0c2fad47c838f0407a280543b
 SHA256: 721fe9211378550280a7ef421292c27cf88e56e8dc1c2c28178bb4d5cac97dc1
 
 Package: com.sini921.switchpro
-Name: SwitchPro(roothide)
+Name: SwitchPro (RootHide)
 Description: 开关简单美化, 旨在为需要SnowBoard的开关美化功能但不需要SnowBoard的其他功能的情况下使用
 Maintainer: SINI
 Author: SINI
@@ -1072,7 +1072,7 @@ Maintainer: xybp888
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
 Architecture: iphoneos-arm64e
-Name: 电话助手iOS17-正式版(Roothide)
+Name: 电话助手iOS17-正式版 (RootHide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/682
 SileoDepiction: https://apt.htv123.com/sileo/682
@@ -1125,7 +1125,7 @@ Architecture: iphoneos-arm64e
 Version: 3.0.5
 Depends: mobilesubstrate, firmware (>= 15.0)
 Description: 本源插件依赖。
-Name: libllylly-RootHide【会员依赖】
+Name: libllylly【会员依赖】 (RootHide)
 Author: lenglengyu
 Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
 Sileodepiction: https://apt.167025.cn/packageInfo/libsupervipsileo
@@ -1175,7 +1175,7 @@ Architecture: iphoneos-arm64e
 Version: 2.0
 Depends: com.roothide.patchloader (>= 0.0.4)
 Description: Compat Layer for Rootless Tweaks
-Name: RootHide-compat
+Name: -compat (RootHide)
 Author: roothide
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/rootless-compat_2.0_iphoneos-arm64e.deb
 Size: 39904
@@ -1229,7 +1229,7 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 左滑返回上一页
 Author: Mao
-Name: 左滑返回(RootHide)
+Name: 左滑返回 (RootHide)
 Sponsor: 思念变成海
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/leftpan/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
@@ -1263,7 +1263,7 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
 Description: 解锁会员权限，仅供会员使用。
-Name: 彩云天气Pro-RootHide【会员破解】
+Name: 彩云天气Pro【会员破解】 (RootHide)
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqipro.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqiprosileo
@@ -1300,7 +1300,7 @@ Architecture: iphoneos-arm64e
 Version: 1.1.5
 Depends: mobilesubstrate
 Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
-Name: 微信输入法_Google配色 Roothide
+Name: 微信输入法_Google配色 (RootHide)
 Author: colorblack
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%BE%AE%E4%BF%A1%E8%BE%93%E5%85%A5%E6%B3%95_Google%E9%85%8D%E8%89%B2_1.1.5_iphoneos-arm64e.deb
 Size: 30508
@@ -1353,7 +1353,7 @@ Architecture: iphoneos-arm64e
 Version: 1.5.1
 Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Name: 电话助手iOS17-正式版(Roothide)
+Name: 电话助手iOS17-正式版 (RootHide)
 Author: xybp888
 Depiction: https://apt.htv123.com/view/680
 SileoDepiction: https://apt.htv123.com/sileo/680

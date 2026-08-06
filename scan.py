@@ -94,15 +94,14 @@ def main():
                 if any(lower_l.startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:']):
                     continue
                 if idx == name_line_idx and correct_tag:
-                    new_name = name_val
-                    # Replace incorrect tags
-                    for wt in wrong_tags:
-                        new_name = new_name.replace(wt, correct_tag)
-                    # Append correct tag if not present
-                    if correct_tag.lower() not in new_name.lower():
-                        l = f"Name: {new_name} ({correct_tag})"
-                    else:
-                        l = f"Name: {new_name}"
+                    import re
+                    # Strip any old roothide, rootless, or rootful tags (with their dashes/brackets)
+                    pattern = r'[\s\-_\(\[\（\【]*(roothide|rootless|rootful)[\s\)\}\]）】]*'
+                    cleaned_name = re.sub(pattern, '', name_val, flags=re.IGNORECASE)
+                    # Clean up any trailing space/dash/brackets left over
+                    cleaned_name = re.sub(r'[\s\-_\(\[\（\【]+$', '', cleaned_name)
+                    # Append the correct unified tag format
+                    l = f"Name: {cleaned_name} ({correct_tag})"
                 out.append(l)
 
             import urllib.parse
