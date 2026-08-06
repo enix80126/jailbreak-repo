@@ -181,13 +181,6 @@ def main():
                     changelog_text = f"#### 版本 {pkg_version}\n\n该版本暂无详细的更新说明。"
 
                 dep_views = [
-                    # 1:1 Banyungong Sileo Dynamic Compatibility Banner Button
-                    {
-                        "text": "☹ 您的系统: iOS ✋不兼容该软件包",
-                        "action": "",
-                        "tintColor": "#2b9eb3",
-                        "class": "DepictionButtonView"
-                    },
                     {
                         "class": "DepictionLabelView",
                         "text": "插件介绍",

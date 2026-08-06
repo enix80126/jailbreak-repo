@@ -7,12 +7,6 @@
       "class": "DepictionStackView",
       "views": [
         {
-          "text": "☹ 您的系统: iOS ✋不兼容该软件包",
-          "action": "",
-          "tintColor": "#2b9eb3",
-          "class": "DepictionButtonView"
-        },
-        {
           "class": "DepictionLabelView",
           "text": "插件介绍",
           "fontWeight": "bold",
