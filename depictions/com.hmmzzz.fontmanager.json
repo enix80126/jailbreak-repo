@@ -17,7 +17,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "iOS 16+ 全局字体管理器，支持导入 ZIP、TTF、TTC 和 OTF 字体，MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。创建并切换多套字体方案，可以随时恢复系统默认字体。",
+          "markdown": "iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。\n 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，\n 将字体安全应用到整个系统，也可以随时恢复系统默认字体。\n .\n MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后\n 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。",
           "useSpacing": false
         },
         {
@@ -60,7 +60,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "424.32 KB",
+                  "text": "423.27 KB",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -78,7 +78,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "2026-08-06 13:53:58",
+                  "text": "2026-08-06 14:42:56",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false

@@ -102,14 +102,21 @@ def main():
                 correct_tag = ''
 
             # 3. Integrity / Health Checks
-            pkg_id = ctrl_dict.get('Package', '').strip()
-            pkg_version = ctrl_dict.get('Version', '').strip()
-            pkg_desc = ctrl_dict.get('Description', '').strip()
+            # Helper for case-insensitive lookup
+            def get_field(key_name, default=''):
+                for k, v in ctrl_dict.items():
+                    if k.lower() == key_name.lower():
+                        return v
+                return default
+
+            pkg_id = get_field('Package').strip()
+            pkg_version = get_field('Version').strip()
+            pkg_desc = get_field('Description').strip()
 
             # Check required fields
             missing_fields = []
             for field in ['Package', 'Version', 'Architecture', 'Description']:
-                if field not in ctrl_dict or not ctrl_dict[field].strip():
+                if not get_field(field).strip():
                     missing_fields.append(field)
             if missing_fields:
                 print(f"    [警告] 缺少关键控制字段: {', '.join(missing_fields)}")
@@ -125,17 +132,22 @@ def main():
                     scanned_packages[pkg_id] = (deb, pkg_version)
 
             # Check Depends field parentheses match
-            depends_val = ctrl_dict.get('Depends', '').strip()
+            depends_val = get_field('Depends').strip()
             if depends_val:
                 if depends_val.count('(') != depends_val.count(')'):
                     print(f"    [警告] Depends 依赖字段括号不匹配: '{depends_val}'")
 
             # 4. Rebuild lines with updated Name
+            has_original_dep = any(k.lower() in ('sileodepiction', 'depiction') for k in ctrl_dict)
+            exclude_fields = ['filename:', 'size:', 'md5sum:', 'sha1:', 'sha256:']
+            if not has_original_dep:
+                exclude_fields.extend(['sileodepiction:', 'depiction:'])
+
             out = []
             final_name_val = name_val or pkg_id
             for idx, l in enumerate(lines):
                 lower_l = l.lower()
-                if any(lower_l.startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:','sileodepiction:','depiction:']):
+                if any(lower_l.startswith(x) for x in exclude_fields):
                     continue
                 if idx == name_line_idx and correct_tag:
                     import re
@@ -176,7 +188,7 @@ def main():
                     fw_range = "全部兼容"
 
                 # Extract Changelog field
-                changelog_text = ctrl_dict.get('Changelog', ctrl_dict.get('Changes', '')).strip()
+                changelog_text = get_field('Changelog', get_field('Changes', '')).strip()
                 if not changelog_text:
                     changelog_text = f"#### 版本 {pkg_version}\n\n该版本暂无详细的更新说明。"
 
@@ -334,7 +346,7 @@ def main():
 
             import urllib.parse
             encoded_deb = urllib.parse.quote(deb)
-            if pkg_id:
+            if pkg_id and not has_original_dep:
                 out.append(f"SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/{pkg_id}.json")
             
             out += [f"Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/{encoded_deb}", f"Size: {size}",
