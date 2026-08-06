@@ -26,7 +26,6 @@ Version: 1.0.11
 Depends: firmware (>= 7.0)
 Description: A modern AppList alternative
 Name: AltList (RootHide)
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Author: opa334
 Tag: role::developer
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.altlist.html
@@ -128,7 +127,6 @@ Description: Allow full file-system access over USB for all arm64 devices, espec
 Name: Apple File Conduit "2" (RootHide)
 Author: saurik, Cannathea, i_82, Shadow-
 Homepage: https://cannathea.com/
-Depiction: https://cydia.akemi.ai/?page/com.cannathea.afc2d-arm64
 Tag: purpose::daemon, role::enduser
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.cannathea.afc2d-arm64e.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Apple_1.1.7-21_iphoneos-arm64e.deb
@@ -188,7 +186,6 @@ Conflicts: com.ioscreatix.silo
 Description: Support tweak for CC modules!
 Name: CCSupport (RootHide)
 Author: opa334
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.ccsupport.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CCSupport_1.3.13-2-15%2Bdebug_iphoneos-arm64e.deb
 Size: 73836
@@ -491,7 +488,6 @@ Description: Powerful terminal app for iOS
 Name: NewTerm 3 Beta汉化版 (RootHide)
 Author: HASHBANG Productions <support@hbang.ws>
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
-Depiction: https://chariz.com/get/newterm-beta
 Support: https://hashbang.productions/support/
 Tag: compatible_min::ios14.0
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/ws.hbang.newterm33.html
@@ -511,7 +507,6 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Description: No Apple MobileRepair
 Name: No Apple MobileRepair (RootHide)
 Author: xybp888
-Depiction: https://apt.htv123.com/view/185
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.xybp888.noapplemobilerepair.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/No_0.0.1-104_iphoneos-arm64e.deb
 Size: 10756
@@ -567,7 +562,6 @@ Description: patch rootless package to roothide, not work for all packages.
 Name: RootHide Patcher (RootHide)
 Author: roothide
 Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
-Depiction: https://github.com/roothide/RootHidePatcher
 Support: https://github.com/roothide/RootHidePatcher
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.roothide.patcher.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/RootHide_2.1.5_iphoneos-arm64e.deb
@@ -753,7 +747,6 @@ Description: 超级影视助手，av无限看，直播破解收费。
 Name: SuperVIP (RootHide)
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
-Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.yourepo.llyy.supervip-rootless.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SuperVIP-Rootless_4.4.9_iphoneos-arm64e.deb
 Size: 2572292
@@ -791,7 +784,6 @@ Description: 各种梯子破解工具，仅供会员使用。
 Name: VPN Plus-Rootless【VPN助手】 (RootHide)
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
-Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.lenglengyu.vpnplus-rootless.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/VPN_3.1.2_iphoneos-arm64e.deb
 Size: 1130968
@@ -1112,7 +1104,6 @@ Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
 Architecture: iphoneos-arm64e
 Name: 电话助手iOS17-正式版 (RootHide)
 Author: xybp888
-Depiction: https://apt.htv123.com/view/682
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.xybp888.callassist17.roothide.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.xybp888.callassist17.roothide_1.5.2_iphoneos-arm64e.deb
 Size: 2812202
@@ -1147,7 +1138,6 @@ Architecture: iphoneos-arm64e
 Version: 1.1.6-4
 Description: Securely extend the sandbox of system processes and user applications
 Name: libSandy (RootHide)
-Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
 Tag: role::developer
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.libsandy.html
@@ -1167,7 +1157,6 @@ Depends: mobilesubstrate, firmware (>= 15.0)
 Description: 本源插件依赖。
 Name: libllylly-Rootless【会员依赖】 (RootHide)
 Author: lenglengyu
-Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.lenglengyu.libsupervipp-rootless.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/libllylly-Rootless%E3%80%90%E4%BC%9A%E5%91%98%E4%BE%9D%E8%B5%96%E3%80%91_3.0.5_iphoneos-arm64e.deb
 Size: 64544
@@ -1311,7 +1300,6 @@ Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
 Description: 解锁会员权限，仅供会员使用。
 Name: 彩云天气Pro-Rootless【会员破解】 (RootHide)
 Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqipro.html
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.lenglengyu.cuiyuntianqipro-rootless.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94Pro-Rootless%E3%80%90%E4%BC%9A%E5%91%98%E7%A0%B4%E8%A7%A3%E3%80%91_1.0.0_iphoneos-arm64e.deb
 Size: 160860
@@ -1404,7 +1392,6 @@ Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
 Name: 电话助手iOS17-正式版 (RootHide)
 Author: xybp888
-Depiction: https://apt.htv123.com/view/680
 Depiction: https://enix80126.github.io/jailbreak-repo/depictions/com.xybp888.callassist17.roothide.html
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E7%94%B5%E8%AF%9D%E5%8A%A9%E6%89%8BiOS17-%E6%AD%A3%E5%BC%8F%E7%89%88%28Roothide%29_1.5.1_iphoneos-arm64e.deb
 Size: 2753532

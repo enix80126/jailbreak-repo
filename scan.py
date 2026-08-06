@@ -135,7 +135,7 @@ def main():
             final_name_val = name_val or pkg_id
             for idx, l in enumerate(lines):
                 lower_l = l.lower()
-                if any(lower_l.startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:','sileodepiction:']):
+                if any(lower_l.startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:','sileodepiction:','depiction:']):
                     continue
                 if idx == name_line_idx and correct_tag:
                     import re
