@@ -278,27 +278,6 @@ def main():
                     }
                 ]
 
-                # If dependencies exist, add a separate section for it
-                if depends_val:
-                    dep_views += [
-                        {
-                            "class": "DepictionSeparatorView"
-                        },
-                        {
-                            "class": "DepictionLabelView",
-                            "text": "依赖关系 (Depends)",
-                            "fontWeight": "semibold",
-                            "fontSize": 16,
-                            "usePadding": True,
-                            "useMargins": True,
-                            "margins": "{10,0,8,0}"
-                        },
-                        {
-                            "class": "DepictionMarkdownView",
-                            "markdown": f"`{depends_val}`",
-                            "useSpacing": False
-                        }
-                    ]
 
                 depiction_data = {
                     "class": "DepictionTabView",

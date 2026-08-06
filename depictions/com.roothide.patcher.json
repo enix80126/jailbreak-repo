@@ -99,23 +99,6 @@
               ]
             }
           ]
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "依赖关系 (Depends)",
-          "fontWeight": "semibold",
-          "fontSize": 16,
-          "usePadding": true,
-          "useMargins": true,
-          "margins": "{10,0,8,0}"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "`firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)`",
-          "useSpacing": false
         }
       ]
     },

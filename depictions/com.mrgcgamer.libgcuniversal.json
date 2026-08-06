@@ -99,23 +99,6 @@
               ]
             }
           ]
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionLabelView",
-          "text": "依赖关系 (Depends)",
-          "fontWeight": "semibold",
-          "fontSize": 16,
-          "usePadding": true,
-          "useMargins": true,
-          "margins": "{10,0,8,0}"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "`firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)`",
-          "useSpacing": false
         }
       ]
     },
