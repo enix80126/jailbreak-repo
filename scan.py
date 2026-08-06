@@ -67,8 +67,12 @@ def main():
                     continue
                 if l.startswith('Name:'):
                     name_val = l[5:].strip()
+                    # Replace 'rootless' variants with 'RootHide'
+                    name_val = name_val.replace('rootless', 'RootHide').replace('Rootless', 'RootHide').replace('ROOTLESS', 'RootHide')
                     if 'roothide' not in name_val.lower():
                         l = f"Name: {name_val} (RootHide)"
+                    else:
+                        l = f"Name: {name_val}"
                 out.append(l)
             import urllib.parse
             encoded_deb = urllib.parse.quote(deb)

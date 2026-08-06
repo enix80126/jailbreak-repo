@@ -198,7 +198,7 @@ Depends: mobilesubstrate
 Pre-Depends: rootless-compat (>= 0.9)
 Description: iPhone自带计算器可以查看历史计算过程和结果
 A12: 1
-Name: CalculatorHistory计算历史-Rootless (RootHide)
+Name: CalculatorHistory计算历史-RootHide
 Author: fiore
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
@@ -630,7 +630,7 @@ Version: 1.5.37-Beta4-rootless
 Depends: mobilesubstrate, preferenceloader
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 滑雪板主题引擎
-Name: SnowBoard(rootless) (RootHide)
+Name: SnowBoard(RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/snowboard/js.json
 Author: Spark & Dennis D. Bednarz
@@ -649,7 +649,7 @@ Version: 1.1.1~Beta4-rootless
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 角标扩展
-Name: SnowBoard Labels Extension(rootless) (RootHide)
+Name: SnowBoard Labels Extension(RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/labels/js.json
 Author: Spark
@@ -668,7 +668,7 @@ Version: 1.3.0~Beta2-rootless
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: UI扩展
-Name: SnowBoard UI Extension(rootless) (RootHide)
+Name: SnowBoard UI Extension(RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ui/js.json
 Author: Spark
@@ -724,7 +724,7 @@ Version: 4.4.9
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0), firmware (>= 15.0)
 Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
 Description: 超级影视助手，av无限看，直播破解收费。
-Name: SuperVIP-Rootless (RootHide)
+Name: SuperVIP-RootHide
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
@@ -761,7 +761,7 @@ Version: 3.1.2
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0)
 Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
 Description: 各种梯子破解工具，仅供会员使用。
-Name: VPN Plus-Rootless【VPN助手】 (RootHide)
+Name: VPN Plus-RootHide【VPN助手】
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
@@ -1125,7 +1125,7 @@ Architecture: iphoneos-arm64e
 Version: 3.0.5
 Depends: mobilesubstrate, firmware (>= 15.0)
 Description: 本源插件依赖。
-Name: libllylly-Rootless【会员依赖】 (RootHide)
+Name: libllylly-RootHide【会员依赖】
 Author: lenglengyu
 Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
 Sileodepiction: https://apt.167025.cn/packageInfo/libsupervipsileo
@@ -1175,7 +1175,7 @@ Architecture: iphoneos-arm64e
 Version: 2.0
 Depends: com.roothide.patchloader (>= 0.0.4)
 Description: Compat Layer for Rootless Tweaks
-Name: rootless-compat (RootHide)
+Name: RootHide-compat
 Author: roothide
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/rootless-compat_2.0_iphoneos-arm64e.deb
 Size: 39904
@@ -1229,7 +1229,7 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 左滑返回上一页
 Author: Mao
-Name: 左滑返回(rootless) (RootHide)
+Name: 左滑返回(RootHide)
 Sponsor: 思念变成海
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/leftpan/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
@@ -1263,7 +1263,7 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
 Description: 解锁会员权限，仅供会员使用。
-Name: 彩云天气Pro-Rootless【会员破解】 (RootHide)
+Name: 彩云天气Pro-RootHide【会员破解】
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqipro.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqiprosileo
