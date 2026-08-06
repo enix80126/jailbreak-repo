@@ -60,9 +60,16 @@ def main():
             ctrl = extract_control(path)
             size, md5, sha1, sha256 = get_hashes(path)
             lines = ctrl.strip().replace('\r\n','\n').replace('\r','\n').split('\n')
-            out = [l for l in lines if not any(
-                l.lower().startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:']
-            )]
+            out = []
+            for l in lines:
+                lower_l = l.lower()
+                if any(lower_l.startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:']):
+                    continue
+                if l.startswith('Name:'):
+                    name_val = l[5:].strip()
+                    if 'roothide' not in name_val.lower():
+                        l = f"Name: {name_val} (RootHide)"
+                out.append(l)
             import urllib.parse
             encoded_deb = urllib.parse.quote(deb)
             out += [f"Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/{encoded_deb}", f"Size: {size}",

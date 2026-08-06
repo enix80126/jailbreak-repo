@@ -7,7 +7,7 @@ Version: 1.2.5
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: NFC付费App纯净砸壳。
-Name: Aemulo NFC模拟
+Name: Aemulo NFC模拟 (RootHide)
 Author: Amy While <support@anamy.gay>
 Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Aemulo_1.2.5_iphoneos-arm64e.deb
@@ -24,7 +24,7 @@ Architecture: iphoneos-arm64e
 Version: 1.0.11
 Depends: firmware (>= 7.0)
 Description: A modern AppList alternative
-Name: AltList
+Name: AltList (RootHide)
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Author: opa334
 Tag: role::developer
@@ -139,7 +139,7 @@ Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Pre-Depends: rootless-compat (>= 0.9)
 Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
 Description: 注意：此插件需要购买正版Snapper3。支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用。
-Name: BigShot长截图
+Name: BigShot长截图 (RootHide)
 Author: Axs
 Sponsor: Axs
 Icon: https://axs66.github.io/pro/icon/bigshot.png
@@ -179,7 +179,7 @@ Provides: com.ioscreatix.silo
 Depends: mobilesubstrate, firmware (>= 11.0)
 Conflicts: com.ioscreatix.silo
 Description: Support tweak for CC modules!
-Name: CCSupport
+Name: CCSupport (RootHide)
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CCSupport_1.3.13-2-15%2Bdebug_iphoneos-arm64e.deb
@@ -198,7 +198,7 @@ Depends: mobilesubstrate
 Pre-Depends: rootless-compat (>= 0.9)
 Description: iPhone自带计算器可以查看历史计算过程和结果
 A12: 1
-Name: CalculatorHistory计算历史-Rootless
+Name: CalculatorHistory计算历史-Rootless (RootHide)
 Author: fiore
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
@@ -235,7 +235,7 @@ Version: 1.9.0
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.squidforce.copyvault
 Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Your Copy Vault, Your Pasteboard
-Name: CopyVault(激活码版)
+Name: CopyVault(激活码版) (RootHide)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.copyvault/depiction.json
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/CopyVault%28%E6%BF%80%E6%B4%BB%E7%A0%81%E7%89%88%29_1.9.0_iphoneos-arm64e.deb
@@ -252,7 +252,7 @@ Architecture: iphoneos-arm64e
 Version: 0.0.1
 Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.crane
 Description: Repairs Crane PKDServer discovery on iOS 17.
-Name: Crane PKDServer Fix
+Name: Crane PKDServer Fix (RootHide)
 Author: 82flex
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Crane_0.0.1_iphoneos-arm64e.deb
 Size: 2820
@@ -270,7 +270,7 @@ Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altli
 Pre-Depends: rootless-compat (>= 0.9)
 Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
 Description: Multiple containers for your applications!
-Name: Crane
+Name: Crane (RootHide)
 Author: opa334
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Crane_1.3.17-2_iphoneos-arm64e.deb
 Size: 650868
@@ -322,7 +322,7 @@ Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
 Breaks: com.opa334.libsandy (<= 1.1.6-3)
 Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
 Description: ElleKit tweak injection libraries and loader
-Name: ElleKit
+Name: ElleKit (RootHide)
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/ElleKit_1.2_iphoneos-arm64e.deb
@@ -339,7 +339,7 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 提取与修改 Assets.car 资源 (Filza 插件)
-Name: FilzaCarPlugin
+Name: FilzaCarPlugin (RootHide)
 Author: iosdump
 Icon: https://axs66.github.io/pro/icon/wechat.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzacarplugin/js.json
@@ -378,7 +378,7 @@ Pre-Depends: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
 Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
 Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
-Name: Filza File Manager 64-bit
+Name: Filza File Manager 64-bit (RootHide)
 Author: TIGI Software
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Filza_4.0.1-4~roothide_iphoneos-arm64e.deb
 Size: 6974116
@@ -396,7 +396,7 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Conflicts: cn.bswbw.fixset
 Description: 修复部分插件转RootHide配置不保存问题。
 Author: bswbw
-Name: FixSet
+Name: FixSet (RootHide)
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/FixSet_1.1_iphoneos-arm64e.deb
 Size: 36744
@@ -413,7 +413,7 @@ Version: 2.3.5-3
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.ccsupport
 Conflicts: com.yourepo.0xash.powercuff, byg.iosios.net.powercuff, com.dao.powercuff, com.rpetrich.powercuff, com.yourepo.0xash.devicemonitor, com.yourepo.0xash.fuckthermal, com.shadow.fuckthermal, com.dao.fuckthermal, byg.iosios.net.monitor, byg.iosios.net.disablethermalmonitord, com.nan.disablethermalmonitord
 Description: (解除温控) (锁定低电量CPU频率)
-Name: Hello CPU
+Name: Hello CPU (RootHide)
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
@@ -432,7 +432,7 @@ Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
 Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 开发通用库，部分插件需要此依赖，转换支持roothide。
-Name: LibGcUniversal
+Name: LibGcUniversal (RootHide)
 Author: MrGcGamer
 Tag: role::developer
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
@@ -471,7 +471,7 @@ Depends: firmware (>= 14.0), zsh | bash | fish, coreutils, ncurses, system-cmds
 Recommends: gettext-localizations, iterm2-shell-integration, zsh-autosuggestions, zsh-syntax-highlighting
 Conflicts: ws.hbang.newterm, ws.hbang.newterm2
 Description: Powerful terminal app for iOS
-Name: NewTerm 3 Beta汉化版
+Name: NewTerm 3 Beta汉化版 (RootHide)
 Author: HASHBANG Productions <support@hbang.ws>
 Icon: https://img.chariz.cloud/icon/newterm-beta/icon@3x.png
 Depiction: https://chariz.com/get/newterm-beta
@@ -512,7 +512,7 @@ Depends: com.roothide.patchloader
 Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
 Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
 Description: RootHide Dynamic Patches For Filza
-Name: Patches for Filza 64bit
+Name: Patches for Filza 64bit (RootHide)
 Author: roothide
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Patches_0.5-4_iphoneos-arm64e.deb
 Size: 31296
@@ -529,7 +529,7 @@ Version: 2.2.6-11+debug
 Depends: mobilesubstrate
 Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
-Name: PreferenceLoader
+Name: PreferenceLoader (RootHide)
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/PreferenceLoader_2.2.6-11%2Bdebug_iphoneos-arm64e.deb
 Size: 26560
 MD5sum: be13dc283fa91fbff16ccdf2a201e78d
@@ -564,7 +564,7 @@ Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: Safari浏览器增强。
 Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
-Name: SafariX
+Name: SafariX (RootHide)
 Author: 0xkuj
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SafariX_1.9.9.1_iphoneos-arm64e.deb
 Size: 363244
@@ -613,7 +613,7 @@ Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
 Pre-Depends: rootless-compat (>= 0.9)
 Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapperfr33
 Description: Pin screenshots on the screen.
-Name: Snapper 3
+Name: Snapper 3 (RootHide)
 Author: Jonathan Winger-lang
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/Snapper_1.2.1_iphoneos-arm64e.deb
 Size: 1121256
@@ -630,7 +630,7 @@ Version: 1.5.37-Beta4-rootless
 Depends: mobilesubstrate, preferenceloader
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 滑雪板主题引擎
-Name: SnowBoard(rootless)
+Name: SnowBoard(rootless) (RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/snowboard/js.json
 Author: Spark & Dennis D. Bednarz
@@ -649,7 +649,7 @@ Version: 1.1.1~Beta4-rootless
 Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 角标扩展
-Name: SnowBoard Labels Extension(rootless)
+Name: SnowBoard Labels Extension(rootless) (RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/labels/js.json
 Author: Spark
@@ -668,7 +668,7 @@ Version: 1.3.0~Beta2-rootless
 Depends: mobilesubstrate, com.spark.snowboard (>> 1.2.22)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: UI扩展
-Name: SnowBoard UI Extension(rootless)
+Name: SnowBoard UI Extension(rootless) (RootHide)
 icon: https://sini921.github.io/repo/sileodepiction/icon/snowboard.png
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/ui/js.json
 Author: Spark
@@ -688,7 +688,7 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
 Pre-Depends: rootless-compat (>= 0.9)
 Conflicts: com.squidforce.squidextender
 Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
-Name: SquidExtender(激活码版)
+Name: SquidExtender(激活码版) (RootHide)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SquidExtender%28%E6%BF%80%E6%B4%BB%E7%A0%81%E7%89%88%29_3.7.4_iphoneos-arm64e.deb
@@ -706,7 +706,7 @@ Version: 1.0.7
 Depends: firmware (>= 11), mobilesubstrate
 Pre-Depends: rootless-compat (>= 0.9)
 Description: App Store 账户快速切换，优化了账号切换逻辑，已汉化。
-Name: StoreSwitcher2
+Name: StoreSwitcher2 (RootHide)
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Author: 苏苏
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/StoreSwitcher2_1.0.7_iphoneos-arm64e.deb
@@ -724,7 +724,7 @@ Version: 4.4.9
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0), firmware (>= 15.0)
 Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
 Description: 超级影视助手，av无限看，直播破解收费。
-Name: SuperVIP-Rootless
+Name: SuperVIP-Rootless (RootHide)
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
@@ -743,7 +743,7 @@ Architecture: iphoneos-arm64e
 Version: 1.2-3
 Depends: mobilesubstrate, preferenceloader
 Description: cool
-Name: SystemX
+Name: SystemX (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/SystemX_1.2-3_iphoneos-arm64e.deb
@@ -761,7 +761,7 @@ Version: 3.1.2
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0)
 Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
 Description: 各种梯子破解工具，仅供会员使用。
-Name: VPN Plus-Rootless【VPN助手】
+Name: VPN Plus-Rootless【VPN助手】 (RootHide)
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
@@ -842,7 +842,7 @@ Package: cn.zqbb.hello.memorystatus
 Description: Set memorystatus to avoid being killed by the system
 Maintainer: zqbb
 Author: zqbb
-Name: Hello Memory Status
+Name: Hello Memory Status (RootHide)
 Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 14.0), preferenceloader, launchctl
 Section: zqbb Tweaks
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.memorystatus.png
@@ -857,7 +857,7 @@ SHA1: 51b1f64043dbeef7162941bea51baaaf2e3c9c6c
 SHA256: 40c3924f9139183c03130075f11d07f3152871319aa7549f14021f34d22300f0
 
 Package: cn.zqbb.hello.mnt
-Name: HelloMnt
+Name: HelloMnt (RootHide)
 Description: Relaxin 挂载器!
 Maintainer: zqbb
 Author: zqbb
@@ -874,7 +874,7 @@ SHA1: 524e19cc8d1b5c777d28e94c0da50281d4113257
 SHA256: a3c8bad91dad3f0d2dadd54e6aa474de924b11e3fde3ed72251e63a9b59b84c2
 
 Package: cn.zqbb.holdcpu
-Name: Hello CPU
+Name: Hello CPU (RootHide)
 Description:(解除温控) (锁定低电量CPU频率)
 Maintainer: zqbb
 Author: zqbb
@@ -893,7 +893,7 @@ SHA1: 0d4aea4986f9c9250a08918a00da1ecd7e87a1b9
 SHA256: 8da1866839216c87a62b64e0547f97cc73f8016586570bf4295114172c51b8c7
 
 Package: com.charlieleung.liquidify
-Name: Liquidify
+Name: Liquidify (RootHide)
 Description: 为 iOS 界面注入液态玻璃质感。
 Maintainer: Charlie Leung
 Author: Charlie Leung
@@ -960,7 +960,7 @@ SHA1: e6cfb2065d97b476bd7d5fb4e34d8f8a733cfc0e
 SHA256: 84291591bd6623c6d800ab9492769e12d2fa5ae462edba282b0dd947300a908d
 
 Package: com.fluoxetine.jumor
-Name: 巨魔R
+Name: 巨魔R (RootHide)
 Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
 Depends: ldid, ellekit
 Replaces: com.opa334.trollstorelite
@@ -977,7 +977,7 @@ SHA1: 9a1cfa18fc748317a351dbdfaba15f1e2dd41e8e
 SHA256: 1b706cc5a3209f0eebf6e4b14508757eac11919d4b7de1174575721c34e94e97
 
 Package: com.huami.dyyy
-Name: DYYY
+Name: DYYY (RootHide)
 Description: 仅供学习交流，请在 24 小时内自觉删除。
 Homepage: https://github.com/huami1314/DYYY
 Section: Tweaks
@@ -996,7 +996,7 @@ SHA1: a320846fe4bdbaa81bb866d79a973647212d83bd
 SHA256: 597ee43ef39798f2f2d80a49da44c2cfc2611c9158e09173b7899c2b9eb15bae
 
 Package: com.lclrc.hammerit
-Name: Hammer It
+Name: Hammer It (RootHide)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
 Description: Control your text or translate as you wish.
 Maintainer: lclrc(SquidForce)
@@ -1014,7 +1014,7 @@ SHA1: c2fd74c57a5add2adb951bfd9a9bd15fd0ef4bd1
 SHA256: 708b7668a00e35d308cd18e1cb54a79ded461f2a1d2f0d7941a713fa3e027a87
 
 Package: com.opa334.libundirect
-Name: libundirect
+Name: libundirect (RootHide)
 Description: Patchfinder and rebinder for objc_direct methods
 Maintainer: opa334
 Author: opa334
@@ -1048,7 +1048,7 @@ SHA1: 4888abfe511ca727ed8f574ba575d84514f9ae05
 SHA256: cdfba570e317d2770db1b59c823c94a35c6afa989aa81c416471e76800d375d8
 
 Package: com.xx.gaodehook
-Name: 高德地图优化
+Name: 高德地图优化 (RootHide)
 Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
 Maintainer: x✨
 Author: x✨
@@ -1091,7 +1091,7 @@ Depends: firmware (>= 4.0), findutils, apt | apt7
 Pre-Depends: rootless-compat (>= 0.9)
 Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
 Description: 真正的iOS系统清理和管理实用程序，默认简体中文。
-Name: iCleaner Pro
+Name: iCleaner Pro (RootHide)
 Author: Ivano Bilenchi
 Icon: https://s1.imagehub.cc/images/2025/01/01/3c86578830a5a4b2897f2780576e07a9.jpeg
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/iCleaner_7.10.0_iphoneos-arm64e.deb
@@ -1107,7 +1107,7 @@ Maintainer: opa334
 Architecture: iphoneos-arm64e
 Version: 1.1.6-4
 Description: Securely extend the sandbox of system processes and user applications
-Name: libSandy
+Name: libSandy (RootHide)
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libsandyDp
 Author: opa334
 Tag: role::developer
@@ -1125,7 +1125,7 @@ Architecture: iphoneos-arm64e
 Version: 3.0.5
 Depends: mobilesubstrate, firmware (>= 15.0)
 Description: 本源插件依赖。
-Name: libllylly-Rootless【会员依赖】
+Name: libllylly-Rootless【会员依赖】 (RootHide)
 Author: lenglengyu
 Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
 Sileodepiction: https://apt.167025.cn/packageInfo/libsupervipsileo
@@ -1136,7 +1136,7 @@ SHA1: 39c555207ab6b750657789f4a6d08b03ff6ce8b6
 SHA256: 7728da1d37d3345399ed6a338dde9fb9060cee175cbd6858b9371bb5d6a4ada4
 
 Package: com.opa334.libundirect
-Name: libundirect
+Name: libundirect (RootHide)
 Description: Patchfinder and rebinder for objc_direct methods
 Maintainer: opa334
 Author: opa334
@@ -1159,7 +1159,7 @@ Architecture: iphoneos-arm64e
 Version: 2.0
 Depends: mobilesubstrate (>= 0.9.5000)
 Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
-Name: lockdown
+Name: lockdown (RootHide)
 Author: roothide
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/lockdown_2.0_iphoneos-arm64e.deb
 Size: 5380
@@ -1175,7 +1175,7 @@ Architecture: iphoneos-arm64e
 Version: 2.0
 Depends: com.roothide.patchloader (>= 0.0.4)
 Description: Compat Layer for Rootless Tweaks
-Name: rootless-compat
+Name: rootless-compat (RootHide)
 Author: roothide
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/rootless-compat_2.0_iphoneos-arm64e.deb
 Size: 39904
@@ -1192,7 +1192,7 @@ Version: 1.1-2
 Depends: mobilesubstrate (>= 0.9.5000)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 去开屏广告，测试版本：11.56.3，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799（如果源内某些去广告插件下载deb安装不生效，请选择用TrollFools注入）
-Name: 大众点评NoAds
+Name: 大众点评NoAds (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/02/11/b8e549c210944f75bdf8d198a3d74e92.jpeg
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84NoAds_1.1-2_iphoneos-arm64e.deb
@@ -1210,7 +1210,7 @@ Version: 1.0-3
 Depends: mobilesubstrate (>= 0.9.5000)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 去掉可见的所有广告，版本：7.0.8，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799
-Name: 威锋NoAds
+Name: 威锋NoAds (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/10/23/318813ae8987a6ff33c7f64b318b9a70.png
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%A8%81%E9%94%8BNoAds_1.0-3_iphoneos-arm64e.deb
@@ -1229,7 +1229,7 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.4)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 左滑返回上一页
 Author: Mao
-Name: 左滑返回(rootless)
+Name: 左滑返回(rootless) (RootHide)
 Sponsor: 思念变成海
 Sileodepiction: https://sini921.github.io/repo/sileodepiction/leftpan/js.json
 icon: https://sini921.github.io/repo/sileodepiction/icon/zhfh.png
@@ -1247,7 +1247,7 @@ Architecture: iphoneos-arm64e
 Version: 1.0.3
 Depends: ldid, ellekit
 Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
-Name: 巨魔R
+Name: 巨魔R (RootHide)
 Author: Fluoxetine为Relaxin越狱特别制作
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E5%B7%A8%E9%AD%94R_1.0.3_iphoneos-arm64e.deb
 Size: 590284
@@ -1263,7 +1263,7 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
 Description: 解锁会员权限，仅供会员使用。
-Name: 彩云天气Pro-Rootless【会员破解】
+Name: 彩云天气Pro-Rootless【会员破解】 (RootHide)
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqipro.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqiprosileo
@@ -1282,7 +1282,7 @@ Version: 3.9-5
 Depends: firmware (>= 5.0)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 微信助手
-Name: 微信助手
+Name: 微信助手 (RootHide)
 Author: Mao
 Sponsor: admin@25mao.com
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
@@ -1317,7 +1317,7 @@ Version: 2.3.3-end
 Depends: mobilesubstrate, firmware (>= 15.0)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 这是一个简单的控制中心美化插件。
-Name: 控制中心美化
+Name: 控制中心美化 (RootHide)
 Author: binglan
 Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
@@ -1336,7 +1336,7 @@ Version: 1.1
 Depends: mobilesubstrate
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 去开屏广告，秒过激励式视频（汽水版本请保留在13.5.0）插件对抖音、极速版、火山版等版本也支持秒过激励式视频。
-Name: 汽水音乐NoAds
+Name: 汽水音乐NoAds (RootHide)
 Author: starry6
 Icon: https://s1.imagehub.cc/images/2025/05/24/565d1c832919445be395db0b02f6a39c.png
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90NoAds_1.1_iphoneos-arm64e.deb
@@ -1373,7 +1373,7 @@ Version: 1.0.0
 Depends: firmware (>= 5.0), mobilesubstrate
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 直播吧去广告，无设置选项，自己选择使用。
-Name: 直播吧Plus
+Name: 直播吧Plus (RootHide)
 Homepage: https://github.com/wwg135
 Author: wwg135
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E7%9B%B4%E6%92%AD%E5%90%A7Plus_1.0.0_iphoneos-arm64e.deb
@@ -1391,7 +1391,7 @@ Version: 1.1-7
 Depends: mobilesubstrate (>= 0.9.5000)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 去开屏广告，版本：8.68.0
-Name: 美团外卖NoAds
+Name: 美团外卖NoAds (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/07/05/4c47ba0f7be3c4ed094d026ae1dac6ba.jpeg
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96NoAds_1.1-7_iphoneos-arm64e.deb
@@ -1409,7 +1409,7 @@ Version: 1.2-1
 Depends: mobilesubstrate (>= 0.9.5000)
 Pre-Depends: rootless-compat (>= 0.9)
 Description: 去开屏广告/首页横幅广告/首页信息流广告/首页下拉广告/暂停广告/播放中广告/视频启动广告/视频播放页面下方插播广告/我的页面广告/版本：9.03.11，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799（如果源内某些去广告插件下载deb安装不生效，请选择用TrollFools注入）
-Name: 腾讯视频NoAds
+Name: 腾讯视频NoAds (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2026/02/12/c74f8e9014b397f813069c488591aca5.jpeg
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91NoAds_1.2-1_iphoneos-arm64e.deb
@@ -1429,7 +1429,7 @@ Conflicts: com.82flex.wtvrbglauncher
 Description: 中文输入法语音转文字免跳转插件。
  * 无设置选项，安装并注销后立即生效。
  * 支持的输入法：微信、百度、搜狗、讯飞、豆包
-Name: 语音转文字免跳转
+Name: 语音转文字免跳转 (RootHide)
 Author: Lessica
 icon: https://TrollStoreX.Github.io/sileodepiction/Yuyin/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/Yuyin/js.json
