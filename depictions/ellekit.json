@@ -1,0 +1,52 @@
+{
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "描述 (Description)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "ElleKit tweak injection libraries and loader",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "详细信息 (Information)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者 (Developer)",
+          "text": "Evelyn"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本 (Version)",
+          "text": "1.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "分类 (Section)",
+          "text": "Tweak Injection"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构 (Architecture)",
+          "text": "iphoneos-arm64e"
+        }
+      ]
+    }
+  ]
+}

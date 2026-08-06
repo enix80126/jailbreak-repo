@@ -1,0 +1,57 @@
+{
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "描述 (Description)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "各种梯子破解工具，仅供会员使用。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "详细信息 (Information)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者 (Developer)",
+          "text": "lenglengyu"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本 (Version)",
+          "text": "3.1.2"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "分类 (Section)",
+          "text": "Fugu15"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构 (Architecture)",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "依赖关系 (Depends)",
+          "text": "mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0)"
+        }
+      ]
+    }
+  ]
+}

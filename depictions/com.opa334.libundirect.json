@@ -1,0 +1,52 @@
+{
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "描述 (Description)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Patchfinder and rebinder for objc_direct methods",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "详细信息 (Information)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者 (Developer)",
+          "text": "opa334"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本 (Version)",
+          "text": "1.1.6"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "分类 (Section)",
+          "text": "System"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构 (Architecture)",
+          "text": "iphoneos-arm64e"
+        }
+      ]
+    }
+  ]
+}

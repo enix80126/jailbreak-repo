@@ -1,0 +1,57 @@
+{
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "描述 (Description)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "去掉可见的所有广告，版本：7.0.8，接大量冷门热门app定制去广告/去更新提示/精简app等业务。联系qq：1772773799",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "详细信息 (Information)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者 (Developer)",
+          "text": "wkk"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本 (Version)",
+          "text": "1.0-3"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "分类 (Section)",
+          "text": "去广告"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构 (Architecture)",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "依赖关系 (Depends)",
+          "text": "mobilesubstrate (>= 0.9.5000)"
+        }
+      ]
+    }
+  ]
+}

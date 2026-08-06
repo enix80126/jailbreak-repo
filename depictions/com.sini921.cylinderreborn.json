@@ -1,0 +1,57 @@
+{
+  "minVersion": "0.4",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "描述 (Description)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "有点意思的桌面图标动画，基于开源优化编译，修正汉化，适配支持roothide。",
+          "useRawFormat": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "详细信息 (Information)",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "开发者 (Developer)",
+          "text": "Ryan Nair & SINI"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "当前版本 (Version)",
+          "text": "1.1.2-4"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "分类 (Section)",
+          "text": "越狱插件"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构 (Architecture)",
+          "text": "iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "依赖关系 (Depends)",
+          "text": "firmware (>= 11.0), mobilesubstrate (>= 0.9.6011), preferenceloader"
+        }
+      ]
+    }
+  ]
+}

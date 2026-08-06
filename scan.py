@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import os, hashlib, tarfile, bz2, io
+import os, hashlib, tarfile, bz2, io, json
 
 def get_hashes(path):
     md5, sha1, sha256 = hashlib.md5(), hashlib.sha1(), hashlib.sha256()
@@ -52,6 +52,9 @@ def main():
     debs = sorted(f for f in os.listdir(debs_dir) if f.endswith('.deb'))
     print(f"Found {len(debs)} deb(s).")
 
+    # For integrity check: track package IDs
+    scanned_packages = {}
+
     entries = []
     for deb in debs:
         path = os.path.join(debs_dir, deb)
@@ -61,6 +64,21 @@ def main():
             size, md5, sha1, sha256 = get_hashes(path)
             lines = ctrl.strip().replace('\r\n','\n').replace('\r','\n').split('\n')
             
+            # Parse control fields
+            ctrl_dict = {}
+            current_key = None
+            for l in lines:
+                if l.startswith(' ') or l.startswith('\t'):
+                    if current_key:
+                        ctrl_dict[current_key] += "\n" + l
+                else:
+                    if ':' in l:
+                        parts = l.split(':', 1)
+                        current_key = parts[0].strip()
+                        ctrl_dict[current_key] = parts[1].strip()
+                    else:
+                        current_key = None
+
             # 1. Read Architecture and Name
             arch_val = "iphoneos-arm64"  # Default fallback
             name_val = ""
@@ -76,22 +94,48 @@ def main():
             # 2. Define the correct tags and wrong tags to replace based on architecture
             if arch_val == 'iphoneos-arm64e':
                 correct_tag = 'RootHide'
-                wrong_tags = ['rootless', 'Rootless', 'ROOTLESS', 'rootful', 'Rootful']
             elif arch_val == 'iphoneos-arm64':
                 correct_tag = 'Rootless'
-                wrong_tags = ['roothide', 'RootHide', 'ROOTHIDE', 'rootful', 'Rootful']
             elif arch_val == 'iphoneos-arm':
                 correct_tag = 'Rootful'
-                wrong_tags = ['rootless', 'Rootless', 'roothide', 'RootHide', 'ROOTHIDE']
             else:
                 correct_tag = ''
-                wrong_tags = []
 
-            # 3. Rebuild lines with updated Name
+            # 3. Integrity / Health Checks
+            pkg_id = ctrl_dict.get('Package', '').strip()
+            pkg_version = ctrl_dict.get('Version', '').strip()
+            pkg_desc = ctrl_dict.get('Description', '').strip()
+
+            # Check required fields
+            missing_fields = []
+            for field in ['Package', 'Version', 'Architecture', 'Description']:
+                if field not in ctrl_dict or not ctrl_dict[field].strip():
+                    missing_fields.append(field)
+            if missing_fields:
+                print(f"    [警告] 缺少关键控制字段: {', '.join(missing_fields)}")
+
+            # Check duplicate package IDs
+            if pkg_id:
+                if pkg_id in scanned_packages:
+                    prev_deb, prev_ver = scanned_packages[pkg_id]
+                    print(f"    [警告] 发现重复的 Package ID '{pkg_id}':")
+                    print(f"           - 当前包: {deb} (版本: {pkg_version})")
+                    print(f"           - 冲突包: {prev_deb} (版本: {prev_ver})")
+                else:
+                    scanned_packages[pkg_id] = (deb, pkg_version)
+
+            # Check Depends field parentheses match
+            depends_val = ctrl_dict.get('Depends', '').strip()
+            if depends_val:
+                if depends_val.count('(') != depends_val.count(')'):
+                    print(f"    [警告] Depends 依赖字段括号不匹配: '{depends_val}'")
+
+            # 4. Rebuild lines with updated Name
             out = []
+            final_name_val = name_val or pkg_id
             for idx, l in enumerate(lines):
                 lower_l = l.lower()
-                if any(lower_l.startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:']):
+                if any(lower_l.startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:','sileodepiction:']):
                     continue
                 if idx == name_line_idx and correct_tag:
                     import re
@@ -101,11 +145,100 @@ def main():
                     # Clean up any trailing space/dash/brackets left over
                     cleaned_name = re.sub(r'[\s\-_\(\[\（\【]+$', '', cleaned_name)
                     # Append the correct unified tag format
-                    l = f"Name: {cleaned_name} ({correct_tag})"
+                    final_name_val = f"{cleaned_name} ({correct_tag})"
+                    l = f"Name: {final_name_val}"
                 out.append(l)
+
+            # 5. Generate Sileo Depiction
+            if pkg_id:
+                dep_views = [
+                    {
+                        "class": "DepictionSubheaderView",
+                        "title": "描述 (Description)",
+                        "useBoldText": True,
+                        "useBottomMargin": True
+                    },
+                    {
+                        "class": "DepictionMarkdownView",
+                        "markdown": pkg_desc,
+                        "useRawFormat": True
+                    },
+                    {
+                        "class": "DepictionSpacerView",
+                        "spacing": 16
+                    },
+                    {
+                        "class": "DepictionSubheaderView",
+                        "title": "详细信息 (Information)",
+                        "useBoldText": True,
+                        "useBottomMargin": True
+                    },
+                    {
+                        "class": "DepictionTableTextView",
+                        "title": "开发者 (Developer)",
+                        "text": ctrl_dict.get('Author', ctrl_dict.get('Maintainer', '未知'))
+                    },
+                    {
+                        "class": "DepictionTableTextView",
+                        "title": "当前版本 (Version)",
+                        "text": pkg_version
+                    },
+                    {
+                        "class": "DepictionTableTextView",
+                        "title": "分类 (Section)",
+                        "text": ctrl_dict.get('Section', '未知')
+                    },
+                    {
+                        "class": "DepictionTableTextView",
+                        "title": "架构 (Architecture)",
+                        "text": arch_val
+                    }
+                ]
+
+                if depends_val:
+                    dep_views.append({
+                        "class": "DepictionTableTextView",
+                        "title": "依赖关系 (Depends)",
+                        "text": depends_val
+                    })
+
+                depiction_data = {
+                    "minVersion": "0.4",
+                    "tabs": [
+                        {
+                            "tabname": "详情",
+                            "class": "DepictionStackView",
+                            "views": dep_views
+                        }
+                    ]
+                }
+
+                dep_dir = os.path.join(repo, 'depictions')
+                if not os.path.exists(dep_dir):
+                    os.makedirs(dep_dir)
+
+                dep_path = os.path.join(dep_dir, f"{pkg_id}.json")
+                new_json = json.dumps(depiction_data, indent=2, ensure_ascii=False)
+
+                # Avoid redundant writing if the depiction file hasn't changed
+                should_write = True
+                if os.path.exists(dep_path):
+                    try:
+                        with open(dep_path, 'r', encoding='utf-8') as f_read:
+                            if f_read.read().strip() == new_json.strip():
+                                should_write = False
+                    except Exception:
+                        pass
+
+                if should_write:
+                    with open(dep_path, 'w', encoding='utf-8') as f_write:
+                        f_write.write(new_json)
 
             import urllib.parse
             encoded_deb = urllib.parse.quote(deb)
+            if pkg_id:
+                out.append(f"SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/{pkg_id}.json")
+            
             out += [f"Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/{encoded_deb}", f"Size: {size}",
                     f"MD5sum: {md5}", f"SHA1: {sha1}", f"SHA256: {sha256}"]
             entries.append('\n'.join(out))
