@@ -1,0 +1,148 @@
+{
+  "minVersion": "0.1",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "text": "☹ 您的系统: iOS ✋不兼容该软件包",
+          "action": "",
+          "tintColor": "#2b9eb3",
+          "class": "DepictionButtonView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "插件介绍",
+          "fontWeight": "bold",
+          "fontSize": 19,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "multiple precision floating-point computation\n MPFR provides a library for multiple-precision floating-point computation\n with correct rounding.  The computation is both efficient and has a\n well-defined semantics. It copies the good ideas from the\n ANSI/IEEE-754 standard for double-precision floating-point arithmetic\n (53-bit mantissa).",
+          "useSpacing": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "版本详细说明",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionStackView",
+          "orientation": "landscape",
+          "views": [
+            {
+              "class": "DepictionStackView",
+              "views": [
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件版本",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "4.1.0",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件大小",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "182.36 KB",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                }
+              ]
+            },
+            {
+              "class": "DepictionStackView",
+              "views": [
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件更新时间",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "2026-08-05 00:12:39",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件系统兼容",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "全部兼容",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "依赖关系 (Depends)",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "`roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libgmp10`",
+          "useSpacing": false
+        }
+      ]
+    },
+    {
+      "tabname": "更新日志",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLabelView",
+          "text": "更新历史说明",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本 4.1.0\n\n该版本暂无详细的更新说明。",
+          "useSpacing": false
+        }
+      ]
+    }
+  ]
+}

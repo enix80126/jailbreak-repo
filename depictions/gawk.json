@@ -1,0 +1,148 @@
+{
+  "minVersion": "0.1",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "text": "☹ 您的系统: iOS ✋不兼容该软件包",
+          "action": "",
+          "tintColor": "#2b9eb3",
+          "class": "DepictionButtonView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "插件介绍",
+          "fontWeight": "bold",
+          "fontSize": 19,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "GNU awk, a pattern scanning and processing language\n `awk', a program that you can use to select particular records in a\n file and perform operations upon them.\n .\n Gawk is the GNU Project's implementation of the AWK programming language.\n It conforms to the definition of the language in the POSIX 1003.2 Command\n Language And Utilities Standard. This version in turn is based on the\n description in The AWK Programming Language, by Aho, Kernighan, and\n Weinberger, with the additional features defined in the System V Release\n 4 version of UNIX awk. Gawk also provides more recent Bell Labs awk\n extensions, and some GNU-specific extensions.",
+          "useSpacing": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "版本详细说明",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionStackView",
+          "orientation": "landscape",
+          "views": [
+            {
+              "class": "DepictionStackView",
+              "views": [
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件版本",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "5.1.0-2",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件大小",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "555.94 KB",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                }
+              ]
+            },
+            {
+              "class": "DepictionStackView",
+              "views": [
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件更新时间",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "2026-08-05 00:12:28",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件系统兼容",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "全部兼容",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "依赖关系 (Depends)",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "`roothide (>= 0.0.6), libiosexec1 (>= 1.3.1), libintl8, libreadline8, libmpfr6, libgmp10`",
+          "useSpacing": false
+        }
+      ]
+    },
+    {
+      "tabname": "更新日志",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLabelView",
+          "text": "更新历史说明",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本 5.1.0-2\n\n该版本暂无详细的更新说明。",
+          "useSpacing": false
+        }
+      ]
+    }
+  ]
+}

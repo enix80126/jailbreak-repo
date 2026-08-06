@@ -1,0 +1,148 @@
+{
+  "minVersion": "0.1",
+  "tabs": [
+    {
+      "tabname": "插件介绍",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "text": "☹ 您的系统: iOS ✋不兼容该软件包",
+          "action": "",
+          "tintColor": "#2b9eb3",
+          "class": "DepictionButtonView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "插件介绍",
+          "fontWeight": "bold",
+          "fontSize": 19,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "插件会临时把设备系统版本伪装成极高的版本（如 iOS 99.0.0），从而骗过 App Store 的校验，完成“购买”流程，伪装后 App Store 允许你“购买”应用，但下载会因版本不兼容而失败。此时关闭插件，再次进入该应用页面，App Store 就会提供“下载最后兼容版本”的选项（前提是该应用曾发布过你当前系统支持的旧版本），设置移至桌面appstore长按快捷菜单",
+          "useSpacing": false
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "版本详细说明",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionStackView",
+          "orientation": "landscape",
+          "views": [
+            {
+              "class": "DepictionStackView",
+              "views": [
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件版本",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "1.0-1",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件大小",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "13.01 KB",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                }
+              ]
+            },
+            {
+              "class": "DepictionStackView",
+              "views": [
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件更新时间",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "2026-08-04 23:24:12",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "插件系统兼容",
+                  "textColor": "#8e8e93",
+                  "margins": "{16,0,8,0}"
+                },
+                {
+                  "class": "DepictionLabelView",
+                  "text": "全部兼容",
+                  "fontWeight": "semibold",
+                  "fontSize": 16,
+                  "usePadding": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "依赖关系 (Depends)",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "`mobilesubstrate (>= 0.9.5000)`",
+          "useSpacing": false
+        }
+      ]
+    },
+    {
+      "tabname": "更新日志",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLabelView",
+          "text": "更新历史说明",
+          "fontWeight": "semibold",
+          "fontSize": 16,
+          "usePadding": true,
+          "useMargins": true,
+          "margins": "{10,0,8,0}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "#### 版本 1.0-1\n\n该版本暂无详细的更新说明。",
+          "useSpacing": false
+        }
+      ]
+    }
+  ]
+}
