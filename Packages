@@ -358,7 +358,7 @@ Version: 1.2
 Depends: mobilesubstrate
 Description: Filza破解全功能插件，此补丁搭配正版Filza使用，破解版Filza请勿安装此补丁
 A12: 1
-Name: Filza File 文件管理器【破解补丁】 (RootHide)
+Name: Filza File 文件管理器-Roothide【破解补丁】 (RootHide)
 Author: Ai-小苹果
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
@@ -544,7 +544,7 @@ Architecture: iphoneos-arm64e
 Version: 2.1.5
 Depends: firmware (>= 15.0), libxar1, ldid, file, dpkg, gawk, plutil (>= 0.2.2-1), uikittools (>= 2.1.6-4)
 Description: patch rootless package to roothide, not work for all packages.
-Name: Patcher (RootHide)
+Name: RootHide Patcher (RootHide)
 Author: roothide
 Icon: https://github.com/roothide/RootHidePatcher/blob/master/derootifier-2-modified.png?raw=true
 Depiction: https://github.com/roothide/RootHidePatcher
@@ -761,7 +761,7 @@ Version: 3.1.2
 Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless (>= 3.0.0)
 Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
 Description: 各种梯子破解工具，仅供会员使用。
-Name: VPN Plus【VPN助手】 (RootHide)
+Name: VPN Plus-Rootless【VPN助手】 (RootHide)
 Author: lenglengyu
 Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
@@ -1125,7 +1125,7 @@ Architecture: iphoneos-arm64e
 Version: 3.0.5
 Depends: mobilesubstrate, firmware (>= 15.0)
 Description: 本源插件依赖。
-Name: libllylly【会员依赖】 (RootHide)
+Name: libllylly-Rootless【会员依赖】 (RootHide)
 Author: lenglengyu
 Depiction: https://apt.167025.cn/packageInfo/libsupervip.html
 Sileodepiction: https://apt.167025.cn/packageInfo/libsupervipsileo
@@ -1175,7 +1175,7 @@ Architecture: iphoneos-arm64e
 Version: 2.0
 Depends: com.roothide.patchloader (>= 0.0.4)
 Description: Compat Layer for Rootless Tweaks
-Name: -compat (RootHide)
+Name: rootless-compat (RootHide)
 Author: roothide
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/rootless-compat_2.0_iphoneos-arm64e.deb
 Size: 39904
@@ -1263,7 +1263,7 @@ Architecture: iphoneos-arm64e
 Version: 1.0.0
 Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
 Description: 解锁会员权限，仅供会员使用。
-Name: 彩云天气Pro【会员破解】 (RootHide)
+Name: 彩云天气Pro-Rootless【会员破解】 (RootHide)
 Author: lenglengyu
 Depiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqipro.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqiprosileo

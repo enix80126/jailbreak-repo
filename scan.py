@@ -95,8 +95,8 @@ def main():
                     continue
                 if idx == name_line_idx and correct_tag:
                     import re
-                    # Strip any old roothide, rootless, or rootful tags (with their dashes/brackets)
-                    pattern = r'[\s\-_\(\[\（\【]*(roothide|rootless|rootful)[\s\)\}\]）】]*'
+                    # Strip any old roothide, rootless, or rootful tags ONLY at the end of the string ($)
+                    pattern = r'[\s\-_\(\[\（\【]*(roothide|rootless|rootful)[\s\)\}\]）】]*$'
                     cleaned_name = re.sub(pattern, '', name_val, flags=re.IGNORECASE)
                     # Clean up any trailing space/dash/brackets left over
                     cleaned_name = re.sub(r'[\s\-_\(\[\（\【]+$', '', cleaned_name)
