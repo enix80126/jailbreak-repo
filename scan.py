@@ -203,6 +203,7 @@ def main():
                     })
 
                 depiction_data = {
+                    "class": "DepictionTabView",
                     "minVersion": "0.4",
                     "tabs": [
                         {
