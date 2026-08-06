@@ -456,6 +456,24 @@ MD5sum: 275de0ae06c9636c6f3ac91b91db16b6
 SHA1: 5713997886fa708a760fa518330b35f5ab6e477d
 SHA256: f39ac14abeac456ef843db140f8bb2a4993948eb0b5912e76916cc187ed371a1
 
+Package: com.hmmzzz.fontmanager
+Name: MarkFont (RootHide)
+Description: iOS 16+ 全局字体管理器，支持导入 ZIP、TTF、TTC 和 OTF 字体，MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后自动恢复已启用的字体。创建并切换多套字体方案，可以随时恢复系统默认字体。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: 嗨-系统
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt, com.hmmzzz.fontmanager
+Architecture: iphoneos-arm64e
+Version: 0.3.0
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.hmmzzz.fontmanager.json
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/MarkFont%28RootHide%29-0.3.0-iphoneos-arm64e.deb
+Size: 434500
+MD5sum: 1d2de920aba31fd34035e91e5cd7e55d
+SHA1: 604ef91b0c1c2de36c6338941536b4835e3dbf33
+SHA256: 77d9c12acd756934688c4615d2971127087368c69e835b79111debaf9de413c9
+
 Package: com.dao.milkywayreborn
 Section: 嗨-系统
 Installed-Size: 308
