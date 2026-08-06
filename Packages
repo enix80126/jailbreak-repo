@@ -1141,6 +1141,24 @@ MD5sum: 7f0314002c94f175da377764fa3d32dd
 SHA1: 5eacea8c186122e86e283e7382207706a8ec90d3
 SHA256: b690a2881b90ea1c03db6b3111674fa42cde74cf50d0ca4f6703d39039e28ca7
 
+Package: com.zuner.lunanoad
+Name: LunaNoAd (RootHide)
+Depends: mobilesubstrate
+Description: 禁止开屏广告、秒过激励广告
+Maintainer: liwhs
+Author: Zuner
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.6
+Installed-Size: 2888
+Pre-Depends: rootless-compat(>= 0.9)
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.zuner.lunanoad.json
+Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/com.zuner.lunanoad_1.6_iphoneos-arm64e.deb
+Size: 2957094
+MD5sum: f342fe75eb72e0aa9ee4856de4fc3397
+SHA1: a8e407559dede1ba299f62ec08c65c7a5cd7955f
+SHA256: 99ca35ad7ddfb3c3945e5f1bb7f7ee9f3d5835643add260a16f18bffd07ddf08
+
 Package: com.wkk.icleanerpro
 Section: 应用程序
 Maintainer: Ivano Bilenchi
