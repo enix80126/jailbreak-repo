@@ -470,9 +470,9 @@ Version: 0.3.0
 SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.hmmzzz.fontmanager.json
 Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/MarkFont%28RootHide%29-0.3.0-iphoneos-arm64e.deb
 Size: 434500
-MD5sum: 1d2de920aba31fd34035e91e5cd7e55d
-SHA1: 604ef91b0c1c2de36c6338941536b4835e3dbf33
-SHA256: 77d9c12acd756934688c4615d2971127087368c69e835b79111debaf9de413c9
+MD5sum: 6b08f95d09c1cf5fde92ed6a9e81c022
+SHA1: 6d1926fdf5b22ccf9dc3074f97b4fc3bb86de6c0
+SHA256: 4a5e7afecc859315f8f9d76e49bffc00a724038f0d8c0f458a71adec62fd48da
 
 Package: com.dao.milkywayreborn
 Section: 嗨-系统
