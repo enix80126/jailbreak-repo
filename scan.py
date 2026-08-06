@@ -60,20 +60,51 @@ def main():
             ctrl = extract_control(path)
             size, md5, sha1, sha256 = get_hashes(path)
             lines = ctrl.strip().replace('\r\n','\n').replace('\r','\n').split('\n')
+            
+            # 1. Read Architecture and Name
+            arch_val = "iphoneos-arm64"  # Default fallback
+            name_val = ""
+            name_line_idx = -1
+            
+            for idx, l in enumerate(lines):
+                if l.startswith('Architecture:'):
+                    arch_val = l[13:].strip()
+                elif l.startswith('Name:'):
+                    name_val = l[5:].strip()
+                    name_line_idx = idx
+
+            # 2. Define the correct tags and wrong tags to replace based on architecture
+            if arch_val == 'iphoneos-arm64e':
+                correct_tag = 'RootHide'
+                wrong_tags = ['rootless', 'Rootless', 'ROOTLESS', 'rootful', 'Rootful']
+            elif arch_val == 'iphoneos-arm64':
+                correct_tag = 'Rootless'
+                wrong_tags = ['roothide', 'RootHide', 'ROOTHIDE', 'rootful', 'Rootful']
+            elif arch_val == 'iphoneos-arm':
+                correct_tag = 'Rootful'
+                wrong_tags = ['rootless', 'Rootless', 'roothide', 'RootHide', 'ROOTHIDE']
+            else:
+                correct_tag = ''
+                wrong_tags = []
+
+            # 3. Rebuild lines with updated Name
             out = []
-            for l in lines:
+            for idx, l in enumerate(lines):
                 lower_l = l.lower()
                 if any(lower_l.startswith(x) for x in ['filename:','size:','md5sum:','sha1:','sha256:']):
                     continue
-                if l.startswith('Name:'):
-                    name_val = l[5:].strip()
-                    # Replace 'rootless' variants with 'RootHide'
-                    name_val = name_val.replace('rootless', 'RootHide').replace('Rootless', 'RootHide').replace('ROOTLESS', 'RootHide')
-                    if 'roothide' not in name_val.lower():
-                        l = f"Name: {name_val} (RootHide)"
+                if idx == name_line_idx and correct_tag:
+                    new_name = name_val
+                    # Replace incorrect tags
+                    for wt in wrong_tags:
+                        new_name = new_name.replace(wt, correct_tag)
+                    # Append correct tag if not present
+                    if correct_tag.lower() not in new_name.lower():
+                        l = f"Name: {new_name} ({correct_tag})"
                     else:
-                        l = f"Name: {name_val}"
+                        l = f"Name: {new_name}"
                 out.append(l)
+
             import urllib.parse
             encoded_deb = urllib.parse.quote(deb)
             out += [f"Filename: https://cdn.jsdelivr.net/gh/enix80126/jailbreak-repo@main/debs/{encoded_deb}", f"Size: {size}",
