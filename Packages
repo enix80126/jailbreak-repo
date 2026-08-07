@@ -940,6 +940,23 @@ MD5sum: b75c116e907f4a82c204e5528a759fb1
 SHA1: 0d4aea4986f9c9250a08918a00da1ecd7e87a1b9
 SHA256: 8da1866839216c87a62b64e0547f97cc73f8016586570bf4295114172c51b8c7
 
+Package: com.25mao.leftpan
+Name: 左滑返回 (RootHide)
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
+Description: 左滑返回上一页面
+Maintainer: Mao
+Author: Mao
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.0-1
+Installed-Size: 376
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.25mao.leftpan.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.25mao.leftpan_2.0-1_iphoneos-arm64e.deb
+Size: 33964
+MD5sum: ed85dfb43da1375b728948e1bc3b0c37
+SHA1: e3de7115b5e71203bf71e17feab9708edb0ec72f
+SHA256: 429ba914460a88abb1e63154999f5e7c1ad89a55cab3cf48d157be902a8b32e3
+
 Package: com.charlieleung.liquidify
 Name: Liquidify (RootHide)
 Description: 为 iOS 界面注入液态玻璃质感。
