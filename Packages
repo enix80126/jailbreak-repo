@@ -1388,23 +1388,6 @@ MD5sum: dc71e353b7315281b387dc4544cfd26e
 SHA1: c77004dbabef8e7724decd5fb58d2a4d77f15f66
 SHA256: 246e7518db5e964498b7b7283a7575908f4abfe53ef09bd68742a1375fb9f348
 
-Package: com.opa334.trollstorelite
-Section: Applications
-Installed-Size: 1329
-Maintainer: Fluoxetine <1103945342@qq.com>
-Architecture: iphoneos-arm64e
-Version: 1.0.3
-Depends: ldid, ellekit
-Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
-Name: 巨魔R (RootHide)
-Author: Fluoxetine为Relaxin越狱特别制作
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.trollstorelite.json
-Filename: https://enix80126.github.io/jailbreak-repo/debs/%E5%B7%A8%E9%AD%94R_1.0.3_iphoneos-arm64e.deb
-Size: 590284
-MD5sum: 9fc2ead3b021533082f1e3f06a7592c9
-SHA1: 8f5b87d672731bdc570db3ea0f2dc165b63aebb5
-SHA256: 3ee07c6dd2f7331fa28da896376c679be6dd8f00ce886bd49c9da61297d01e1a
-
 Package: com.lenglengyu.cuiyuntianqipro-rootless
 Section: Fugu15
 Installed-Size: 612
