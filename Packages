@@ -863,6 +863,29 @@ MD5sum: 3ab98a150fbfdb61fbd8f6aa098c43eb
 SHA1: c257be9a3883166934044e58051e10c53d67ed97
 SHA256: c8f903e868e97bd462fb6eca2d3357568dc63073b7db741c61a1dea1f5345db2
 
+Package: byg.iosios.net.7days-antirevoke
+Version: 1.0
+Section: 软件破解
+Maintainer: 搬运工
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: apt.deonrepo.net.7days-antirevoke
+Provides: apt.deonrepo.net.7days-antirevoke
+Replaces: apt.deonrepo.net.7days-antirevoke
+Architecture: iphoneos-arm64e
+Installed-Size: 152
+Name: AntiRevoke无视证书掉签 (RootHide)
+Author: Deon
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+Description: No more revocations for enterprise certificate. 无视企业证书掉签，当然你有巨魔了，用巨魔安装了软件就用不到此插件，但总有人需要，所以上架搬运工源！
+Pre-Depends: rootless-compat(>= 0.9)
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/byg.iosios.net.7days-antirevoke.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/byg.iosios.net.7days-antirevoke_1.0_iphoneos-arm64e.deb
+Size: 7166
+MD5sum: bd43f84d05636117a24144144581d807
+SHA1: 7956fdc18801f455bd9e9a385c238fc84447270c
+SHA256: 248763074a7873e56f5eb64a15977a4291fb2281feb09f72b2acb655dd298502
+
 Package: cn.zqbb.hello.memorystatus
 Description: Set memorystatus to avoid being killed by the system
 Maintainer: zqbb
