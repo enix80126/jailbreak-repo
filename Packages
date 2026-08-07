@@ -1071,6 +1071,32 @@ MD5sum: e57bfedd6ad1a9488f8694b2e45f7fe4
 SHA1: 22f76505a47bf3261659e7fb667e8e8142768022
 SHA256: 91ba0f0ebc00627dd5aec66a5bc7aefb09c9ec52b1f119e7837c879e8ef62e03
 
+Package: com.hmmzzz.fontmanager
+Name: MarkFont (RootHide)
+Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
+ 可在 App 内导入 ZIP、TTF、TTC 和 OTF 字体，创建并切换多套字体方案，
+ 将字体安全应用到整个系统，也可以随时恢复系统默认字体。
+ .
+ MarkFont 使用只读字体镜像，不直接修改系统字体文件，并支持重新越狱后
+ 自动恢复已启用的字体。两种环境需要安装各自对应的软件包，请勿混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://hmmzzz.github.io/repo/
+Depends: firmware (>= 16.0), uikittools
+Conflicts: com.nan.bindfs, cn.zqbb.hello.mnt
+Icon: https://hmmzzz.github.io/repo/depictions/markfont/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/markfont/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/markfont/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.3.1
+Installed-Size: 2308
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.hmmzzz.fontmanager_0.3.1_iphoneos-arm64e.deb
+Size: 436358
+MD5sum: cfa846bda19a790d4758a9aed0a6cd05
+SHA1: 491599f61a223d2c87e9ff2d08fec7203b4a18c0
+SHA256: 0f50a7b7e8dbd4252c47889887d430ecc43b53bb7ef7b2e29a1b0cffe0da6f0a
+
 Package: com.huami.dyyy
 Name: DYYY (RootHide)
 Description: 仅供学习交流，请在 24 小时内自觉删除。
