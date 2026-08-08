@@ -1127,6 +1127,23 @@ MD5sum: 42f1842748252a4a2af0404210cf97cc
 SHA1: bfa2a221754b8ac0c2fad47c838f0407a280543b
 SHA256: 721fe9211378550280a7ef421292c27cf88e56e8dc1c2c28178bb4d5cac97dc1
 
+Package: com.opa334.trollstorelite
+Name: TrollStore Lite (RootHide)
+Description: TrollStore for RootHide jailbroken iOS
+Depends: ldid
+Maintainer: opa334
+Author: opa334
+Section: Applications
+Architecture: iphoneos-arm64e
+Version: 2.1.1
+Installed-Size: 556
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.trollstorelite.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64e.deb
+Size: 211888
+MD5sum: a041889a4889808f83533ee24840ace7
+SHA1: cb2a1ac5caea18195caf68c86e8651934e086b6d
+SHA256: 2c726d14e14599ae2ef724fb0cbf1444073ec567c017433deaf2de93f6b1874c
+
 Package: com.sini921.switchpro
 Name: SwitchPro (RootHide)
 Description: 开关简单美化, 旨在为需要SnowBoard的开关美化功能但不需要SnowBoard的其他功能的情况下使用
