@@ -886,6 +886,25 @@ MD5sum: bd43f84d05636117a24144144581d807
 SHA1: 7956fdc18801f455bd9e9a385c238fc84447270c
 SHA256: 248763074a7873e56f5eb64a15977a4291fb2281feb09f72b2acb655dd298502
 
+Package: cn.zqbb.cocoatop64.relaxin
+Name: CocoaTop64 Relaxin (RootHide)
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
+Maintainer: SXX, Domo
+Author: Domo, SXX
+Section: Utilities
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.cocoatop64.relaxin.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.cocoatop64.relaxin
+Architecture: iphoneos-arm64e
+Version: 2.3.1
+Installed-Size: 840
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.cocoatop64.relaxin_2.3.1_iphoneos-arm64e.deb
+Size: 187158
+MD5sum: 6d42adec022e4d9e0723e970e1c7e477
+SHA1: 414af4950ca5877bb67807756531a8d021a6d3ab
+SHA256: b77297ef5d078b4f7020e742e955f5f10faba818f8cd75ed45e3f8f7916caae8
+
 Package: cn.zqbb.hello.memorystatus
 Description: Set memorystatus to avoid being killed by the system
 Maintainer: zqbb
