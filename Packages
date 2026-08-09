@@ -1045,6 +1045,26 @@ MD5sum: 20794d003aada8d04e7184672c35d9d8
 SHA1: 9a1cfa18fc748317a351dbdfaba15f1e2dd41e8e
 SHA256: 1b706cc5a3209f0eebf6e4b14508757eac11919d4b7de1174575721c34e94e97
 
+Package: com.foxfort.foxforttools
+Name: FoxFort Tools (RootHide)
+Depends: mobilesubstrate, com.foxfort.libfoxfortutils (>= 1.4.9)
+Conflicts: com.hackyouriphone.foxforthack, com.pulandres.foxforthack, org.cydia.kiimo.foxforthack, ru.rejail.foxforthack, me.pulandres.foxforttools, co.xrepo.appletweakjailbreak.foxforttools, net.kenhtao.foxforttools, sileoturkiye.foxforttools, com.yourepo.mohadu31.foxforttools, org.cydia.kiimo.foxforttools, com.hackyouriphone.foxforttools, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.foxforttools, r-o-o-t-l-e-s-s-, com.r-o-o-t-l-e-s-s-.manager
+Description: Helper tools for Foxfort tweaks
+Maintainer: FoxfortMobile
+Author: FoxfortMobile
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64e
+Version: 1.4.15
+Installed-Size: 2068
+Pre-Depends: rootless-compat(>= 0.9)
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.foxfort.foxforttools.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.foxfort.foxforttools_1.4.15_iphoneos-arm64e.deb
+Size: 1580950
+MD5sum: 1b07ff9edfa3524e5939e6e8d2cd1b2c
+SHA1: cb9d680115a4237ff688494462a98687ae31decd
+SHA256: 888481f99a48e3aa50f1e12cf316869d75f83aed5fbd11b59741679cc3b0c29c
+
 Package: com.foxfort.translomatic
 Name: Translomatic (RootHide)
 Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.15), com.opa334.altlist
