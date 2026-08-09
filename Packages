@@ -1065,6 +1065,26 @@ MD5sum: 1b07ff9edfa3524e5939e6e8d2cd1b2c
 SHA1: cb9d680115a4237ff688494462a98687ae31decd
 SHA256: 888481f99a48e3aa50f1e12cf316869d75f83aed5fbd11b59741679cc3b0c29c
 
+Package: com.foxfort.libfoxfortutils
+Name: libfoxfortutils (RootHide)
+Depends: firmware (>= 11.0), com.opa334.libsandy
+Conflicts: co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e, com.badr.libfoxfortutils, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.libfoxfortutils, r-o-o-t-l-e-s-s-
+Description: library for Foxfort tweaks
+Maintainer: FoxfortMobile
+Author: FoxfortMobile
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64e
+Version: 1.4.9
+Installed-Size: 1304
+Pre-Depends: rootless-compat(>= 0.9)
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.foxfort.libfoxfortutils.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.foxfort.libfoxfortutils_1.4.9_iphoneos-arm64e.deb
+Size: 446234
+MD5sum: c51bbc2ea21d86e0a06fbccb08098481
+SHA1: 646b0085ebd816e32ebc5b6d0cc7aa0349a85d74
+SHA256: d5a849f08718fc3d646095e1735027c176d9c25011fd2897ee0439cf865e989d
+
 Package: com.foxfort.translomatic
 Name: Translomatic (RootHide)
 Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.15), com.opa334.altlist
