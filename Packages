@@ -886,6 +886,25 @@ MD5sum: bd43f84d05636117a24144144581d807
 SHA1: 7956fdc18801f455bd9e9a385c238fc84447270c
 SHA256: 248763074a7873e56f5eb64a15977a4291fb2281feb09f72b2acb655dd298502
 
+Package: cn.Axs.biaoji
+Name: Snapper 截图标记 (RootHide)
+Author: 来了老弟
+Description: 给Snapper3 截图插件增加标记功能，快速对图进行箭头，打码，复制，保存等，免去了装第三方软件，或者跳转程序的繁琐。
+Depends: mobilesubstrate
+Maintainer: 来了老弟
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 96
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.Axs.biaoji_1.0_iphoneos-arm64e.deb
+Size: 21380
+MD5sum: da4c4bf2d5c8dfb308f6abaedbc7ddf9
+SHA1: 3cc27ea0cf1a1453f9aba3b1933c1acaf972173d
+SHA256: 29c796f99382bb873344dc9b5a224d62698ae46746f91a53b6249fc08901f613
+
 Package: cn.zqbb.cocoatop64.relaxin
 Name: CocoaTop64 Relaxin (RootHide)
 Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
