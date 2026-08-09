@@ -1045,6 +1045,26 @@ MD5sum: 20794d003aada8d04e7184672c35d9d8
 SHA1: 9a1cfa18fc748317a351dbdfaba15f1e2dd41e8e
 SHA256: 1b706cc5a3209f0eebf6e4b14508757eac11919d4b7de1174575721c34e94e97
 
+Package: com.foxfort.translomatic
+Name: Translomatic (RootHide)
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.15), com.opa334.altlist
+Conflicts: me.pulandres.translomatic, me.pulandres.translomatice, co.xrepo.appletweakjailbreak.translomatic, net.kenhtao.translomatic, sileoturkiye.translomatic, sileoturkiye.translomatic12, com.yourepo.mohadu31.translomatic, com.yourepo.mohadu31.translomatice, org.cydia.kiimo.translomatic, com.hackyouriphone.translomatic, com.hackyouriphone.translomatice, co.hurouftech.translomatic, me.sa3odka.translomatic, com.cydiabc.translomaticzh, x7mii.vip.translomatic, com.bo7ios.translomatic, ru.rj.translomatichack, com.hk.translomatic.cn.rl, r-o-o-t-l-e-s-s-
+Description: Quickly translate any text
+Maintainer: FoxfortMobile
+Author: FoxfortMobile
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/translomaticsettings.bundle/icon@3x.png
+Architecture: iphoneos-arm64e
+Version: 2.18.31
+Installed-Size: 5080
+Pre-Depends: rootless-compat(>= 0.9)
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.foxfort.translomatic.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
+Size: 3806214
+MD5sum: b44c6ea716e8f6c15ecc757cf4f6efd5
+SHA1: f0e741edf74fbdcbe88f0b01af3f299c6f89ac29
+SHA256: 9da91632d65ab3af8b2da4568a45ed86ca9360d2c2069b5a63b43f484cdac5a8
+
 Package: com.hmmzzz.fontmanager
 Name: MarkFont (RootHide)
 Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
