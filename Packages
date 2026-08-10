@@ -925,6 +925,24 @@ MD5sum: da4c4bf2d5c8dfb308f6abaedbc7ddf9
 SHA1: 3cc27ea0cf1a1453f9aba3b1933c1acaf972173d
 SHA256: 29c796f99382bb873344dc9b5a224d62698ae46746f91a53b6249fc08901f613
 
+Package: cn.llld.biaoji
+Name: 截图标记 (RootHide)
+Author: 来了老弟 X: h_h_x_t
+Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
+Depends: mobilesubstrate
+Maintainer: 来了老弟 X: h_h_x_t
+Section: rootless插件
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 112
+Pre-Depends: rootless-compat(>= 0.9)
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/cn.llld.biaoji.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.llld.biaoji_1.1_iphoneos-arm64e.deb
+Size: 23962
+MD5sum: c885a93902e26b8c2a05ebfb1ec70f9e
+SHA1: 92d09270acae3f7f1042db7d4305dc2639e80038
+SHA256: de556d09121e6affd3947d06e69a2ec9a3516d29e3e23aa0b6368b4c8e31db98
+
 Package: cn.zqbb.cocoatop64.relaxin
 Name: CocoaTop64 Relaxin (RootHide)
 Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
