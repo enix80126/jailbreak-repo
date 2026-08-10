@@ -886,45 +886,6 @@ MD5sum: bd43f84d05636117a24144144581d807
 SHA1: 7956fdc18801f455bd9e9a385c238fc84447270c
 SHA256: 248763074a7873e56f5eb64a15977a4291fb2281feb09f72b2acb655dd298502
 
-Package: byg.iosios.net.trollstorehelper
-Version: 2.1.1-1
-Section: 软件破解
-Maintainer: 搬运工源
-Depends: ldid
-Architecture: iphoneos-arm64e
-Installed-Size: 592
-Name: TrollStoreLite白巨魔安装器 (RootHide)
-Author: opa334
-Sponsor: 搬运工源
-Icon: https://chinesebuilding.club/pic/cydia.png
-Description: Helper utility to install and manage TrollStore!正常情况是先装巨魔再越狱，但也有少数人先越狱了没巨魔，或者不小心删了巨魔，本插件的作用就是在越狱环境下安装巨魔，这样你的巨魔就又回来了，无法安装请切换网络环境，或者使用梯子，因为巨魔在国外网站，你得先连上才行！白巨魔，只有越狱环境才能用的巨魔，没越狱，安装的软件就打不开！
-Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/byg.iosios.net.trollstorehelper.json
-Filename: https://enix80126.github.io/jailbreak-repo/debs/byg.iosios.net.trollstorehelper_2.1.1-1_iphoneos-arm64e.deb
-Size: 251396
-MD5sum: d0918c53cd1acf8dcba81917f42af23e
-SHA1: a929e69918f6eac0aa800daa38982bb13dac17fe
-SHA256: f2efb906186f02b93c9c661c9410ce4d4798e4e48bf5bed83a5e11fca7f46654
-
-Package: cn.Axs.biaoji
-Name: Snapper 截图标记 (RootHide)
-Author: 来了老弟
-Description: 给Snapper3 截图插件增加标记功能，快速对图进行箭头，打码，复制，保存等，免去了装第三方软件，或者跳转程序的繁琐。
-Depends: mobilesubstrate
-Maintainer: 来了老弟
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.0
-Installed-Size: 96
-Icon: https://axs66.github.io/pro/icon/snapper.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper/js.json
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.Axs.biaoji_1.0_iphoneos-arm64e.deb
-Size: 21380
-MD5sum: da4c4bf2d5c8dfb308f6abaedbc7ddf9
-SHA1: 3cc27ea0cf1a1453f9aba3b1933c1acaf972173d
-SHA256: 29c796f99382bb873344dc9b5a224d62698ae46746f91a53b6249fc08901f613
-
 Package: cn.llld.biaoji
 Name: 截图标记 (RootHide)
 Author: 来了老弟 X: h_h_x_t
