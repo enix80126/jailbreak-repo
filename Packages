@@ -1042,12 +1042,12 @@ Author: aReo
 Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 2.7.9
-Installed-Size: 3964
+Installed-Size: 4016
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.flex2areo.apptools15roothide_2.7.9_iphoneos-arm64e.deb
-Size: 1243594
-MD5sum: fe44ea3c6bde9cc218e7e41bc699dacf
-SHA1: 853225ec8feac9323d062e5f2e254879cbd75f5e
-SHA256: 728fe1df97708064aaa19e34fd0e5ecfa1cbbb7c8f83feac63dba9ade35e08d4
+Size: 1258964
+MD5sum: d2cc68773d3c624bfa5fe80b1b951878
+SHA1: dff6a4df30ab3a8d80ec83b82bfa4937a01bf055
+SHA256: e1966b0887c15ad7b9ba1a73ed655b764248b6fd2966cde5fcb8439ea9a46630
 
 Package: com.fluoxetine.jumor
 Name: 巨魔R (RootHide)
