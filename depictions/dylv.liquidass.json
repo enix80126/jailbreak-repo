@@ -17,7 +17,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "AppTools for iOS15-17 Roothide",
+          "markdown": "next level diarrhea",
           "useSpacing": false
         },
         {
@@ -47,7 +47,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "2.7.9",
+                  "text": "0.1.0b",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -60,7 +60,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "1.19 MB",
+                  "text": "1.24 MB",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -91,7 +91,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "全部兼容",
+                  "text": "14.0 ~ 18.2",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -117,7 +117,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 版本 2.7.9\n\n该版本暂无详细的更新说明。",
+          "markdown": "#### 版本 0.1.0b\n\n该版本暂无详细的更新说明。",
           "useSpacing": false
         }
       ]

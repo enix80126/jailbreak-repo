@@ -346,8 +346,9 @@ def main():
 
             import urllib.parse
             encoded_deb = urllib.parse.quote(deb)
-            if pkg_id and not has_original_dep:
-                out.append(f"SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/{pkg_id}.json")
+            # Disable custom SileoDepiction injection to allow Sileo native UI multi-source aggregation
+            # if pkg_id and not has_original_dep:
+            #     out.append(f"SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/{pkg_id}.json")
             
             out += [f"Filename: https://enix80126.github.io/jailbreak-repo/debs/{encoded_deb}", f"Size: {size}",
                     f"MD5sum: {md5}", f"SHA1: {sha1}", f"SHA256: {sha256}"]

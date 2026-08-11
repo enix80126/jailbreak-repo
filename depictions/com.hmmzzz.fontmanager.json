@@ -47,7 +47,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "0.3.0",
+                  "text": "0.3.1",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -60,7 +60,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "423.27 KB",
+                  "text": "426.13 KB",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -78,7 +78,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "2026-08-06 14:42:56",
+                  "text": "2026-08-11 10:44:01",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -117,7 +117,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 版本 0.3.0\n\n该版本暂无详细的更新说明。",
+          "markdown": "#### 版本 0.3.1\n\n该版本暂无详细的更新说明。",
           "useSpacing": false
         }
       ]

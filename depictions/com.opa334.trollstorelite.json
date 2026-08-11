@@ -17,7 +17,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。",
+          "markdown": "TrollStore for RootHide jailbroken iOS",
           "useSpacing": false
         },
         {
@@ -47,7 +47,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "1.0.3",
+                  "text": "2.1.1",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -60,7 +60,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "576.45 KB",
+                  "text": "206.92 KB",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -78,7 +78,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "2026-08-04 23:51:35",
+                  "text": "2026-08-11 10:44:01",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -117,7 +117,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 版本 1.0.3\n\n该版本暂无详细的更新说明。",
+          "markdown": "#### 版本 2.1.1\n\n该版本暂无详细的更新说明。",
           "useSpacing": false
         }
       ]

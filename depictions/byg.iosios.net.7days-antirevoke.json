@@ -17,7 +17,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "AppTools for iOS15-17 Roothide",
+          "markdown": "No more revocations for enterprise certificate. 无视企业证书掉签，当然你有巨魔了，用巨魔安装了软件就用不到此插件，但总有人需要，所以上架搬运工源！",
           "useSpacing": false
         },
         {
@@ -47,7 +47,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "2.7.9",
+                  "text": "1.0",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -60,7 +60,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "1.19 MB",
+                  "text": "7.00 KB",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -91,7 +91,7 @@
                 },
                 {
                   "class": "DepictionLabelView",
-                  "text": "全部兼容",
+                  "text": "11.0 ~ 18.2",
                   "fontWeight": "semibold",
                   "fontSize": 16,
                   "usePadding": false
@@ -117,7 +117,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "#### 版本 2.7.9\n\n该版本暂无详细的更新说明。",
+          "markdown": "#### 版本 1.0\n\n该版本暂无详细的更新说明。",
           "useSpacing": false
         }
       ]

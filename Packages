@@ -10,7 +10,6 @@ Description: NFC付费App纯净砸壳。
 Name: Aemulo NFC模拟 (RootHide)
 Author: Amy While <support@anamy.gay>
 Icon: https://s1.imagehub.cc/images/2026/01/04/7c96709445ff5c46b3eec04f7863b889.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wkk.aemulo.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/Aemulo_1.2.5_iphoneos-arm64e.deb
 Size: 667300
 MD5sum: ca0fd38f9859cada412d6e33b5728b5b
@@ -49,7 +48,6 @@ Author: Cydiabc
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 17.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.cydiabc.appdownpercent-roothide.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/AppDownPercent%E5%BA%94%E7%94%A8%E4%B8%8B%E8%BD%BD%E7%99%BE%E5%88%86%E6%AF%94-Roothide_1.0.0-1_iphoneos-arm64e.deb
 Size: 113428
 MD5sum: ddbc12bf8e703c77a169243c2a204336
@@ -70,7 +68,6 @@ Author: Mineek
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 17.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.cydiabc.appstoretroller-roothide.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/AppStoreTroller%E4%BC%AA%E8%A3%85%E7%B3%BB%E7%BB%9F-Roothide_1.0-1_iphoneos-arm64e.deb
 Size: 13324
 MD5sum: 6e09bad022662ab081cc70ed61284144
@@ -88,7 +85,6 @@ Conflicts: ai.akemi.appsyncunified
 Description: AppSync Unified 是一款插件，允许用户在其 iOS 设备上自由安装临时签名、伪签名、未签名或过期的 IPA 应用包。
 Name: AppSyncUnified (RootHide)
 Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.dao.appsyncunified.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/AppSyncUnified%28RootHide%29_116.0_iphoneos-arm64e.deb
 Size: 21416
 MD5sum: 69c108d7607759c7990c460a5bb557f8
@@ -105,7 +101,6 @@ Depends: mobilesubstrate
 Description: AppTools for iOS15-17 Roothide
 Name: AppTools15-17 (RootHide)
 Author: aReo
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.flex2areo.apptools15roothide.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/AppTools15-17%28Roothide%29_2.7.8_iphoneos-arm64e.deb
 Size: 1228172
 MD5sum: e42daa29691ec414ca9ba1ebf4be2f77
@@ -208,7 +203,6 @@ Author: fiore
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 16.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.cydiabc.calculatorhistory-rootless.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/CalculatorHistory%E8%AE%A1%E7%AE%97%E5%8E%86%E5%8F%B2-Rootless_1.3_iphoneos-arm64e.deb
 Size: 85392
 MD5sum: c1462697c3fc6973ba89db8b5a3a2c4e
@@ -260,7 +254,6 @@ Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.crane
 Description: Repairs Crane PKDServer discovery on iOS 17.
 Name: Crane PKDServer Fix (RootHide)
 Author: 82flex
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.82flex.cranepkdserverfix.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/Crane_0.0.1_iphoneos-arm64e.deb
 Size: 2820
 MD5sum: 6458ae0da5a6a0d038d0b5991daa8e6e
@@ -279,7 +272,6 @@ Conflicts: com.opa334.cranelite, com.opa334.crane13lite, com.opa334.crane13, com
 Description: Multiple containers for your applications!
 Name: Crane (RootHide)
 Author: opa334
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.crane.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/Crane_1.3.17-2_iphoneos-arm64e.deb
 Size: 650868
 MD5sum: 649d955335250d35dd7ba1c2603338e1
@@ -295,7 +287,6 @@ Depends: mobilesubstrate
 Description: Crane 中文修复包(RootHide)。
 Name: Crane 中文修复包 (RootHide)
 Author: 妖刀
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.hk.crane.cn.rl.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/Crane_1.3.9-1_iphoneos-arm64e.deb
 Size: 11512
 MD5sum: 6bbbc094699394c1ea00a0f4b444f338
@@ -334,7 +325,6 @@ Description: ElleKit tweak injection libraries and loader
 Name: ElleKit (RootHide)
 Author: Evelyn
 Icon: https://ellekit.space/logos/logo.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/ellekit.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/ElleKit_1.2_iphoneos-arm64e.deb
 Size: 143236
 MD5sum: 69fccdb33a439b8c3303abe7f2b5133d
@@ -373,7 +363,6 @@ Author: Ai-小苹果
 Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/Utilities.png
 Icon2: 17.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.cydiabc.filzahack-roothide.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/Filza_1.2_iphoneos-arm64e.deb
 Size: 107248
 MD5sum: f28884d1fcbd0fdf14b0b5f37fc7bab4
@@ -391,7 +380,6 @@ Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
 Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
 Name: Filza File Manager 64-bit (RootHide)
 Author: TIGI Software
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.tigisoftware.filza64bit.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/Filza_4.0.1-4~roothide_iphoneos-arm64e.deb
 Size: 6974116
 MD5sum: 11740cbd0781e68419e59b0ede7c92d3
@@ -410,7 +398,6 @@ Description: 修复部分插件转RootHide配置不保存问题。
 Author: bswbw
 Name: FixSet (RootHide)
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/cn.bswbw.fixsets.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/FixSet_1.1_iphoneos-arm64e.deb
 Size: 36744
 MD5sum: 2b05e208aa72f70d5e759aaa44c924df
@@ -449,7 +436,6 @@ Name: LibGcUniversal (RootHide)
 Author: MrGcGamer
 Tag: role::developer
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.mrgcgamer.libgcuniversal.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/LibGcUniversal_1.7.0_iphoneos-arm64e.deb
 Size: 90704
 MD5sum: 275de0ae06c9636c6f3ac91b91db16b6
@@ -528,7 +514,6 @@ Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.f
 Description: RootHide Dynamic Patches For Filza
 Name: Patches for Filza 64bit (RootHide)
 Author: roothide
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/roothide.patches.filza.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/Patches_0.5-4_iphoneos-arm64e.deb
 Size: 31296
 MD5sum: 62202e445a042bdeac0fc4b890f858bf
@@ -545,7 +530,6 @@ Depends: mobilesubstrate
 Description: load preferences in style
 Author: Dhinak G <dhinak@dhinak.net>
 Name: PreferenceLoader (RootHide)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/preferenceloader.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/PreferenceLoader_2.2.6-11%2Bdebug_iphoneos-arm64e.deb
 Size: 26560
 MD5sum: be13dc283fa91fbff16ccdf2a201e78d
@@ -582,7 +566,6 @@ Description: Safari浏览器增强。
 Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
 Name: SafariX (RootHide)
 Author: 0xkuj
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.0xkuj.safarix.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/SafariX_1.9.9.1_iphoneos-arm64e.deb
 Size: 363244
 MD5sum: cd64e158f0e3f5cbc76aa836759b1c0e
@@ -599,7 +582,6 @@ Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksett
 Description: 设置自定义、归类插件，源内有汉化包；v3.0.x版本，功能大体和之前v2.1.1差不多，就改了个插件首页。
 Author: SOPPPra
 Name: SettingsRevamp (RootHide)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.dao.settingsrevamp.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/SettingsRevamp%28RootHide%29_3.0.1.1_iphoneos-arm64e.deb
 Size: 407816
 MD5sum: d317f3a28e555efbc5d9ffd605c2904f
@@ -615,7 +597,6 @@ Depends: mobilesubstrate
 Description: SettingsRevamp 简体中文包(RootHide)。
 Name: SettingsRevamp 简体中文包 (RootHide)
 Author: 妖刀
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.hk.settingsrevamp.cn.rl.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/SettingsRevamp_3.0.1_iphoneos-arm64e.deb
 Size: 8632
 MD5sum: a2009ff994df983abda282c6c8f27815
@@ -634,7 +615,6 @@ Conflicts: com.jontelang.snapper, com.jontelang.snapper2.packix, xyz.cypwn.snapp
 Description: Pin screenshots on the screen.
 Name: Snapper 3 (RootHide)
 Author: Jonathan Winger-lang
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.jontelang.snapper3.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/Snapper_1.2.1_iphoneos-arm64e.deb
 Size: 1121256
 MD5sum: 804a0ae21d74efb3b7a8bf52c6e1595b
@@ -729,7 +709,6 @@ Description: App Store 账户快速切换，优化了账号切换逻辑，已汉
 Name: StoreSwitcher2 (RootHide)
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Author: 苏苏
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wkk.storeswitcher2.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/StoreSwitcher2_1.0.7_iphoneos-arm64e.deb
 Size: 54580
 MD5sum: ed71a2b9df6b62d081e58b7952aa89a4
@@ -767,7 +746,6 @@ Description: cool
 Name: SystemX (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wkk.systembox.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/SystemX_1.2-3_iphoneos-arm64e.deb
 Size: 199232
 MD5sum: 4d3506d71863f6cc593898524716a760
@@ -805,7 +783,6 @@ Depends: roothide (>= 0.0.9), libiosexec1 (>= 1.3.1-2)
 Conflicts: com.ericasadun.utilities, com.bingner.plutil
 Description: Utility for creating and editing Apple property list files.
 Author: Samuel Bingner
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/plutil.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/_0.2.2%2B2_iphoneos-arm64e.deb
 Size: 22676
 MD5sum: d194a8c53de1549b7f81242837779808
@@ -827,7 +804,6 @@ Description: multiple precision floating-point computation
  ANSI/IEEE-754 standard for double-precision floating-point arithmetic
  (53-bit mantissa).
 Homepage: https://www.mpfr.org
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/libmpfr6.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/_4.1.0_iphoneos-arm64e.deb
 Size: 186736
 MD5sum: ff8259319c0b1152b98e3c2a74f62e69
@@ -856,7 +832,6 @@ Description: GNU awk, a pattern scanning and processing language
  4 version of UNIX awk. Gawk also provides more recent Bell Labs awk
  extensions, and some GNU-specific extensions.
 Homepage: http://www.gnu.org/software/gawk/
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/gawk.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/_5.1.0-2_iphoneos-arm64e.deb
 Size: 569284
 MD5sum: 3ab98a150fbfdb61fbd8f6aa098c43eb
@@ -879,7 +854,6 @@ Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 Description: No more revocations for enterprise certificate. 无视企业证书掉签，当然你有巨魔了，用巨魔安装了软件就用不到此插件，但总有人需要，所以上架搬运工源！
 Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/byg.iosios.net.7days-antirevoke.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/byg.iosios.net.7days-antirevoke_1.0_iphoneos-arm64e.deb
 Size: 7166
 MD5sum: bd43f84d05636117a24144144581d807
@@ -897,7 +871,6 @@ Architecture: iphoneos-arm64e
 Version: 1.1
 Installed-Size: 112
 Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/cn.llld.biaoji.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.llld.biaoji_1.1_iphoneos-arm64e.deb
 Size: 23962
 MD5sum: c885a93902e26b8c2a05ebfb1ec70f9e
@@ -987,7 +960,6 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 2.0-1
 Installed-Size: 376
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.25mao.leftpan.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.25mao.leftpan_2.0-1_iphoneos-arm64e.deb
 Size: 33964
 MD5sum: ed85dfb43da1375b728948e1bc3b0c37
@@ -1004,7 +976,6 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
 Version: 1.3.5
 Installed-Size: 37612
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.charlieleung.liquidify.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.charlieleung.liquidify_1.3.5_iphoneos-arm64e.deb
 Size: 9861550
 MD5sum: 68fb229da9c44a1f2c361872f13a14a7
@@ -1022,7 +993,6 @@ Description: 自定义程序通知角标的边框颜色和透明度，基于Poom
 Architecture: iphoneos-arm64e
 Version: 1.5.3
 Installed-Size: 436
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.dao.blurrybadges.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.blurrybadges_1.5.3_iphoneos-arm64e.deb
 Size: 42410
 MD5sum: 2d602d289f7fde739e879d60a1265512
@@ -1040,7 +1010,6 @@ Conflicts: com.opa334.choicy
 Architecture: iphoneos-arm64e
 Version: 1.5.3-4
 Installed-Size: 1056
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.dao.choicy.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.choicy_1.5.3-4_iphoneos-arm64e.deb
 Size: 161664
 MD5sum: 18df4d24819218006fd0f54f29de9ab0
@@ -1074,7 +1043,6 @@ Section: Tweaks
 Architecture: iphoneos-arm64e
 Version: 2.7.9
 Installed-Size: 3964
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.flex2areo.apptools15roothide.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.flex2areo.apptools15roothide_2.7.9_iphoneos-arm64e.deb
 Size: 1243594
 MD5sum: fe44ea3c6bde9cc218e7e41bc699dacf
@@ -1092,7 +1060,6 @@ Section: Applications
 Architecture: iphoneos-arm64e
 Version: 1.0.4
 Installed-Size: 1361
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.fluoxetine.jumor.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.fluoxetine.jumor_1.0.4_iphoneos-arm64e.deb
 Size: 592146
 MD5sum: 20794d003aada8d04e7184672c35d9d8
@@ -1112,7 +1079,6 @@ Architecture: iphoneos-arm64e
 Version: 1.4.15
 Installed-Size: 2068
 Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.foxfort.foxforttools.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.foxfort.foxforttools_1.4.15_iphoneos-arm64e.deb
 Size: 1580950
 MD5sum: 1b07ff9edfa3524e5939e6e8d2cd1b2c
@@ -1132,7 +1098,6 @@ Architecture: iphoneos-arm64e
 Version: 1.4.9
 Installed-Size: 1304
 Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.foxfort.libfoxfortutils.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.foxfort.libfoxfortutils_1.4.9_iphoneos-arm64e.deb
 Size: 446234
 MD5sum: c51bbc2ea21d86e0a06fbccb08098481
@@ -1152,7 +1117,6 @@ Architecture: iphoneos-arm64e
 Version: 2.18.31
 Installed-Size: 5080
 Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.foxfort.translomatic.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.foxfort.translomatic_2.18.31_iphoneos-arm64e.deb
 Size: 3806214
 MD5sum: b44c6ea716e8f6c15ecc757cf4f6efd5
@@ -1198,7 +1162,6 @@ Icon: https://Mieing.Github.io/repo/file/TikTok.png
 Architecture: iphoneos-arm64e
 Version: 2.3-0
 Installed-Size: 3208
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.huami.dyyy.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.huami.dyyy_2.3-0_iphoneos-arm64e.deb
 Size: 706524
 MD5sum: 77f0a60eca5eeef0c7d519eb76ee0cae
@@ -1217,7 +1180,6 @@ Architecture: iphoneos-arm64e
 Version: 1.7.1
 Installed-Size: 3808
 Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.lclrc.hammerit.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.lclrc.hammerit_1.7.1_iphoneos-arm64e-1.deb
 Size: 2753736
 MD5sum: 4ea99b427547edd5db15de1ff08db453
@@ -1234,7 +1196,6 @@ Tag: role::developer
 Architecture: iphoneos-arm64e
 Version: 1.1.6
 Installed-Size: 168
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.libundirect.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.opa334.libundirect_1.1.6_iphoneos-arm64e.deb
 Size: 6488
 MD5sum: 42f1842748252a4a2af0404210cf97cc
@@ -1251,7 +1212,6 @@ Section: Applications
 Architecture: iphoneos-arm64e
 Version: 2.1.1
 Installed-Size: 556
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.trollstorelite.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64e.deb
 Size: 211888
 MD5sum: a041889a4889808f83533ee24840ace7
@@ -1287,7 +1247,6 @@ Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), 
 Architecture: iphoneos-arm64e
 Version: 1.5.0
 Installed-Size: 784
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.susudear.stayshot.long-screenshot.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.susudear.stayshot.long-screenshot_1.5.0_iphoneos-arm64e.deb
 Size: 155890
 MD5sum: 54d410c2bf37a9023a9072bd4f336df4
@@ -1344,7 +1303,6 @@ Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
 Version: 1.0.22
 Installed-Size: 792
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.susudear.susuocr.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.susudear.susuocr_1.0.22_iphoneos-arm64e.deb
 Size: 126680
 MD5sum: 9891789692c710e0cdedd22e49dd4774
@@ -1362,7 +1320,6 @@ Architecture: iphoneos-arm64e
 Version: 1.0.4
 Installed-Size: 900
 Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.xx.gaodehook.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.xx.gaodehook_1.0.4_iphoneos-arm64e.deb
 Size: 438904
 MD5sum: 9d2d4b9f73253e4b9e3165a90eff45bf
@@ -1398,7 +1355,6 @@ Architecture: iphoneos-arm64e
 Version: 1.6
 Installed-Size: 2888
 Pre-Depends: rootless-compat(>= 0.9)
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.zuner.lunanoad.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.zuner.lunanoad_1.6_iphoneos-arm64e.deb
 Size: 2957094
 MD5sum: f342fe75eb72e0aa9ee4856de4fc3397
@@ -1416,7 +1372,6 @@ Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
 Architecture: iphoneos-arm64e
 Version: 0.1.0b
 Installed-Size: 3576
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/dylv.liquidass.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/dylv.liquidass_0.1.0b_iphoneos-arm64e.deb
 Size: 1297246
 MD5sum: 474a65688270bbb1e1d00978785d281e
@@ -1435,7 +1390,6 @@ Description: 真正的iOS系统清理和管理实用程序，默认简体中文�
 Name: iCleaner Pro (RootHide)
 Author: Ivano Bilenchi
 Icon: https://s1.imagehub.cc/images/2025/01/01/3c86578830a5a4b2897f2780576e07a9.jpeg
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wkk.icleanerpro.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/iCleaner_7.10.0_iphoneos-arm64e.deb
 Size: 1145044
 MD5sum: 248481c013972e296244d724a1fdb9b8
@@ -1487,7 +1441,6 @@ Tag: role::developer
 Architecture: iphoneos-arm64e
 Version: 1.1.6
 Installed-Size: 168
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.opa334.libundirect.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/libundirect-1.1.6-iphoneos-arm64e.deb
 Size: 6488
 MD5sum: 42f1842748252a4a2af0404210cf97cc
@@ -1504,7 +1457,6 @@ Depends: mobilesubstrate (>= 0.9.5000)
 Description: JSC security hardening for WebContent process. Configures JavaScriptCore options to eliminate exploit primitives (addrof/fakeobj, JIT type confusion, GC UAF). Enabled by default!
 Name: lockdown (RootHide)
 Author: roothide
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.roothide.lockdown.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/lockdown_2.0_iphoneos-arm64e.deb
 Size: 5380
 MD5sum: cf1b87c2badfa189139667fbf521762f
@@ -1521,7 +1473,6 @@ Depends: com.roothide.patchloader (>= 0.0.4)
 Description: Compat Layer for Rootless Tweaks
 Name: rootless-compat (RootHide)
 Author: roothide
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/rootless-compat.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/rootless-compat_2.0_iphoneos-arm64e.deb
 Size: 39904
 MD5sum: 908850c183560db663bc20fc72dd3baf
@@ -1540,7 +1491,6 @@ Description: 去开屏广告，测试版本：11.56.3，接大量冷门热门app
 Name: 大众点评NoAds (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/02/11/b8e549c210944f75bdf8d198a3d74e92.jpeg
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wkk.dzdphook.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/%E5%A4%A7%E4%BC%97%E7%82%B9%E8%AF%84NoAds_1.1-2_iphoneos-arm64e.deb
 Size: 42980
 MD5sum: 6077d137c2727a58fb30fbb83adac997
@@ -1559,7 +1509,6 @@ Description: 去掉可见的所有广告，版本：7.0.8，接大量冷门热�
 Name: 威锋NoAds (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/10/23/318813ae8987a6ff33c7f64b318b9a70.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wkk.wfhook.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/%E5%A8%81%E9%94%8BNoAds_1.0-3_iphoneos-arm64e.deb
 Size: 43264
 MD5sum: 89e3d0a2c6e42cf1a03a54f312bd7cfd
@@ -1597,7 +1546,6 @@ Name: 微信助手 (RootHide)
 Author: Mao
 Sponsor: admin@25mao.com
 Icon: https://s1.imagehub.cc/images/2025/01/01/95a2f7dd7e6f2a540e2f53f95ae214d4.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.25mao.miyou.rootless.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/%E5%BE%AE%E4%BF%A1%E5%8A%A9%E6%89%8B_3.9-5_iphoneos-arm64e.deb
 Size: 10166548
 MD5sum: 31f21c6ce147039790dee64ddad70318
@@ -1614,7 +1562,6 @@ Depends: mobilesubstrate
 Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
 Name: 微信输入法_Google配色 (RootHide)
 Author: colorblack
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.colorblack.wetypecolorgoogle.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/%E5%BE%AE%E4%BF%A1%E8%BE%93%E5%85%A5%E6%B3%95_Google%E9%85%8D%E8%89%B2_1.1.5_iphoneos-arm64e.deb
 Size: 30508
 MD5sum: 62bb93723bad54ac5b606b5c7419f828
@@ -1652,7 +1599,6 @@ Description: 去开屏广告，秒过激励式视频（汽水版本请保留在1
 Name: 汽水音乐NoAds (RootHide)
 Author: starry6
 Icon: https://s1.imagehub.cc/images/2025/05/24/565d1c832919445be395db0b02f6a39c.png
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.starry6.lunanoad.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90NoAds_1.1_iphoneos-arm64e.deb
 Size: 46988
 MD5sum: 267aa48ef4e4521771f65e9e79181753
@@ -1690,7 +1636,6 @@ Description: 直播吧去广告，无设置选项，自己选择使用。
 Name: 直播吧Plus (RootHide)
 Homepage: https://github.com/wwg135
 Author: wwg135
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wwg135.zhibo8.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/%E7%9B%B4%E6%92%AD%E5%90%A7Plus_1.0.0_iphoneos-arm64e.deb
 Size: 48956
 MD5sum: 6340f70c928eabee9e533e45cefa3495
@@ -1709,7 +1654,6 @@ Description: 去开屏广告，版本：8.68.0
 Name: 美团外卖NoAds (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2025/07/05/4c47ba0f7be3c4ed094d026ae1dac6ba.jpeg
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wkk.mtwmhook.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/%E7%BE%8E%E5%9B%A2%E5%A4%96%E5%8D%96NoAds_1.1-7_iphoneos-arm64e.deb
 Size: 43008
 MD5sum: 495314f950d4c7a7894e5256bc079a81
@@ -1728,7 +1672,6 @@ Description: 去开屏广告/首页横幅广告/首页信息流广告/首页下�
 Name: 腾讯视频NoAds (RootHide)
 Author: wkk
 Icon: https://s1.imagehub.cc/images/2026/02/12/c74f8e9014b397f813069c488591aca5.jpeg
-SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.wkk.txsphook.json
 Filename: https://enix80126.github.io/jailbreak-repo/debs/%E8%85%BE%E8%AE%AF%E8%A7%86%E9%A2%91NoAds_1.2-1_iphoneos-arm64e.deb
 Size: 44656
 MD5sum: f5f2ab6c45f48cb29bdcb4bc08e3ec49
