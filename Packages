@@ -1276,6 +1276,24 @@ MD5sum: 6f19eb03dc2759a5ad13565782c14276
 SHA1: 4888abfe511ca727ed8f574ba575d84514f9ae05
 SHA256: cdfba570e317d2770db1b59c823c94a35c6afa989aa81c416471e76800d375d8
 
+Package: com.susudear.susuocr
+Name: SuSuOCR (RootHide)
+Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Icon: https://repo.susubaby.cn/icons/susuocr.png
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.22
+Installed-Size: 792
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.susudear.susuocr.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.susudear.susuocr_1.0.22_iphoneos-arm64e.deb
+Size: 126680
+MD5sum: 9891789692c710e0cdedd22e49dd4774
+SHA1: b6fd5f6340c569695051d9259ef4331deec64c76
+SHA256: 77f945bda8676707d9cdae38fda0b90cc8022a19b6f4827c22342fab6702825a
+
 Package: com.xx.gaodehook
 Name: 高德地图优化 (RootHide)
 Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
