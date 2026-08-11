@@ -1276,6 +1276,27 @@ MD5sum: 6f19eb03dc2759a5ad13565782c14276
 SHA1: 4888abfe511ca727ed8f574ba575d84514f9ae05
 SHA256: cdfba570e317d2770db1b59c823c94a35c6afa989aa81c416471e76800d375d8
 
+Package: com.susudear.stayshot
+Name: StayShot (RootHide)
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshot.json
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Architecture: iphoneos-arm64e
+Version: 0.5.2
+Installed-Size: 2324
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.susudear.stayshot_0.5.2_iphoneos-arm64e.deb
+Size: 226974
+MD5sum: 13606fdd6aaa3f7f92d35a4d9bb9d762
+SHA1: 8b2526fedc879f5a3a96711b89860ebabddbb458
+SHA256: dc3d920e7bc040b3ddf5bf294dc809f744dbdd353df4524a4cd1fa98a20e0887
+
 Package: com.susudear.susuocr
 Name: SuSuOCR (RootHide)
 Description: 百度 OCR 识别提取文字、百度翻译和 AI 截图处理，需要自备 API。
