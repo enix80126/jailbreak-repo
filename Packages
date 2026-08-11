@@ -1405,6 +1405,24 @@ MD5sum: f342fe75eb72e0aa9ee4856de4fc3397
 SHA1: a8e407559dede1ba299f62ec08c65c7a5cd7955f
 SHA256: 99ca35ad7ddfb3c3945e5f1bb7f7ee9f3d5835643add260a16f18bffd07ddf08
 
+Package: dylv.liquidass
+Name: Liquid (Gl)ass (RootHide)
+Description: next level diarrhea
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
+Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
+Architecture: iphoneos-arm64e
+Version: 0.1.0b
+Installed-Size: 3576
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/dylv.liquidass.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/dylv.liquidass_0.1.0b_iphoneos-arm64e.deb
+Size: 1297246
+MD5sum: 474a65688270bbb1e1d00978785d281e
+SHA1: ddb2fe5c4c74372c5dd2eeb53a4051db21220c3b
+SHA256: caf947160a08c91a0651e28bd7c1acf1f91e39097670fd9d82a22f76103c6cf8
+
 Package: com.wkk.icleanerpro
 Section: 应用程序
 Maintainer: Ivano Bilenchi
