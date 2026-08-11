@@ -1276,6 +1276,42 @@ MD5sum: 6f19eb03dc2759a5ad13565782c14276
 SHA1: 4888abfe511ca727ed8f574ba575d84514f9ae05
 SHA256: cdfba570e317d2770db1b59c823c94a35c6afa989aa81c416471e76800d375d8
 
+Package: com.susudear.stayshot.long-screenshot
+Name: StayShot Long Screenshot (RootHide)
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+Description: Long screenshot action and capture controller for StayShot.
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: com.susudear.stayshot (>= 0.2.4), mobilesubstrate, firmware (>= 15.1), dev.theos.orion (>= 1.0.0)
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Installed-Size: 784
+SileoDepiction: https://enix80126.github.io/jailbreak-repo/depictions/com.susudear.stayshot.long-screenshot.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.susudear.stayshot.long-screenshot_1.5.0_iphoneos-arm64e.deb
+Size: 155890
+MD5sum: 54d410c2bf37a9023a9072bd4f336df4
+SHA1: 1c8e1b6b903a548ff41ddd170f41f2ee19782b1c
+SHA256: b3d56d35b65314cc7536453ac3ee6b233352a89680cd482104716656e24ea234
+
+Package: com.susudear.stayshot.markup
+Name: StayShot Edit (RootHide)
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshotedit.json
+Description: StayShot Edit 的冻结截图编辑扩展，支持箭头、涂鸦、高亮、马赛克和方框，并支持复制或保存编辑结果。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: com.susudear.stayshot (>= 0.5.1), mobilesubstrate, firmware (>= 15.1)
+Architecture: iphoneos-arm64e
+Version: 1.6.1
+Installed-Size: 640
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.susudear.stayshot.markup_1.6.1_iphoneos-arm64e.deb
+Size: 153344
+MD5sum: bbb33c0e1872c845ed10ce945dce8d6a
+SHA1: 2262300f152e7a6878e670938d8b0b11c366d242
+SHA256: 404464cabe970a1e13cc2d1b8202663f7fc933789fb13fa50cfafd91b45e5245
+
 Package: com.susudear.stayshot
 Name: StayShot (RootHide)
 Icon: https://repo.susubaby.cn/icons/StayShot.png
