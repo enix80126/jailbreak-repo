@@ -896,6 +896,25 @@ MD5sum: 6d42adec022e4d9e0723e970e1c7e477
 SHA1: 414af4950ca5877bb67807756531a8d021a6d3ab
 SHA256: b77297ef5d078b4f7020e742e955f5f10faba818f8cd75ed45e3f8f7916caae8
 
+Package: cn.zqbb.cocoatop64.relaxin
+Name: CocoaTop64 Relaxin (RootHide)
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
+Maintainer: SXX, Domo
+Author: Domo, SXX
+Section: Utilities
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.cocoatop64.relaxin.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.cocoatop64.relaxin
+Architecture: iphoneos-arm64e
+Version: 2.3.3
+Installed-Size: 840
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.cocoatop64.relaxin_2.3.3_iphoneos-arm64e.deb
+Size: 187342
+MD5sum: deb9282e5bb1e73b2447f7347b680f14
+SHA1: d1b3813688bdf625e2e802c560711fb5a5320558
+SHA256: 1170732f75087edeb9a044880fb3771ed1996c42eb171810295d3393385fe081
+
 Package: cn.zqbb.hello.memorystatus
 Description: Set memorystatus to avoid being killed by the system
 Maintainer: zqbb
@@ -981,6 +1000,23 @@ Size: 9861550
 MD5sum: 68fb229da9c44a1f2c361872f13a14a7
 SHA1: 4466c6e8ef9f764e9484159d9ecb10a211152f3c
 SHA256: dd6f4994a499c619220cf53e0e30ee948bcce3b3838a9b7159bf76e637cef77e
+
+Architecture: iphoneos-arm64e
+Package: com.dao.apptools15
+Name: AppTools15-17 (RootHide)
+Version: 2.7.9
+Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15roothide, com.flex2areo.apptools15, com.dao.apptools15roothide, com.dao.apptools15rootless
+Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
+Section: 嗨-付费
+Depends: firmware (>=15.0), mobilesubstrate
+Author: aReo
+Maintainer: aReo
+Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.apptools15_2.7.9_iphoneos-arm64e.deb
+Size: 1265940
+MD5sum: 4de4896f755f6db0006af0d87264d7a9
+SHA1: 98f584e60665c0e984532e7ab210beb409fc8c13
+SHA256: c04d8c1e89c58a71cedb49009353098116fe8aeeb9080e05d271111ad985efc5
 
 Name: BlurryBadges 中文版 (RootHide)
 Package: com.dao.blurrybadges
