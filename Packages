@@ -1398,6 +1398,26 @@ MD5sum: dcb0dcfd1a2c60a8ee1e7a7d1991a964
 SHA1: 91a019305ff6f45142a58f9fc3884c4c1125930a
 SHA256: ad2d008448df3ebafe0eeaa2961a244a857ff77ce18c3cec38182a149e69de5a
 
+Package: com.yourepo.llyy.supervip-rootless
+Name: SuperVIP (RootHide)
+Author: lenglengyu
+Description: 超级影视助手，av无限看，直播破解收费。
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Maintainer: lenglengyu <lenglengyu@126.com>
+Section: Fugu15
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+Architecture: iphoneos-arm64e
+Version: 4.5.0
+Installed-Size: 7316
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.yourepo.llyy.supervip-rootless_4.5.0_iphoneos-arm64e.deb
+Size: 2575112
+MD5sum: 4c579f21586927fb0f1eb42ec8338aad
+SHA1: 3e59d924497c21c568b7028056f5c5d2b437e429
+SHA256: 2bbc0439fad1ea7e436571d761f3d33569d78776837449026c5e2fa21f75e5ab
+
 Package: com.zuner.lunanoad
 Name: LunaNoAd (RootHide)
 Depends: mobilesubstrate
