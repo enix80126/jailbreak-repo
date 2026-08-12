@@ -1553,6 +1553,21 @@ MD5sum: 908850c183560db663bc20fc72dd3baf
 SHA1: b2fec1d8fd123afb71604c7e39171a1678b46d8d
 SHA256: ecb21f00f6c012e766cd6433cefc14099cb68e8e988023070a14512557ab7101
 
+Package: zone.uni9k.umount
+Name: UMount (RootHide)
+Description: Native SwiftUI system-directory bind-mount manager for Relaxin / RootHide, with kernel-ucred fallback, diagnostics, RootHide safe-mode gating, and bootloop protection.
+Maintainer: uni9k
+Author: uni9k
+Section: Utilities
+Architecture: iphoneos-arm64e
+Version: 1.1.9
+Installed-Size: 2800
+Filename: https://enix80126.github.io/jailbreak-repo/debs/zone.uni9k.umount_1.1.9_iphoneos-arm64e.deb
+Size: 1475572
+MD5sum: 12ccd9ea59cb38f730bfdda97b17560f
+SHA1: 03e21268a59c84562f72134bdfd935b351f9c226
+SHA256: 9045983e75c632319033bc0f1710db910aeb715136729e253077f0e0bbcfb31c
+
 Package: com.wkk.dzdphook
 Section: 去广告
 Installed-Size: 400
