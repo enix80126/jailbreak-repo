@@ -1186,6 +1186,25 @@ SHA1: 491599f61a223d2c87e9ff2d08fec7203b4a18c0
 SHA256: 0f50a7b7e8dbd4252c47889887d430ecc43b53bb7ef7b2e29a1b0cffe0da6f0a
 
 Package: com.huami.dyyy
+Name: DYYY抖音增强 (RootHide)
+Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
+Homepage: https://github.com/huami1314/DYYY
+Section: 抖音插件
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: huami
+Author: huami
+Icon: https://Mieing.Github.io/repo/file/TikTok.png
+Architecture: iphoneos-arm64e
+Version: 2.3-0-19
+Installed-Size: 3208
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.huami.dyyy_2.3-0-19_iphoneos-arm64e.deb
+Size: 707004
+MD5sum: d0dec99de1301933bd0cfad77f2442c6
+SHA1: a7ed3d2b38ef735a3506be9ff1471bc68f3c1f37
+SHA256: b7e93114e9e79c5ff08cc4d2498d361ce7f9db5ce1a350af7ed3fdc79e5c52d6
+
+Package: com.huami.dyyy
 Name: DYYY (RootHide)
 Description: 仅供学习交流，请在 24 小时内自觉删除。
 Homepage: https://github.com/huami1314/DYYY
