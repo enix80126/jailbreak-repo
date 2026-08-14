@@ -1287,6 +1287,24 @@ MD5sum: 21acd98f798c294fff5ca27c7d419770
 SHA1: ca7525b8fb061ba01deceaaee9bf6e8acecb5fde
 SHA256: e129f5f15bdb27b3166521857751cb308a2eef86cb6bedaa02793f231f046ab3
 
+Package: com.m4fn3.mikkyy
+Name: Mikkyy (RootHide)
+Description: Modern, lightweight theme engine for iOS 16 through 26. Applies icon themes to the Home Screen, Dock, App Switcher, Share Sheet, Settings, folder previews, and live Calendar and Clock icons.
+Maintainer: m4fn3
+Author: m4fn3
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
+SileoDepiction: https://m4fn3.github.io/repo/web/depictions/Mikkyy.json
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 1796
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.m4fn3.mikkyy_1.0.2_iphoneos-arm64e.deb
+Size: 429752
+MD5sum: 978e2219b749d7869ee6880c26165ce9
+SHA1: ba633e6525598ff239b5b8b19f6e114f81897c49
+SHA256: a43fa5e48097b2d9123edf91672c451f561705d33bf5273967d9618ff6895ef0
+
 Package: com.opa334.libundirect
 Name: libundirect (RootHide)
 Description: Patchfinder and rebinder for objc_direct methods
