@@ -1496,6 +1496,23 @@ MD5sum: 4c872c594d6d1fdd9c2d53a489808012
 SHA1: 51f5f812e2474b33fb8758b33ce9faced3d9776e
 SHA256: 963be6b909f48fa45ef717780c152e5f765ed3225ecbe3175ab469c10025f616
 
+Package: com.wkk.keyboardx
+Name: KeyboardX (RootHide)
+Description: 键盘调整。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0-6
+Installed-Size: 500
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.keyboardx_1.0-6_iphoneos-arm64e.deb
+Size: 62204
+MD5sum: d648ff9df5820a1fef5d2c32890f255e
+SHA1: b7c1cf959e3306ef5a0ec00c56a57ec3a1e07971
+SHA256: 03ed401ae51f042ae8278eeb57cfda9fd95fac20ede4dd63b6fe5c103d9581ef
+
 Package: com.wkk.systembox
 Name: SystemX (RootHide)
 Description: cool
