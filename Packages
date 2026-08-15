@@ -1394,6 +1394,26 @@ Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
 Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
 Architecture: iphoneos-arm64e
+Version: 3.1.4K
+Installed-Size: 3516
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.lenglengyu.vpnplus-rootless_3.1.4K_iphoneos-arm64e.deb
+Size: 1131950
+MD5sum: 6b3cec315433328b5549642e408e7b37
+SHA1: 6c607b9e5649239ef072deb95b09bd0e9aacc1e3
+SHA256: 64b70f55685188cbfd577f1763fb30f0f9679628c0f9dff3f5914e8163c1e8c6
+
+Package: com.lenglengyu.vpnplus-rootless
+Name: VPN Plus-Rootless【VPN助手】 (RootHide)
+Author: lenglengyu
+Description: 各种梯子破解工具，仅供会员使用。
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0)
+Conflicts: com.lenglengyu.bananahook, com.lenglengyu.sofastvpnhook, com.lenglengyu.zsjsqpro, com.lenglengyu.telescopevpn, com.lenglengyu.wepnhook, com.lenglengyu.letsvpnpro, com.lenglengyu.sealprohook, com.lenglengyu.ltzvpnpro, com.lenglengyu.deepvpn, com.lenglengyu.firstvpn, com.lenglengyu.quickrunvpn, com.lenglengyu.planevpn, com.lenglengyu.basevpn, com.lenglengyu.kuaimvpn
+Maintainer: lenglengyu <lenglengyu@126.com>
+Section: Fugu15
+Icon: file:///Library/PreferenceBundles/vpnplus.bundle/icon@2x.png
+Depiction: https://repo.lenglengyu.top/packageInfo/vpnplus.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/vpnplussileo
+Architecture: iphoneos-arm64e
 Version: 3.1.4
 Installed-Size: 3496
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.lenglengyu.vpnplus-rootless_3.1.4_iphoneos-arm64e.deb
