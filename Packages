@@ -1302,6 +1302,30 @@ MD5sum: 401e2431a563d4dda9cf4052ac54a9ee
 SHA1: 6cecf193bbbcfcae913092a9b526acc9a4d677c5
 SHA256: 59d8817e597d1dce9af8b7f5791ca728d7274a2a0827e90fa4707d814e208294
 
+Package: com.huami.dyyy.vita
+Name: 抖音 DYYY (RootHide)
+Description: 基于 DYYY 的抖音插件
+ * 用于调整抖音 UI 的插件
+ * 最后在抖音 39.9.0 版本进行测试
+ * 仅供学习交流，禁止用于商业用途
+ * 插件位于抖音设置内
+Section: 抖音插件
+Depends: firmware (>= 5.0), mobilesubstrate
+Priority: optional
+Maintainer: vita
+Author: huami & vita & VexCove
+Architecture: iphoneos-arm64e
+Version: 2.3-0-build23
+Installed-Size: 2184
+Icon: https://TrollStoreX.Github.io/sileodepiction/DYYYVita/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/DYYYVita/js.json
+Conflicts: com.huami.dyyy, com.huami.dyyys
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.huami.dyyy.vita_2.3-0-build23_iphoneos-arm64e.deb
+Size: 739280
+MD5sum: aa9d64b1f19196dff1ac1cd6c62048f3
+SHA1: 61db8bc603f6d08addfdaf44f63d94f044d5be7c
+SHA256: 9c6ede886781c946aa15b1e322ef593031a6ab8b6e96913af758ce712d092263
+
 Package: com.huami.dyyy
 Name: DYYY抖音增强 (RootHide)
 Description: 基于DYYY定制，显示视频进度条时长、发布时间归属地、自动播放下一条、屏蔽广告、去除青少年弹窗、隐藏界面元素、隐藏全屏观看、设置全局透明、长按视频无水印保存视频图片音乐等。插件手势激活：双指长按打开插件设置或在抖音设置界面打开。如果没有找到相应插件设置入口，请更新抖音V33.4.0及以上版本。
@@ -1377,6 +1401,25 @@ Size: 1130806
 MD5sum: 21acd98f798c294fff5ca27c7d419770
 SHA1: ca7525b8fb061ba01deceaaee9bf6e8acecb5fde
 SHA256: e129f5f15bdb27b3166521857751cb308a2eef86cb6bedaa02793f231f046ab3
+
+Package: com.liuermei.snapper3doubao
+Name: Snapper3 → AI（豆包/DeepSeek/Gemini/GPT） (RootHide)
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Description: Snapper 3 插件：截图复制到剪贴板并打开豆包/DeepSeek/Gemini/ChatGPT。已移除易导致安全模式的强制注入；请在输入框长按粘贴。
+Maintainer: 星辰
+Author: 星辰
+Section: Tweaks
+Homepage: https://chatgpt.com
+Architecture: iphoneos-arm64e
+Version: 1.2.1
+Installed-Size: 420
+Pre-Depends: rootless-compat(>= 0.9)
+icon: https://huayuarc.github.io/icon/snapper3doubao.jpg
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.liuermei.snapper3doubao_1.2.1_iphoneos-arm64e.deb
+Size: 66128
+MD5sum: 40f2a7e84a9a254f0020d25f7ee91612
+SHA1: 20c124fc928d1d6a43d3b60d0a50c23badd140f2
+SHA256: b6b1956252f4f6c9d3f2f73ec6d9a9c4251202c37acc793a0fc8f41bdcd39729
 
 Package: com.m4fn3.mikkyy
 Name: Mikkyy (RootHide)
