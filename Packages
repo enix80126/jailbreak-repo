@@ -943,6 +943,25 @@ Section: Utilities
 Icon: https://apt.002599.xyz/web/icon/cn.zqbb.cocoatop64.relaxin.png
 SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.cocoatop64.relaxin
 Architecture: iphoneos-arm64e
+Version: 2.3.3-2
+Installed-Size: 888
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.cocoatop64.relaxin_2.3.3-2_iphoneos-arm64e.deb
+Size: 233292
+MD5sum: feb96da7f2cee51159ff75df4904a9cd
+SHA1: 8ccc12c207f681ce9ea99afa93bc97d11fffcd9f
+SHA256: 92c2fe8ff740e89b2c4c7e55fb219b817b5e5c58dfb227685d7c9f1169cde045
+
+Package: cn.zqbb.cocoatop64.relaxin
+Name: CocoaTop64 Relaxin (RootHide)
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
+Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
+Maintainer: SXX, Domo
+Author: Domo, SXX
+Section: Utilities
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.cocoatop64.relaxin.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.cocoatop64.relaxin
+Architecture: iphoneos-arm64e
 Version: 2.3.3
 Installed-Size: 840
 Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.cocoatop64.relaxin_2.3.3_iphoneos-arm64e.deb
