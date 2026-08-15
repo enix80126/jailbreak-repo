@@ -1396,6 +1396,27 @@ MD5sum: 978e2219b749d7869ee6880c26165ce9
 SHA1: ba633e6525598ff239b5b8b19f6e114f81897c49
 SHA256: a43fa5e48097b2d9123edf91672c451f561705d33bf5273967d9618ff6895ef0
 
+Package: com.moxuan.fontchanges
+Name: FontChange 字体挂载管理 (RootHide)
+Description: 字体挂载，支持 Rootless/RootHide
+ * 管理受支持的 iOS 15+ 越狱环境中的自定义系统字体和锁屏字体，刷新语言缓存、恢复系统字体，并重启用户空间。
+ * Manages custom system and lock-screen fonts on supported iOS 15+ jailbreak environments, refreshes language caches, restores system fonts, and reboots userspace.
+Maintainer: moxuan1121
+Author: moxuan1121
+Section: 挂载
+Depends: firmware (>= 15.0), unzip
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Installed-Size: 2016
+Icon: https://TrollStoreX.Github.io/sileodepiction/FontChange/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/FontChange/js.json
+Conflicts: com.moxuan.fontchange
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.moxuan.fontchanges_1.1.1_iphoneos-arm64e.deb
+Size: 1643652
+MD5sum: 51bf52ca4d7dd2d111ce48a8b8ad2ad4
+SHA1: 9af643482996f9f8016e4176f5a3af4d6194c99a
+SHA256: c3427ea475acbfce10a43f6bbe79a12e850657015a911a7564e4b08f587b7dec
+
 Package: com.opa334.crane
 Name: Crane (RootHide)
 Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>=1.0.5), com.opa334.libsandy (>=1.1.6), com.opa334.libundirect (>=1.1.4) | firmware (<<14.0)
