@@ -1955,6 +1955,21 @@ Name: UMount (RootHide)
 Description: Native SwiftUI system-directory bind-mount manager for Relaxin / RootHide, with kernel-ucred fallback, diagnostics, RootHide safe-mode gating, and bootloop protection.
 Maintainer: uni9k
 Author: uni9k
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1.33
+Installed-Size: 3408
+Filename: https://enix80126.github.io/jailbreak-repo/debs/zone.uni9k.umount_1.1.33_iphoneos-arm64e.deb
+Size: 1514040
+MD5sum: 3fb7ebf9a899dc02a56a8f5b99061e37
+SHA1: 09796101232152472c0eaedaf166832c7ddfd142
+SHA256: f77f8fdf3f1fed4f4a301da0b40e1c98406ab679292ab6a151d574f622a55304
+
+Package: zone.uni9k.umount
+Name: UMount (RootHide)
+Description: Native SwiftUI system-directory bind-mount manager for Relaxin / RootHide, with kernel-ucred fallback, diagnostics, RootHide safe-mode gating, and bootloop protection.
+Maintainer: uni9k
+Author: uni9k
 Section: Utilities
 Architecture: iphoneos-arm64e
 Version: 1.1.9
