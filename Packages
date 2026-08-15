@@ -1019,6 +1019,22 @@ MD5sum: 68fb229da9c44a1f2c361872f13a14a7
 SHA1: 4466c6e8ef9f764e9484159d9ecb10a211152f3c
 SHA256: dd6f4994a499c619220cf53e0e30ee948bcce3b3838a9b7159bf76e637cef77e
 
+Package: com.charlieleung.liquidify
+Name: Liquidify (RootHide)
+Description: 为 iOS 界面注入液态玻璃质感。
+Maintainer: Charlie Leung
+Author: Charlie Leung
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.3.7
+Installed-Size: 39420
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.charlieleung.liquidify_1.3.7_iphoneos-arm64e.deb
+Size: 10303476
+MD5sum: 838f9370ea93d3f598d14862dbb40ad4
+SHA1: 0fc1376b9a55d425404bf88f261927ecf48b477f
+SHA256: ed1fcbc4119c6f846e6e2b11650041649b59890a77097541522bc613fd793c0d
+
 Architecture: iphoneos-arm64e
 Package: com.dao.apptools15
 Name: AppTools15-17 (RootHide)
