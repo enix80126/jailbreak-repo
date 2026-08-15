@@ -1168,6 +1168,25 @@ Author: FoxfortMobile
 Section: Development
 Tag: role::developer
 Architecture: iphoneos-arm64e
+Version: 1.4.10
+Installed-Size: 1304
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.foxfort.libfoxfortutils_1.4.10_iphoneos-arm64e.deb
+Size: 445794
+MD5sum: 7e0ff7ddef56d86fc25ca0ff76df6e9d
+SHA1: b01bd16406892c92f7ecee6536317e40e3279459
+SHA256: 1552b952cd31a04de5a2633058b95fb1c4f0cf350c4dd241dc71708a88042425
+
+Package: com.foxfort.libfoxfortutils
+Name: libfoxfortutils (RootHide)
+Depends: firmware (>= 11.0), com.opa334.libsandy
+Conflicts: co.xrepo.appletweakjailbreak.libfoxfortutils, co.xrepo.appletweakjailbreak.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64, org.cydia.kiimo.libfoxfortutils64e, com.hackyouriphone.libfoxfortutils64, com.hackyouriphone.libfoxfortutils64e, com.yourepo.mohadu31.libfoxfortutils64, me.pulandres.libfoxfortutils64, me.pulandres.libfoxfortutils64e, net.kenhtao.libfoxfortutils64, sileoturkiye.libfoxfortutils64, sileoturkiye.libfoxfortutils64e, com.badr.libfoxfortutils, com.hackyouriphone.mgspoof, org.mr.mgspoof, com.34306.libfoxfortutils, r-o-o-t-l-e-s-s-
+Description: library for Foxfort tweaks
+Maintainer: FoxfortMobile
+Author: FoxfortMobile
+Section: Development
+Tag: role::developer
+Architecture: iphoneos-arm64e
 Version: 1.4.9
 Installed-Size: 1304
 Pre-Depends: rootless-compat(>= 0.9)
@@ -1195,6 +1214,25 @@ Size: 3806214
 MD5sum: b44c6ea716e8f6c15ecc757cf4f6efd5
 SHA1: f0e741edf74fbdcbe88f0b01af3f299c6f89ac29
 SHA256: 9da91632d65ab3af8b2da4568a45ed86ca9360d2c2069b5a63b43f484cdac5a8
+
+Package: com.foxfort.translomatic
+Name: Translomatic (RootHide)
+Depends: mobilesubstrate, preferenceloader, com.foxfort.foxforttools (>= 1.4.16), com.opa334.altlist
+Conflicts: me.pulandres.translomatic, me.pulandres.translomatice, co.xrepo.appletweakjailbreak.translomatic, net.kenhtao.translomatic, sileoturkiye.translomatic, sileoturkiye.translomatic12, com.yourepo.mohadu31.translomatic, com.yourepo.mohadu31.translomatice, org.cydia.kiimo.translomatic, com.hackyouriphone.translomatic, com.hackyouriphone.translomatice, co.hurouftech.translomatic, me.sa3odka.translomatic, com.cydiabc.translomaticzh, x7mii.vip.translomatic, com.bo7ios.translomatic, ru.rj.translomatichack, com.hk.translomatic.cn.rl, r-o-o-t-l-e-s-s-
+Description: Quickly translate any text
+Maintainer: FoxfortMobile
+Author: FoxfortMobile
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/translomaticsettings.bundle/icon@3x.png
+Architecture: iphoneos-arm64e
+Version: 2.18.39
+Installed-Size: 5256
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.foxfort.translomatic_2.18.39_iphoneos-arm64e.deb
+Size: 4048200
+MD5sum: 0fccf8eeefd6b7e7222f62bf919daaec
+SHA1: f5fcb664c3245cc65021e9485012a7c7b03a011c
+SHA256: df414ea75ba10480cd386c42855352ae60c4fd45fef7f178755a6932b49c7377
 
 Package: com.hang.squidgesturepro-ios17fix
 Name: 乌贼手势 iOS 17 补丁 (RootHide)
