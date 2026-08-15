@@ -895,6 +895,24 @@ MD5sum: 713a8479246f0f691e133ea2cb0dbb82
 SHA1: 8908addedef5e4cd20cf8e27f4821cc6dd29fb36
 SHA256: b90eea39b3b5285a9ce50116b0cfd7797f42fe62d6c22d167338029f13dce3d3
 
+Package: cn.octoforce.squidgesturepro
+Name: SquidGesturePro(激活码) (RootHide)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Maintainer: SquidForce, Backup
+Author: SquidForce, Backup
+Section: Tweaks
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Installed-Size: 6668
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64e.deb
+Size: 1787120
+MD5sum: b7ccedbdc6fe235dbb22d130cb0babbc
+SHA1: 11f57cd0f8f0ac2f890c53bfa9d4602f14e8d885
+SHA256: 240362fc1846f697025122e4788d04bbd1920b8f5102bcfc5642a9a14b62837a
+
 Package: cn.zqbb.cocoatop64.relaxin
 Name: CocoaTop64 Relaxin (RootHide)
 Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
