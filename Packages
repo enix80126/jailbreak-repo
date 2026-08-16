@@ -1153,10 +1153,10 @@ Architecture: iphoneos-arm64e
 Version: 3.3
 Installed-Size: 3844
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.classicfolders3_3.3_iphoneos-arm64e.deb
-Size: 2875118
-MD5sum: a44fd80958378f5e14e9d9462a40c6c7
-SHA1: b4a5b3b75b06c3ea166cad329d926bb0fc8f2f53
-SHA256: 4721a11d35148423900f38b95eeaee265b3bad6c89cc2117166b5c2d1721052d
+Size: 2875440
+MD5sum: 01ffbcd6109094714a121ca3fb65d688
+SHA1: be3209255f603fe6c436ff27c2d74cd82cdb061a
+SHA256: 4a479bcdfa9731c397d4d3740c5ba50c8fef1457868f70365e24f24b398583b1
 
 Package: com.dao.neofreebird.bht
 Name: NFX 中文版 (RootHide)
