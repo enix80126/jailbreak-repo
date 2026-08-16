@@ -1338,6 +1338,22 @@ MD5sum: 3ef0db9c0d28bb4a7a5403410ee50acf
 SHA1: 8a1c749d55ec3af3ed9299dcb508f8f2743472c3
 SHA256: a8726eabfd1a5428059fd5b28b6ac454a1700c129e1f1398c07d15c862ff4670
 
+Package: com.hang.squidgesturepro-ios17fix
+Name: 乌贼手势 iOS 17 补丁 (RootHide)
+Description: 修复 SquidGesturePro 在 iOS 17 状态栏不生效与启动快捷指令时导致的安全模式。
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
+Architecture: iphoneos-arm64e
+Version: 1.2
+Installed-Size: 92
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.hang.squidgesturepro-ios17fix_1.2_iphoneos-arm64e.deb
+Size: 12462
+MD5sum: 49e62cec08d16c9309de4ea7499bc61e
+SHA1: da77a8e7ee3f7a56180d2b03bfb93a537f3c2b2e
+SHA256: 508c3ea0cdc4a5e5ebaf120f15026cf3893af87fdf63c4de0961792213035c9f
+
 Package: com.hmmzzz.fontmanager
 Name: MarkFont (RootHide)
 Description: iOS 16+ 全局字体管理器，支持 conventional rootless 与 RootHide。
