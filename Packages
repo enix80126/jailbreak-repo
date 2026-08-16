@@ -1820,6 +1820,23 @@ MD5sum: bb50c13bee25b623453e1486d9bb0cac
 SHA1: da5a726f675b048d3cf93db84a1787ffbf4f5c84
 SHA256: b7638a3b7aaf1621dc0f7ee2855dac094ceb75e06a1fb20f82fad609d16d2b5f
 
+Package: com.wkk.systembox
+Name: SystemX (RootHide)
+Description: cool
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.3-5
+Installed-Size: 1228
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.systembox_1.3-5_iphoneos-arm64e.deb
+Size: 244668
+MD5sum: aa3d5acb01ec77754ec46cb9061e62d7
+SHA1: e42d7ff3bd492863bdf828beaee4ff7c2ec86a08
+SHA256: 8250e7db72cb8eb9299df70240f1cf64125a07b2a50290067a3a521e87d46dbd
+
 Package: com.xx.gaodehook
 Name: 高德地图优化 (RootHide)
 Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
