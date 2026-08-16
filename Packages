@@ -1140,6 +1140,24 @@ MD5sum: 1fbcd0c4792df74798f5a5220f6a153b
 SHA1: 3a88110b425c9e82f2b79d85afd7d6722a9d0259
 SHA256: 7ad223591ec738fff88ac68b216a3489d48a9992d8ccdee394b0666e3c460f61
 
+Package: com.dao.classicfolders3
+Name: ClassicFolders 3 (RootHide)
+Depends: mobilesubstrate, preferenceloader
+Description: CoolStar的经典文件夹3，基于开源定制。
+Maintainer: sini921 & daodao
+Author: Lizynz & sini921
+Section: 嗨-工具
+Conflicts: org.coolstar.classicfolders2, org.coolstar.classicfolders3, com.hk.classicfolders3.cn.rl, com.hk.classicfolders3.cn, com.ikilledappl3.autofolderclose-rootless
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/cf3/js.json
+Architecture: iphoneos-arm64e
+Version: 3.3
+Installed-Size: 3844
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.classicfolders3_3.3_iphoneos-arm64e.deb
+Size: 2875118
+MD5sum: a44fd80958378f5e14e9d9462a40c6c7
+SHA1: b4a5b3b75b06c3ea166cad329d926bb0fc8f2f53
+SHA256: 4721a11d35148423900f38b95eeaee265b3bad6c89cc2117166b5c2d1721052d
+
 Package: com.dao.neofreebird.bht
 Name: NFX 中文版 (RootHide)
 Description: 推特多功能插件，NeoFreeBird版的BHTwitter，比常规BHTwitter功能多一点，设置通用，中文优化版，插件选项位于推特设置顶部。
