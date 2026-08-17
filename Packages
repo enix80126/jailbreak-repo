@@ -1769,6 +1769,23 @@ MD5sum: 9891789692c710e0cdedd22e49dd4774
 SHA1: b6fd5f6340c569695051d9259ef4331deec64c76
 SHA256: 77f945bda8676707d9cdae38fda0b90cc8022a19b6f4827c22342fab6702825a
 
+Package: com.wkk.controlcenterpercent
+Name: 控制中心百分比 iOS17 (RootHide)
+Description: 控制中心亮度和音量滑块显示百分比，仅支持  iOS17 relaxin 越狱。
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
+Installed-Size: 168
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.controlcenterpercent_1.0-2_iphoneos-arm64e.deb
+Size: 5888
+MD5sum: 66dea02d9dd84f8a765b3217dae99e94
+SHA1: 573dbabeb1121ff2ce8d93385533f0147e46beae
+SHA256: 6738bef2064087abb61bb4867075b7b4dd6851e6286f0ef8f073a8a54917dc4c
+
 Package: com.wkk.keyboardx
 Name: KeyboardX (RootHide)
 Description: 键盘调整。
