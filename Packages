@@ -1041,6 +1041,24 @@ MD5sum: b75c116e907f4a82c204e5528a759fb1
 SHA1: 0d4aea4986f9c9250a08918a00da1ecd7e87a1b9
 SHA256: 8da1866839216c87a62b64e0547f97cc73f8016586570bf4295114172c51b8c7
 
+Package: cn.zqbb.inject.manager
+Name: RootHide Inject Manager (RootHide)
+Depends: firmware (>= 15.0)
+Description: Configuare RootHide's Features
+Maintainer: zqbb
+Author: zqbb, roothide
+Section: System
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.inject.manager
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.inject.manager
+Architecture: iphoneos-arm64e
+Version: 3.2.0-1
+Installed-Size: 704
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.inject.manager_3.2.0-1_iphoneos-arm64e.deb
+Size: 342786
+MD5sum: 01dbfcf8c4759370c25ab493cfb9fea8
+SHA1: 3c537f75dee3e7832c33f7e7152cad3dc0bbb68b
+SHA256: 8206fa8208baefb83816db9e82e40f958f21b69fb89fbb22cd641b075eeddb6f
+
 Package: cn.zqbb.stopautolaunchapps
 Description: 别在后台热加载app咯! 
  - 优点:节约内存,少杀后台. 
