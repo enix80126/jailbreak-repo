@@ -1041,6 +1041,25 @@ MD5sum: b75c116e907f4a82c204e5528a759fb1
 SHA1: 0d4aea4986f9c9250a08918a00da1ecd7e87a1b9
 SHA256: 8da1866839216c87a62b64e0547f97cc73f8016586570bf4295114172c51b8c7
 
+Package: cn.zqbb.stopautolaunchapps
+Description: 别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台. 
+Maintainer: zqbb
+Author: zqbb
+Name: Hello 3Q (RootHide)
+Conflicts: zp.stopautolaunchapps
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Section: zqbb Tweaks
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64e
+Version: 2.1
+Installed-Size: 892
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.stopautolaunchapps_2.1_iphoneos-arm64e.deb
+Size: 189952
+MD5sum: c550ce8bf6374a9a59339d1a194d452e
+SHA1: bda0e32662fe22a1b177c78bcc0608c9cc1e7f62
+SHA256: 4eb87b6725cffa49f611149e063f3675476f4adf4251889df1a0ab34400c25ea
+
 Package: com.25mao.leftpan
 Name: 左滑返回 (RootHide)
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>=1.0.4)
@@ -2115,6 +2134,24 @@ Size: 3099946
 MD5sum: 2b28e4c8df9c0497afea56ea8fa492b8
 SHA1: 178ff5149a46e3234e6fa7fa9d8de776933fa68f
 SHA256: c21dd6929a11aedc7574a119b8ff66c9eb3ec823422fdf573f55256fc2906ca2
+
+Package: com.xybp888.callassist17.roothide
+Version: 1.6.0
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Name: 电话助手iOS17-正式版 (RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/716
+SileoDepiction: https://apt.htv123.com/sileo/716
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.xybp888.callassist17.roothide_1.6.0_iphoneos-arm64e.deb
+Size: 3112868
+MD5sum: bf6c71c5282e7f4561ab2fe567efd164
+SHA1: 25ccd8426c177a51608b698fbba78509c552b48f
+SHA256: bf151680b3ef68a190d82d6bd827ef3b40cf8408678566a5da7d3014c1247575
 
 Package: com.yourepo.llyy.supervip-rootless
 Name: SuperVIP (RootHide)
