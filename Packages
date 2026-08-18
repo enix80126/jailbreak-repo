@@ -1562,6 +1562,26 @@ Maintainer: 超级小白
 Author: iOS Creatix & 超级小白
 Section: Tweaks
 Architecture: iphoneos-arm64e
+Version: 1.4-1
+Installed-Size: 388
+Icon: https://TrollStoreX.Github.io/sileodepiction/SugarCane/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/SugarCane/js.json
+Conflicts: com.ioscreatix.sugarcane
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.ioscreatix.sugarcanes_1.4-1_iphoneos-arm64e.deb
+Size: 28008
+MD5sum: 3c69ec05baaac71cb8be0287c915f803
+SHA1: fb1242a19e736e54d44b7e61788f320559abae9e
+SHA256: b130a7cfc5fed9b7b03a47e5c4ba5ec4bc550e2f6278fd40e0c4897c0c5f1246
+
+Package: com.ioscreatix.sugarcanes
+Name: SugarCane 亮度百分比 (RootHide)
+Depends: mobilesubstrate, preferenceloader
+Description: 控制中心亮度及音量模块显示百分比
+ * Percentage indicator for Control Center sliders with preferences on iOS 15-17
+Maintainer: 超级小白
+Author: iOS Creatix & 超级小白
+Section: Tweaks
+Architecture: iphoneos-arm64e
 Version: 1.4
 Installed-Size: 388
 Icon: https://TrollStoreX.Github.io/sileodepiction/SugarCane/icon.png
@@ -1831,6 +1851,27 @@ Size: 226974
 MD5sum: 13606fdd6aaa3f7f92d35a4d9bb9d762
 SHA1: 8b2526fedc879f5a3a96711b89860ebabddbb458
 SHA256: dc3d920e7bc040b3ddf5bf294dc809f744dbdd353df4524a4cd1fa98a20e0887
+
+Package: com.susudear.stayshot
+Name: StayShot (RootHide)
+Icon: https://repo.susubaby.cn/icons/StayShot.png
+SileoDepiction: https://repo.susubaby.cn/json/stayshot.json
+Description: StayShot 独立的 iOS 截图工具，支持普通模式、冻结模式、区域截图、截图历史和屏幕浮窗。
+Maintainer: SuSuDear
+Author: SuSuDear
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3
+Replaces: com.jontelang.snapper3
+Provides: com.jontelang.snapper3 (= 1.2.1)
+Architecture: iphoneos-arm64e
+Version: 0.5.3
+Installed-Size: 2340
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.susudear.stayshot_0.5.3_iphoneos-arm64e.deb
+Size: 228710
+MD5sum: 7cd9cbf0448fda4ca3c7c57da8e7aae4
+SHA1: b67bd309ca327fd144bb3824a23a7775cd5bdc09
+SHA256: dc35e1ebf87668fc0288e38bc3d687d09785fd1193e047d849585781cdfa389a
 
 Package: com.susudear.susuocr
 Name: SuSuOCR (RootHide)
@@ -2114,6 +2155,26 @@ Size: 2571498
 MD5sum: a1a4705699e7f73a81d035e0e46e9a28
 SHA1: 815c58961e2ee84fec69db2ab4e53f212883601e
 SHA256: e4f9de7d16fee9844d83e11100a9467dd3e1f985e66e028a785d751f8022eb74
+
+Package: com.yourepo.llyy.supervip-rootless
+Name: SuperVIP (RootHide)
+Author: lenglengyu
+Description: 超级影视助手，av无限看，直播破解收费。
+Depends: mobilesubstrate, preferenceloader, com.lenglengyu.libsupervipp-rootless(>= 3.0.0), firmware (>= 15.0)
+Conflicts: com.wxhbts.supervip, com.wxhbts.supervip1, com.wxhbts.supervip2, com.cydiavip.supervip, com.lenglengyu.zaolaotouwxk, com.lenglengyu.niuhspwxkhook, com.lenglengyu.xnspwxkhook, com.lenglengyu.cmzbpro, com.lenglengyu.miaizbpro, com.lenglengyu.wdsrjpro, com.lenglengyu.xrzbpro, com.lenglengyu.kuaihuosphook, com.lenglengyu.shenshipro
+Maintainer: lenglengyu <lenglengyu@126.com>
+Section: Fugu15
+Icon: file:///Library/PreferenceBundles/supervip.bundle/icon@2x.png
+Depiction: https://repo.lenglengyu.top/packageInfo/supervip.html
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/supervipsileo
+Architecture: iphoneos-arm64e
+Version: 4.5.2
+Installed-Size: 7336
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.yourepo.llyy.supervip-rootless_4.5.2_iphoneos-arm64e.deb
+Size: 2573962
+MD5sum: 16817fc8a1855a9f470e9689830096ae
+SHA1: 00aafd3320433336b13a958f25471ab8568c5e59
+SHA256: 9004d9c2c2360f0230cdfe5b7c42829a774eab6998b1247dbe1a927d4f075afe
 
 Package: com.zuner.lunanoad
 Name: LunaNoAd (RootHide)
