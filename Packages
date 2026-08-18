@@ -1726,6 +1726,23 @@ MD5sum: 978e2219b749d7869ee6880c26165ce9
 SHA1: ba633e6525598ff239b5b8b19f6e114f81897c49
 SHA256: a43fa5e48097b2d9123edf91672c451f561705d33bf5273967d9618ff6895ef0
 
+Package: com.m4fn3.myrtle
+Name: Myrtle (RootHide)
+Description: Ultimate control over your device through multitasking. 
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: https://m4fn3.github.io/repo/web/images/Myrtle.png
+Architecture: iphoneos-arm64e
+Version: 1.5.0
+Installed-Size: 15476
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.m4fn3.myrtle_1.5.0_iphoneos-arm64e.deb
+Size: 4676402
+MD5sum: 2f45d36175dd058ca9595bf17f15ee13
+SHA1: 7fe38923aad0418b6292b57b192349f504463166
+SHA256: c0268c646d600530209147a892273b4ac11e71f8e4c595865dc7b35a106921aa
+
 Package: com.moxuan.fontchanges
 Name: FontChange 字体挂载管理 (RootHide)
 Description: 字体挂载，支持 Rootless/RootHide
