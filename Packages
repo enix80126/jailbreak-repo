@@ -2301,6 +2301,23 @@ MD5sum: 248481c013972e296244d724a1fdb9b8
 SHA1: 6e8c5a4344b7289e91cb4194194b3c2e7003e582
 SHA256: ce0bf5f72dec189ed34cc134c2bbcc945350a5e2778c85a9a229ca64492ca310
 
+Package: jp.uzra.aerial
+Name: Aerial (RootHide)
+Description: Stage Manager, redesigned for iOS
+Maintainer: uz.ra
+Author: uz.ra
+Section: Tweaks
+Depends: mobilesubstrate, com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 5.0
+Installed-Size: 36732
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://enix80126.github.io/jailbreak-repo/debs/jp.uzra.aerial_5.0_iphoneos-arm64e.deb
+Size: 38145826
+MD5sum: 1dceffa01206231fe569739c12d6fc1a
+SHA1: 9073648ad796dd22931fe078d52fbea64b6e87fa
+SHA256: 822411f5ee7b4771044017e10cf92e873336f66aae2e13630333b7606c2a84f4
+
 Package: com.opa334.libsandy
 Section: System
 Installed-Size: 468
