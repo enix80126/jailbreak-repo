@@ -2153,6 +2153,24 @@ MD5sum: bf6c71c5282e7f4561ab2fe567efd164
 SHA1: 25ccd8426c177a51608b698fbba78509c552b48f
 SHA256: bf151680b3ef68a190d82d6bd827ef3b40cf8408678566a5da7d3014c1247575
 
+Package: com.xybp888.callassist17.roothide
+Version: 1.6.1
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Name: 电话助手iOS17-正式版 (RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/722
+SileoDepiction: https://apt.htv123.com/sileo/722
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.xybp888.callassist17.roothide_1.6.1_iphoneos-arm64e.deb
+Size: 3131610
+MD5sum: 599013d8d3ab8ef984d4f751f6d13a02
+SHA1: 05b6b3e40b8bd87d71d1cb297ca480df68e9fbd9
+SHA256: 20295a699fb2cdb472cb82f5ec6b7493c4b97e82aca6b38bca5cdd1cfb830e3c
+
 Package: com.yourepo.llyy.supervip-rootless
 Name: SuperVIP (RootHide)
 Author: lenglengyu
