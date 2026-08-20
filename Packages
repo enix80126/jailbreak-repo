@@ -1263,6 +1263,24 @@ MD5sum: 42b1fa90d5d6e2da34a7b8a92c0bada6
 SHA1: e6cfb2065d97b476bd7d5fb4e34d8f8a733cfc0e
 SHA256: 84291591bd6623c6d800ab9492769e12d2fa5ae462edba282b0dd947300a908d
 
+Package: com.daodao.goodwifi
+Name: GoodWiFi 中文版 (RootHide)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Description: 更好的 WiFi 配置，查看 WiFi 信道、加密方式和密码、信号值，去除 RSSI 限制，显示 MAC 地址等；简体中文优化版。
+Maintainer: daodao
+Author: julioverne & daodao
+Section: 嗨-工具
+Conflicts: com.julioverne.goodwifi, com.qms.goodwifi, com.hk.goodwifi, com.daodao.goodwifi16
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
+Architecture: iphoneos-arm64e
+Version: 1.7.1
+Installed-Size: 472
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.daodao.goodwifi_1.7.1_iphoneos-arm64e.deb
+Size: 80244
+MD5sum: 9cc3fd032c4a9ceaca339cf9d7439f5d
+SHA1: d4588ea9d3af5b5692ba5dafdc51326cf49d9afe
+SHA256: 546c791a3ece2454be37e5656c49080e13bbc52c0ad90537f7225bdcbac5c8b2
+
 Package: com.flex2areo.apptools15roothide
 Name: AppTools15-17 (RootHide)
 Depends: mobilesubstrate
