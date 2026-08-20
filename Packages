@@ -987,6 +987,23 @@ MD5sum: 2c3c878af3856a25939ab963d67c9d50
 SHA1: 14f9f8e3fd96e467f85272395067bcc1f230ffa2
 SHA256: 7007ffd8e7334944f7d67daf24d2a16b0a660d47baed1b66105bf101b39e2cb9
 
+Package: cn.zqbb.hello.diagnosticdata
+Name: Hello DiagnosticData (RootHide)
+Description: 清理分析数据!
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.diagnosticdata
+Architecture: iphoneos-arm64e
+Version: 1.3
+Installed-Size: 724
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.hello.diagnosticdata_1.3_iphoneos-arm64e.deb
+Size: 188948
+MD5sum: 452fe5c2f6b5ddd8cf436efd6132fa17
+SHA1: 984addb3a56d548fa09cff451ad5574186dd678d
+SHA256: 9114e269286aad97a87e25aa3eb5c3aadef8958b802aa396d1b68fb5c8f603fa
+
 Package: cn.zqbb.hello.memorystatus
 Description: Set memorystatus to avoid being killed by the system
 Maintainer: zqbb
@@ -1193,6 +1210,23 @@ Size: 165468
 MD5sum: 1fbcd0c4792df74798f5a5220f6a153b
 SHA1: 3a88110b425c9e82f2b79d85afd7d6722a9d0259
 SHA256: 7ad223591ec738fff88ac68b216a3489d48a9992d8ccdee394b0666e3c460f61
+
+Package: com.dao.choicy
+Name: Choicy (RootHide)
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
+Maintainer: opa334 <opa334@protonmail.com>
+Author: opa334 <opa334@protonmail.com>
+Section: 嗨-系统
+Conflicts: com.opa334.choicy
+Architecture: iphoneos-arm64e
+Version: 1.5.4-2
+Installed-Size: 1104
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.choicy_1.5.4-2_iphoneos-arm64e.deb
+Size: 163188
+MD5sum: eb4ae78999b62c4b0b4eb2aa84143e28
+SHA1: 0ef3c8e57a1a7b5e761f0169a961a7257f856dce
+SHA256: 965ef9ea6c525746d4f1c49c9894c063e53d6bdbfe23762595a9e5c9b1b16180
 
 Package: com.dao.classicfolders3
 Name: ClassicFolders 3 (RootHide)
@@ -1423,6 +1457,24 @@ Size: 12462
 MD5sum: 49e62cec08d16c9309de4ea7499bc61e
 SHA1: da77a8e7ee3f7a56180d2b03bfb93a537f3c2b2e
 SHA256: 508c3ea0cdc4a5e5ebaf120f15026cf3893af87fdf63c4de0961792213035c9f
+
+Package: com.hang.squidgesturepro-ios17fix
+Name: 乌贼手势 iOS 17 补丁 (RootHide)
+Description: 修复SquidGesturePro在iOS17状态栏不生效与启动快捷指令时导致的安全模式。
+ 不生效就把手势内总开关跟小开关重新开启一下，有问题请卸载。
+Maintainer: 航
+Author: 航
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
+Conflicts: com.codex.squidgesture17fix
+Architecture: iphoneos-arm64e
+Version: 2.3
+Installed-Size: 92
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.hang.squidgesturepro-ios17fix_2.3_iphoneos-arm64e.deb
+Size: 14942
+MD5sum: 3c941e0431c92d96b9efee635715cc84
+SHA1: 1ec83df36751496447dab25cdafc7719d9db30d6
+SHA256: ecb5cb35b8fa79f0cc957c68208d8239fdca79143b227e275589cc62594d99cd
 
 Package: com.hmmzzz.fontmanager
 Name: MarkFont (RootHide)
@@ -2205,6 +2257,24 @@ Size: 3131610
 MD5sum: 599013d8d3ab8ef984d4f751f6d13a02
 SHA1: 05b6b3e40b8bd87d71d1cb297ca480df68e9fbd9
 SHA256: 20295a699fb2cdb472cb82f5ec6b7493c4b97e82aca6b38bca5cdd1cfb830e3c
+
+Package: com.xybp888.callassist17.roothide
+Version: 1.6.4
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Name: 电话助手iOS17-正式版 (RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/735
+SileoDepiction: https://apt.htv123.com/sileo/735
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.xybp888.callassist17.roothide_1.6.4_iphoneos-arm64e.deb
+Size: 3113430
+MD5sum: c0249a4e1dbd5fc96192870d21b4c7e1
+SHA1: 926c787d7b97b1182be5a32e9122009e3d7a593a
+SHA256: 7fea20fd86fff2762a46a9fecc0fa0f32e3ec4b8b08db6172f072c3ee7445875
 
 Package: com.yourepo.llyy.supervip-rootless
 Name: SuperVIP (RootHide)
