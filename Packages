@@ -1022,6 +1022,23 @@ MD5sum: 452fe5c2f6b5ddd8cf436efd6132fa17
 SHA1: 984addb3a56d548fa09cff451ad5574186dd678d
 SHA256: 9114e269286aad97a87e25aa3eb5c3aadef8958b802aa396d1b68fb5c8f603fa
 
+Package: cn.zqbb.hello.diagnosticdata
+Name: Hello DiagnosticData (RootHide)
+Description: 清理分析数据!
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.diagnosticdata
+Architecture: iphoneos-arm64e
+Version: 1.5
+Installed-Size: 876
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.hello.diagnosticdata_1.5_iphoneos-arm64e.deb
+Size: 225262
+MD5sum: 52c55ea565fc32ca58f03393fbb6762a
+SHA1: 61965f44328d4b24a98e41349386922ecd91b74f
+SHA256: 961ab8cf7862d69a91d0caec958ecd94fbe2bdcae9d69aad867675f3fdf38277
+
 Package: cn.zqbb.hello.memorystatus
 Description: Set memorystatus to avoid being killed by the system
 Maintainer: zqbb
