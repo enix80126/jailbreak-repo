@@ -888,40 +888,6 @@ Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.diagnosticdata
 Architecture: iphoneos-arm64e
-Version: 1.2
-Installed-Size: 204
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.hello.diagnosticdata_1.2_iphoneos-arm64e.deb
-Size: 35456
-MD5sum: 2c3c878af3856a25939ab963d67c9d50
-SHA1: 14f9f8e3fd96e467f85272395067bcc1f230ffa2
-SHA256: 7007ffd8e7334944f7d67daf24d2a16b0a660d47baed1b66105bf101b39e2cb9
-
-Package: cn.zqbb.hello.diagnosticdata
-Name: Hello DiagnosticData (RootHide)
-Description: 清理分析数据!
-Maintainer: zqbb
-Author: zqbb
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.diagnosticdata
-Architecture: iphoneos-arm64e
-Version: 1.3
-Installed-Size: 724
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.hello.diagnosticdata_1.3_iphoneos-arm64e.deb
-Size: 188948
-MD5sum: 452fe5c2f6b5ddd8cf436efd6132fa17
-SHA1: 984addb3a56d548fa09cff451ad5574186dd678d
-SHA256: 9114e269286aad97a87e25aa3eb5c3aadef8958b802aa396d1b68fb5c8f603fa
-
-Package: cn.zqbb.hello.diagnosticdata
-Name: Hello DiagnosticData (RootHide)
-Description: 清理分析数据!
-Maintainer: zqbb
-Author: zqbb
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.diagnosticdata
-Architecture: iphoneos-arm64e
 Version: 1.5
 Installed-Size: 876
 Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.hello.diagnosticdata_1.5_iphoneos-arm64e.deb
@@ -947,23 +913,6 @@ Size: 3250376
 MD5sum: 3144abe69e5f24b8a724652c5c122378
 SHA1: 51b1f64043dbeef7162941bea51baaaf2e3c9c6c
 SHA256: 40c3924f9139183c03130075f11d07f3152871319aa7549f14021f34d22300f0
-
-Package: cn.zqbb.hello.mnt
-Name: HelloMnt (RootHide)
-Description: Relaxin 挂载器!
-Maintainer: zqbb
-Author: zqbb
-Section: zqbb Tweaks
-Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.mnt.png
-SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.mnt
-Architecture: iphoneos-arm64e
-Version: 1.2.0
-Installed-Size: 3108
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.hello.mnt_1.2.0_iphoneos-arm64e.deb
-Size: 827612
-MD5sum: e85c38d06188dab37d9b2951e50fe7c2
-SHA1: 524e19cc8d1b5c777d28e94c0da50281d4113257
-SHA256: a3c8bad91dad3f0d2dadd54e6aa474de924b11e3fde3ed72251e63a9b59b84c2
 
 Package: cn.zqbb.holdcpu
 Name: Hello CPU (RootHide)
