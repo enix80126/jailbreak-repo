@@ -1477,22 +1477,6 @@ Maintainer: opa334
 Author: opa334
 Section: Applications
 Architecture: iphoneos-arm64e
-Version: 2.1.1
-Installed-Size: 556
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.opa334.trollstorelite_2.1.1_iphoneos-arm64e.deb
-Size: 211888
-MD5sum: a041889a4889808f83533ee24840ace7
-SHA1: cb2a1ac5caea18195caf68c86e8651934e086b6d
-SHA256: 2c726d14e14599ae2ef724fb0cbf1444073ec567c017433deaf2de93f6b1874c
-
-Package: com.opa334.trollstorelite
-Name: TrollStore Lite (RootHide)
-Description: TrollStore for RootHide jailbroken iOS
-Depends: ldid
-Maintainer: opa334
-Author: opa334
-Section: Applications
-Architecture: iphoneos-arm64e
 Version: 2.1.2
 Installed-Size: 592
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.opa334.trollstorelite_2.1.2_iphoneos-arm64e.deb
@@ -1639,40 +1623,6 @@ Section: Tweaks
 Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.0-3
-Installed-Size: 468
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.keyboardx_1.0-3_iphoneos-arm64e.deb
-Size: 46716
-MD5sum: fd11c1d4bb980713f190889140f9485d
-SHA1: 6dfc49073c93c2c28f21c11c80791740cb172a2c
-SHA256: 069f38754f7ca619e0507e64e79b8fd00d2ba1e4eac91a37b2c91735d7fbcc19
-
-Package: com.wkk.keyboardx
-Name: KeyboardX (RootHide)
-Description: 键盘调整。
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Architecture: iphoneos-arm64e
-Version: 1.0-5
-Installed-Size: 500
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.keyboardx_1.0-5_iphoneos-arm64e.deb
-Size: 57150
-MD5sum: 4c872c594d6d1fdd9c2d53a489808012
-SHA1: 51f5f812e2474b33fb8758b33ce9faced3d9776e
-SHA256: 963be6b909f48fa45ef717780c152e5f765ed3225ecbe3175ab469c10025f616
-
-Package: com.wkk.keyboardx
-Name: KeyboardX (RootHide)
-Description: 键盘调整。
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
-Architecture: iphoneos-arm64e
 Version: 1.0-6
 Installed-Size: 500
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.keyboardx_1.0-6_iphoneos-arm64e.deb
@@ -1680,57 +1630,6 @@ Size: 62204
 MD5sum: d648ff9df5820a1fef5d2c32890f255e
 SHA1: b7c1cf959e3306ef5a0ec00c56a57ec3a1e07971
 SHA256: 03ed401ae51f042ae8278eeb57cfda9fd95fac20ede4dd63b6fe5c103d9581ef
-
-Package: com.wkk.systembox
-Name: SystemX (RootHide)
-Description: cool
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64e
-Version: 1.2-3
-Installed-Size: 1076
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.systembox_1.2-3_iphoneos-arm64e.deb
-Size: 219670
-MD5sum: 6a8579a1724731b34813005d9971f485
-SHA1: df73aa0cb4b2c7e7d66dac735e3cc8b3af710171
-SHA256: 269b0e102ec75a909cea206eedb2342429ee60c6400153dbdcc3fec4234dfe07
-
-Package: com.wkk.systembox
-Name: SystemX (RootHide)
-Description: cool
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64e
-Version: 1.3-2
-Installed-Size: 1144
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.systembox_1.3-2_iphoneos-arm64e.deb
-Size: 238926
-MD5sum: bb50c13bee25b623453e1486d9bb0cac
-SHA1: da5a726f675b048d3cf93db84a1787ffbf4f5c84
-SHA256: b7638a3b7aaf1621dc0f7ee2855dac094ceb75e06a1fb20f82fad609d16d2b5f
-
-Package: com.wkk.systembox
-Name: SystemX (RootHide)
-Description: cool
-Maintainer: wkk
-Author: wkk
-Section: Tweaks
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64e
-Version: 1.3-5
-Installed-Size: 1228
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.systembox_1.3-5_iphoneos-arm64e.deb
-Size: 244668
-MD5sum: aa3d5acb01ec77754ec46cb9061e62d7
-SHA1: e42d7ff3bd492863bdf828beaee4ff7c2ec86a08
-SHA256: 8250e7db72cb8eb9299df70240f1cf64125a07b2a50290067a3a521e87d46dbd
 
 Package: com.wkk.systembox
 Name: SystemX (RootHide)
