@@ -173,23 +173,6 @@ MD5sum: c1462697c3fc6973ba89db8b5a3a2c4e
 SHA1: f7cd2501fab1b802ea172392068d6b44b621a9d9
 SHA256: f0b69f0d02ce10acb4db7f91cf3465625e4f5ef92aa8c3107f31b99bf47f4b4a
 
-Package: cn.zqbb.cocoatop64.inject.roothide
-Section: Utilities
-Installed-Size: 840
-Maintainer: zp, SXX, Domo
-Architecture: iphoneos-arm64e
-Version: 3.2.0
-Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, zp.cocoatop64, zp.cocoatop64.unject, zp.cocoatop64.inject
-Description: (RootHide) 白名单注入辅助器
-Name: CocoaTop64 inject (RootHide)
-Author: Domo, SXX , zp
-SileoDepiction: https://rootless.zqbb.cf/web/cn.zqbb.cocoatop64.inject.roothide
-Filename: https://enix80126.github.io/jailbreak-repo/debs/CocoaTop64_3.2.0_iphoneos-arm64e.deb
-Size: 184464
-MD5sum: d65d61bfc981bd6a7c37d8720327c77d
-SHA1: 0a3c3dca981b7341d357f2c4522e974687cc86c9
-SHA256: da333c5b66407e2231a4d311062e055dbf57cde3ab57dbe6d50646be909ee5ee
-
 Package: cn.octoforce.copyvault
 Section: Tweaks
 Installed-Size: 6380
@@ -860,25 +843,6 @@ MD5sum: b7ccedbdc6fe235dbb22d130cb0babbc
 SHA1: 11f57cd0f8f0ac2f890c53bfa9d4602f14e8d885
 SHA256: 240362fc1846f697025122e4788d04bbd1920b8f5102bcfc5642a9a14b62837a
 
-Package: cn.zqbb.cocoatop64.relaxin
-Name: CocoaTop64 Relaxin (RootHide)
-Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
-Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
-Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
-Maintainer: SXX, Domo
-Author: Domo, SXX
-Section: Utilities
-Icon: https://apt.002599.xyz/web/icon/cn.zqbb.cocoatop64.relaxin.png
-SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.cocoatop64.relaxin
-Architecture: iphoneos-arm64e
-Version: 2.3.3-2
-Installed-Size: 888
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.cocoatop64.relaxin_2.3.3-2_iphoneos-arm64e.deb
-Size: 233292
-MD5sum: feb96da7f2cee51159ff75df4904a9cd
-SHA1: 8ccc12c207f681ce9ea99afa93bc97d11fffcd9f
-SHA256: 92c2fe8ff740e89b2c4c7e55fb219b817b5e5c58dfb227685d7c9f1169cde045
-
 Package: cn.zqbb.hello.diagnosticdata
 Name: Hello DiagnosticData (RootHide)
 Description: 清理分析数据!
@@ -994,22 +958,6 @@ Author: Charlie Leung
 Section: Tweaks
 Depends: mobilesubstrate (>= 0.9.5000)
 Architecture: iphoneos-arm64e
-Version: 1.3.5
-Installed-Size: 37612
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.charlieleung.liquidify_1.3.5_iphoneos-arm64e.deb
-Size: 9861550
-MD5sum: 68fb229da9c44a1f2c361872f13a14a7
-SHA1: 4466c6e8ef9f764e9484159d9ecb10a211152f3c
-SHA256: dd6f4994a499c619220cf53e0e30ee948bcce3b3838a9b7159bf76e637cef77e
-
-Package: com.charlieleung.liquidify
-Name: Liquidify (RootHide)
-Description: 为 iOS 界面注入液态玻璃质感。
-Maintainer: Charlie Leung
-Author: Charlie Leung
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000)
-Architecture: iphoneos-arm64e
 Version: 1.3.7
 Installed-Size: 39420
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.charlieleung.liquidify_1.3.7_iphoneos-arm64e.deb
@@ -1017,74 +965,6 @@ Size: 10303476
 MD5sum: 838f9370ea93d3f598d14862dbb40ad4
 SHA1: 0fc1376b9a55d425404bf88f261927ecf48b477f
 SHA256: ed1fcbc4119c6f846e6e2b11650041649b59890a77097541522bc613fd793c0d
-
-Architecture: iphoneos-arm64e
-Package: com.dao.apptools15
-Name: AppTools15-17 (RootHide)
-Version: 2.7.9
-Conflicts: com.flex2areo.apptools15rootless, com.flex2areo.apptools15roothide, com.flex2areo.apptools15, com.dao.apptools15roothide, com.dao.apptools15rootless
-Description: AppTools for iOS15~17，强大的App类辅助插件，可以清理缓存、备份程序、清理角标、自定义分辨率、禁止插件插件注入等，系付费插件，自行购买。
-Section: 嗨-付费
-Depends: firmware (>=15.0), mobilesubstrate
-Author: aReo
-Maintainer: aReo
-Sileodepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/apptools/js.json
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.apptools15_2.7.9_iphoneos-arm64e.deb
-Size: 1265940
-MD5sum: 4de4896f755f6db0006af0d87264d7a9
-SHA1: 98f584e60665c0e984532e7ab210beb409fc8c13
-SHA256: c04d8c1e89c58a71cedb49009353098116fe8aeeb9080e05d271111ad985efc5
-
-Name: BlurryBadges 中文版 (RootHide)
-Package: com.dao.blurrybadges
-Conflicts: org.thebigboss.blurrybadges, com.spicat.blurrybadges, com.ps.blurrybadges, com.hk.rootless.blurrybadges
-Author: PoomSmart
-Maintainer: PoomSmart
-Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
-Section: 嗨-工具
-Description: 自定义程序通知角标的边框颜色和透明度，基于PoomSmart的开源直接编译汉化。
-Architecture: iphoneos-arm64e
-Version: 1.5.3
-Installed-Size: 436
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.blurrybadges_1.5.3_iphoneos-arm64e.deb
-Size: 42410
-MD5sum: 2d602d289f7fde739e879d60a1265512
-SHA1: 61172e3da82cfb9cab81bae43c116b50d52609fd
-SHA256: 4ef62dbe2a65c63a4e67e94f2d9a5995a08b501e376f032ff265c3190bd2ec96
-
-Package: com.dao.choicy
-Name: Choicy (RootHide)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: 嗨-系统
-Conflicts: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.3-4
-Installed-Size: 1056
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.choicy_1.5.3-4_iphoneos-arm64e.deb
-Size: 161664
-MD5sum: 18df4d24819218006fd0f54f29de9ab0
-SHA1: db367a65786326af76f6c9a63ad66f5e7d11072d
-SHA256: 4d2dd7a923c1380dc5dfbb10bf0ec8828bd5b009852376fe284d0738f71abce7
-
-Package: com.dao.choicy
-Name: Choicy (RootHide)
-Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
-Description: 高级插件配置器，可单独为每个程序启用/禁用插件等。
-Maintainer: opa334 <opa334@protonmail.com>
-Author: opa334 <opa334@protonmail.com>
-Section: 嗨-系统
-Conflicts: com.opa334.choicy
-Architecture: iphoneos-arm64e
-Version: 1.5.4-1
-Installed-Size: 1104
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.choicy_1.5.4-1_iphoneos-arm64e.deb
-Size: 165468
-MD5sum: 1fbcd0c4792df74798f5a5220f6a153b
-SHA1: 3a88110b425c9e82f2b79d85afd7d6722a9d0259
-SHA256: 7ad223591ec738fff88ac68b216a3489d48a9992d8ccdee394b0666e3c460f61
 
 Package: com.dao.choicy
 Name: Choicy (RootHide)
@@ -1155,38 +1035,6 @@ Size: 80244
 MD5sum: 9cc3fd032c4a9ceaca339cf9d7439f5d
 SHA1: d4588ea9d3af5b5692ba5dafdc51326cf49d9afe
 SHA256: 546c791a3ece2454be37e5656c49080e13bbc52c0ad90537f7225bdcbac5c8b2
-
-Package: com.flex2areo.apptools15roothide
-Name: AppTools15-17 (RootHide)
-Depends: mobilesubstrate
-Description: AppTools for iOS15-17 Roothide
-Maintainer: aReo
-Author: aReo
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.7.9
-Installed-Size: 4032
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.flex2areo.apptools15roothide_2.7.9_iphoneos-arm64e.deb
-Size: 1266886
-MD5sum: c20a51a81a974af188b4678346b5ba70
-SHA1: 3b5c56b3693ed6d3082689429d81a1e10cd4bb67
-SHA256: e020682bc0e638b3be42e6c58da05440936bd0788f9e4c040c60f0a16b1facf3
-
-Package: com.flex2areo.apptools15roothide
-Name: AppTools15-17 (RootHide)
-Depends: mobilesubstrate
-Description: AppTools for iOS15-17 Roothide
-Maintainer: aReo
-Author: aReo
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 2.8.0
-Installed-Size: 4056
-Filename: https://enix80126.github.io/jailbreak-repo/debs/com.flex2areo.apptools15roothide_2.8.0_iphoneos-arm64e.deb
-Size: 1291992
-MD5sum: 8eee81bdb9213f586bd8d91ec98323a0
-SHA1: 2580487590929af0382380c762085178924d7303
-SHA256: 408f852b83ae62bc8b0c34532bad7c32df6d7e4e10a6c2f1aef07f2fa57bdcc4
 
 Package: com.flex2areo.apptools15roothide
 Name: AppTools15-17 (RootHide)
