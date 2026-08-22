@@ -91,22 +91,6 @@ MD5sum: 69c108d7607759c7990c460a5bb557f8
 SHA1: 685e98b3f6a45112e7b55bdbca0a22e7613e0b3c
 SHA256: 0bca96879a4acf37a9b955641372782f0e80eb85d023fe874e2bd3ed280e6a5d
 
-Package: com.flex2areo.apptools15roothide
-Section: Tweaks
-Installed-Size: 3932
-Maintainer: aReo
-Architecture: iphoneos-arm64e
-Version: 2.7.8
-Depends: mobilesubstrate
-Description: AppTools for iOS15-17 Roothide
-Name: AppTools15-17 (RootHide)
-Author: aReo
-Filename: https://enix80126.github.io/jailbreak-repo/debs/AppTools15-17%28Roothide%29_2.7.8_iphoneos-arm64e.deb
-Size: 1228172
-MD5sum: e42daa29691ec414ca9ba1ebf4be2f77
-SHA1: 4ef3e714e7a979fdaa23f04b364238e055e36aa5
-SHA256: 24a4219c01c2a9cf9c62772765730b6510dd21111134f36219714377150b10b6
-
 Package: com.cannathea.afc2d-arm64e
 Section: System
 Installed-Size: 212
@@ -129,26 +113,6 @@ Size: 12360
 MD5sum: 1e5375f149148b17b131494d8ce42a01
 SHA1: f6f1b776aae44cb8f5ed684a04c019ed32be1a3c
 SHA256: 1f47fe723cb3384cb5cc7c6953b64d915d624793a8abfe9f12d373e1ac475db2
-
-Package: com.axs.bigshot
-Section: Tweaks
-Maintainer: Axs
-Architecture: iphoneos-arm64e
-Version: 1.1
-Depends: mobilesubstrate, firmware (>= 14.0), preferenceloader
-Pre-Depends: rootless-compat (>= 0.9)
-Conflicts: com.jontelang.snapper, com.jontelang.bigshotsnapper3plugin
-Description: 注意：此插件需要购买正版Snapper3。支持Snapper3调用，安装以后呼出Snapper3会有一个长截图按钮，已汉化提示。也支持通过控制中心添加BigShot模块使用。
-Name: BigShot长截图 (RootHide)
-Author: Axs
-Sponsor: Axs
-Icon: https://axs66.github.io/pro/icon/bigshot.png
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigshot/js.json
-Filename: https://enix80126.github.io/jailbreak-repo/debs/BigShot%E9%95%BF%E6%88%AA%E5%9B%BE_1.1_iphoneos-arm64e.deb
-Size: 59520
-MD5sum: 07e6cd65d48eb2aa5593fa1091b65b4f
-SHA1: a02c3e4331a6447a26d9855ffd56e9fc44652ccd
-SHA256: 9ebee9dc626a158822e3d36c0182453f0ca1c41a9fe0aca6ebbfb9f591513097
 
 Package: com.dao.ccless
 Section: 嗨-工具
@@ -861,41 +825,6 @@ SHA1: 7956fdc18801f455bd9e9a385c238fc84447270c
 SHA256: 248763074a7873e56f5eb64a15977a4291fb2281feb09f72b2acb655dd298502
 
 Package: cn.llld.biaoji
-Name: 截图标记 (RootHide)
-Author: 来了老弟 X: h_h_x_t
-Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改图标在插件目录下/var/jb/Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png
-Depends: mobilesubstrate
-Maintainer: 来了老弟 X: h_h_x_t
-Section: rootless插件
-Architecture: iphoneos-arm64e
-Version: 1.1
-Installed-Size: 112
-Pre-Depends: rootless-compat(>= 0.9)
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.llld.biaoji_1.1_iphoneos-arm64e.deb
-Size: 23962
-MD5sum: c885a93902e26b8c2a05ebfb1ec70f9e
-SHA1: 92d09270acae3f7f1042db7d4305dc2639e80038
-SHA256: de556d09121e6affd3947d06e69a2ec9a3516d29e3e23aa0b6368b4c8e31db98
-
-Package: cn.llld.biaoji
-Name: Snapper 截图标记 (RootHide)
-Author: 来了老弟 X: h_h_x_t
-Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
-Depends: mobilesubstrate
-Maintainer: 来了老弟 X: h_h_x_t
-Section: Tweaks
-Architecture: iphoneos-arm64e
-Version: 1.5
-Installed-Size: 164
-Pre-Depends: rootless-compat(>= 0.9)
-icon: https://huayuarc.github.io/icon/snapper.png
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.llld.biaoji_1.5_iphoneos-arm64e.deb
-Size: 35876
-MD5sum: 713a8479246f0f691e133ea2cb0dbb82
-SHA1: 8908addedef5e4cd20cf8e27f4821cc6dd29fb36
-SHA256: b90eea39b3b5285a9ce50116b0cfd7797f42fe62d6c22d167338029f13dce3d3
-
-Package: cn.llld.biaoji
 Name: Snapper 截图标记 (RootHide)
 Author: 来了老弟 X: h_h_x_t
 Description: 给Snapper 或stayShot插件增加标记功能，快速对图进行箭头，打码，复制，方块，涂鸦，保存，高亮，文字等，免去了装第三方软件或者跳转程序的繁琐，14-17可用，改屏幕图标在插件目录下Library/MobileSubstrate/DynamicLibraries/biaoji/pencil.tip.crop.circle.png，设置里图标名为Settings-biaoji.png
@@ -942,25 +871,6 @@ Section: Utilities
 Icon: https://apt.002599.xyz/web/icon/cn.zqbb.cocoatop64.relaxin.png
 SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.cocoatop64.relaxin
 Architecture: iphoneos-arm64e
-Version: 2.3.1
-Installed-Size: 840
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.cocoatop64.relaxin_2.3.1_iphoneos-arm64e.deb
-Size: 187158
-MD5sum: 6d42adec022e4d9e0723e970e1c7e477
-SHA1: 414af4950ca5877bb67807756531a8d021a6d3ab
-SHA256: b77297ef5d078b4f7020e742e955f5f10faba818f8cd75ed45e3f8f7916caae8
-
-Package: cn.zqbb.cocoatop64.relaxin
-Name: CocoaTop64 Relaxin (RootHide)
-Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
-Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
-Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
-Maintainer: SXX, Domo
-Author: Domo, SXX
-Section: Utilities
-Icon: https://apt.002599.xyz/web/icon/cn.zqbb.cocoatop64.relaxin.png
-SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.cocoatop64.relaxin
-Architecture: iphoneos-arm64e
 Version: 2.3.3-2
 Installed-Size: 888
 Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.cocoatop64.relaxin_2.3.3-2_iphoneos-arm64e.deb
@@ -968,25 +878,6 @@ Size: 233292
 MD5sum: feb96da7f2cee51159ff75df4904a9cd
 SHA1: 8ccc12c207f681ce9ea99afa93bc97d11fffcd9f
 SHA256: 92c2fe8ff740e89b2c4c7e55fb219b817b5e5c58dfb227685d7c9f1169cde045
-
-Package: cn.zqbb.cocoatop64.relaxin
-Name: CocoaTop64 Relaxin (RootHide)
-Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
-Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject
-Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
-Maintainer: SXX, Domo
-Author: Domo, SXX
-Section: Utilities
-Icon: https://apt.002599.xyz/web/icon/cn.zqbb.cocoatop64.relaxin.png
-SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.cocoatop64.relaxin
-Architecture: iphoneos-arm64e
-Version: 2.3.3
-Installed-Size: 840
-Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.cocoatop64.relaxin_2.3.3_iphoneos-arm64e.deb
-Size: 187342
-MD5sum: deb9282e5bb1e73b2447f7347b680f14
-SHA1: d1b3813688bdf625e2e802c560711fb5a5320558
-SHA256: 1170732f75087edeb9a044880fb3771ed1996c42eb171810295d3393385fe081
 
 Package: cn.zqbb.hello.diagnosticdata
 Name: Hello DiagnosticData (RootHide)
@@ -2688,24 +2579,6 @@ MD5sum: 89e3d0a2c6e42cf1a03a54f312bd7cfd
 SHA1: 5bcd7eaef9cc4e9bcca3c4ed79c94f4433fdd0aa
 SHA256: cde12d7c5a5cba6a5ec7f5c241b604888262e076801716f5357ad2a8476ac6df
 
-Package: com.lenglengyu.cuiyuntianqipro-rootless
-Section: Fugu15
-Installed-Size: 612
-Maintainer: lenglengyu <lenglengyu@126.com>
-Architecture: iphoneos-arm64e
-Version: 1.0.0
-Depends: mobilesubstrate, com.lenglengyu.libsupervipp-rootless
-Description: 解锁会员权限，仅供会员使用。
-Name: 彩云天气Pro-Rootless【会员破解】 (RootHide)
-Author: lenglengyu
-Depiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqipro.html
-Sileodepiction: https://repo.lenglengyu.top/packageInfo/cuiyuntianqiprosileo
-Filename: https://enix80126.github.io/jailbreak-repo/debs/%E5%BD%A9%E4%BA%91%E5%A4%A9%E6%B0%94Pro-Rootless%E3%80%90%E4%BC%9A%E5%91%98%E7%A0%B4%E8%A7%A3%E3%80%91_1.0.0_iphoneos-arm64e.deb
-Size: 160860
-MD5sum: d15e8fe0ef0d1b342143a21409d9b24f
-SHA1: fce0e4582712228cda80bd27d7dd87d82454803e
-SHA256: 5268d9253aafa9214ae49e440eb1547e42a667566745f7929d05847f299da3c8
-
 Package: com.25mao.miyou.rootless
 Priority: optional
 Section: 微信插件
@@ -2725,22 +2598,6 @@ MD5sum: 31f21c6ce147039790dee64ddad70318
 SHA1: d2607d3744ab0a2d92ce8f2c0e36bf189be6482d
 SHA256: 14aa6f020f0f124169f369046383f637a1c40936b8c744d30fa277fbdfdf2fa3
 
-Package: com.colorblack.wetypecolorgoogle
-Section: 输入法皮肤
-Installed-Size: 144
-Maintainer: colorblack
-Architecture: iphoneos-arm64e
-Version: 1.1.5
-Depends: mobilesubstrate
-Description: 微信输入法 Google 风格毛玻璃键盘配色 Roothide 版，适配深色、浅色模式；测试输入法版本 3.5.0。QQ群：205928931
-Name: 微信输入法_Google配色 (RootHide)
-Author: colorblack
-Filename: https://enix80126.github.io/jailbreak-repo/debs/%E5%BE%AE%E4%BF%A1%E8%BE%93%E5%85%A5%E6%B3%95_Google%E9%85%8D%E8%89%B2_1.1.5_iphoneos-arm64e.deb
-Size: 30508
-MD5sum: 62bb93723bad54ac5b606b5c7419f828
-SHA1: f2b364e955604c0b5a72e330bb1ee1b3454222ba
-SHA256: 3592fca1bbb660c1ab7eeaacec76578729aefbed660e45e3eb2d751f99bd25e3
-
 Package: com.axs.kongzhidiy
 Section: 控制中心
 Installed-Size: 3028
@@ -2759,42 +2616,6 @@ Size: 718380
 MD5sum: 61c4e0dcba7590fd9f1f9b42fac09049
 SHA1: b9a09260779c90ee83f91d064c2dbcfef2b7e95b
 SHA256: 9e9287e94518ee242a3dedba02dbcf9f568b1a8ac4d19204d9cdd8e8d5f3adef
-
-Package: com.starry6.lunanoad
-Section: 去广告
-Installed-Size: 168
-Maintainer: liwhs
-Architecture: iphoneos-arm64e
-Version: 1.1
-Depends: mobilesubstrate
-Pre-Depends: rootless-compat (>= 0.9)
-Description: 去开屏广告，秒过激励式视频（汽水版本请保留在13.5.0）插件对抖音、极速版、火山版等版本也支持秒过激励式视频。
-Name: 汽水音乐NoAds (RootHide)
-Author: starry6
-Icon: https://s1.imagehub.cc/images/2025/05/24/565d1c832919445be395db0b02f6a39c.png
-Filename: https://enix80126.github.io/jailbreak-repo/debs/%E6%B1%BD%E6%B0%B4%E9%9F%B3%E4%B9%90NoAds_1.1_iphoneos-arm64e.deb
-Size: 46988
-MD5sum: 267aa48ef4e4521771f65e9e79181753
-SHA1: d369fb7243f55948b61591232b486695774133f0
-SHA256: 837aea4a0bd50cd89bf721a6a892f760d6a5fdcd8b58594e3c6a0e79a54cf765
-
-Package: com.xybp888.callassist17.roothide
-Priority: optional
-Section: Tweaks
-Maintainer: xybp888
-Architecture: iphoneos-arm64e
-Version: 1.5.1
-Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
-Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Name: 电话助手iOS17-正式版 (RootHide)
-Author: xybp888
-Depiction: https://apt.htv123.com/view/680
-SileoDepiction: https://apt.htv123.com/sileo/680
-Filename: https://enix80126.github.io/jailbreak-repo/debs/%E7%94%B5%E8%AF%9D%E5%8A%A9%E6%89%8BiOS17-%E6%AD%A3%E5%BC%8F%E7%89%88%28Roothide%29_1.5.1_iphoneos-arm64e.deb
-Size: 2753532
-MD5sum: 7be281bec2772c117e8f07404ad604df
-SHA1: fde2ac2975d3e03ecf0a32ba8230a7823714d0ac
-SHA256: a3adb8f5ac2c762a930c00cc0daf988f5a181e4f63ffbde4eb1c45a2f3981a85
 
 Package: com.wwg135.zhibo8
 Priority: optional
