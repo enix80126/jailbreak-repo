@@ -1963,6 +1963,23 @@ MD5sum: f342fe75eb72e0aa9ee4856de4fc3397
 SHA1: a8e407559dede1ba299f62ec08c65c7a5cd7955f
 SHA256: 99ca35ad7ddfb3c3945e5f1bb7f7ee9f3d5835643add260a16f18bffd07ddf08
 
+Package: dylv.blurless
+Name: Blurless (RootHide)
+Description: Disables the blur filter systemwide. This was achieved by utilizing a bug I accidentally ran into while making the 0.1.0b update for Liquid (Gl)ass.
+Maintainer: dylv
+Author: dylv
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0)
+Replaces: dylv.liquidass
+Architecture: iphoneos-arm64e
+Version: 0.0.1
+Installed-Size: 136
+Filename: https://enix80126.github.io/jailbreak-repo/debs/dylv.blurless_0.0.1_iphoneos-arm64e.deb
+Size: 4396
+MD5sum: 59e5ae95f3cb726d1dd9c01e65a6845f
+SHA1: 6d1c8f073e17f43c94c2d109758bbe2d637d8cbb
+SHA256: 4ee527cdf91e2bb9cf81ed1e3530c85bc55ec4ecce55866791b85e435510402d
+
 Package: dylv.liquidass
 Name: Liquid (Gl)ass (RootHide)
 Description: next level diarrhea
