@@ -1453,6 +1453,27 @@ MD5sum: 40f2a7e84a9a254f0020d25f7ee91612
 SHA1: 20c124fc928d1d6a43d3b60d0a50c23badd140f2
 SHA256: b6b1956252f4f6c9d3f2f73ec6d9a9c4251202c37acc793a0fc8f41bdcd39729
 
+Package: com.m4fn3.mikkyy.pro
+Name: Mikkyy Pro (RootHide)
+Description: Everything in Mikkyy, plus UI theming beyond app icons and the full set of icon adjustments — corner radius, icon scale, label and overlay options. 
+Maintainer: m4fn3
+Author: m4fn3
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.m4fn3.mikkyy
+Replaces: com.m4fn3.mikkyy
+Provides: com.m4fn3.mikkyy
+Icon: https://m4fn3.github.io/repo/web/images/Mikkyy.png
+SileoDepiction: https://m4fn3.github.io/repo/web/depictions/MikkyyPro.json
+Architecture: iphoneos-arm64e
+Version: 1.0.1
+Installed-Size: 9764
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.m4fn3.mikkyy.pro_1.0.1_iphoneos-arm64e.deb
+Size: 2206848
+MD5sum: 63b24b2b2e4838ff5c17fd9ff5848c11
+SHA1: dc56ed0f64fcc7c18ffb008d19ef1edb6e547019
+SHA256: bdfb5fab9f79bc6170b6fd0a3eaa9771bfd8716b8f04a3f33dbd961a8f05d866
+
 Package: com.m4fn3.myrtle
 Name: Myrtle (RootHide)
 Description: Ultimate control over your device through multitasking. 
