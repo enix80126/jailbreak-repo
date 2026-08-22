@@ -1320,6 +1320,24 @@ MD5sum: e44abd1a0513b08ad52104c4db6cca56
 SHA1: 2195f243d06fb5f2895787643985b3f42c4f1b50
 SHA256: 35053511ff155f7071c79439f558be67f537224ee51b6b3c6f86bac86011bcb7
 
+Package: com.jontelang.bigshotsnapper3plugin
+Name: BigShot for Snapper 3 and CCSupport (RootHide)
+Depends: mobilesubstrate, firmware(>=14.0), preferenceloader
+Conflicts: com.jontelang.snapper
+Description: BigShot for iOS 15/16 (and Snapper 3)
+Maintainer: Jonathan Winger-lang
+Author: Jonathan Winger-lang
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.1
+Installed-Size: 536
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.jontelang.bigshotsnapper3plugin_1.1_iphoneos-arm64e.deb
+Size: 25512
+MD5sum: 151c08aa68c9fe62d994460f1902976d
+SHA1: fe0399587b54ea4ad5d8316153e6b1d449e7bab9
+SHA256: b0df91e32e9281312215a9e31ba6b5f31e504fa078c35b62ccf2df4670c5c119
+
 Package: com.lclrc.hammerit
 Name: Hammer It (RootHide)
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist, com.opa334.ccsupport, com.opa334.libsandy, firmware (>= 14.0)
