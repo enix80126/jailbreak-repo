@@ -843,6 +843,25 @@ MD5sum: b7ccedbdc6fe235dbb22d130cb0babbc
 SHA1: 11f57cd0f8f0ac2f890c53bfa9d4602f14e8d885
 SHA256: 240362fc1846f697025122e4788d04bbd1920b8f5102bcfc5642a9a14b62837a
 
+Package: cn.zqbb.ccatop.relaxin.whitelist
+Name: CocoaTop64 (Relaxin Whitelist) (RootHide)
+Replaces: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject, cn.zqbb.cocoatop64.relaxin
+Conflicts: ru.domo.cocoatop, ru.domo.cocoatop64, cn.zqbb.cocoatop64.inject.roothide, zp.cocoatop64.unject, zp.cocoatop64.unject.xina, zp.cocoatop64.inject, cn.zqbb.cocoatop64.relaxin
+Description: Process Viewer for iOS GUI, updated for iOS 13 by SXX.
+Maintainer: SXX, Domo
+Author: Domo, SXX
+Section: Utilities
+Icon: https://apt.002599.xyz/web/icon/cn.zqbb.ccatop.relaxin.whitelist.png
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.ccatop.relaxin.whitelist
+Architecture: iphoneos-arm64e
+Version: 2.3.3-2
+Installed-Size: 888
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.ccatop.relaxin.whitelist_2.3.3-2_iphoneos-arm64e.deb
+Size: 232366
+MD5sum: 88efd2836cbc4d36d3f9251187654d10
+SHA1: d094c1a056b4b34a7dcfec279836b7cb13e916a8
+SHA256: 7053fd570159a7a623e586c7ab2febb82d139fe1a52d3e652125f0e2f95831bd
+
 Package: cn.zqbb.hello.diagnosticdata
 Name: Hello DiagnosticData (RootHide)
 Description: 清理分析数据!
