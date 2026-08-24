@@ -970,6 +970,23 @@ MD5sum: 671242113f1467cdcb100d77dce0f6b1
 SHA1: abf47d52a5740aa4ee02e71b6c9c4adaca24c71a
 SHA256: fe3e9594296fba83442a25249680c8715a4bcda8662399456d0d3d35cde3b651
 
+Package: cn.zqbb.jailfools
+Name: JailFools (RootHide)
+Section: Applications
+Depends: firmware (>= 15.0)
+Author: zqbb <zqbbzz@gmail.com>
+Maintainer: zqbb <zqbbzz@gmail.com>
+Description: Give me 108 yuan.
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.jailfools
+Architecture: iphoneos-arm64e
+Version: 5.1.0
+Installed-Size: 16700
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.jailfools_5.1.0_iphoneos-arm64e.deb
+Size: 4603102
+MD5sum: e28ccb49ac5e0b4a85238da4ffaff222
+SHA1: 7d4423472777775583df3a2f705a56e5a3e53793
+SHA256: 30b8e7639d1f70a2961917cc30ec2313266c90693ecb7f7f4b931cbe864bf354
+
 Package: cn.zqbb.stopautolaunchapps
 Description: 别在后台热加载app咯! 
  - 优点:节约内存,少杀后台. 
