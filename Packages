@@ -1056,6 +1056,24 @@ MD5sum: 01ffbcd6109094714a121ca3fb65d688
 SHA1: be3209255f603fe6c436ff27c2d74cd82cdb061a
 SHA256: 4a479bcdfa9731c397d4d3740c5ba50c8fef1457868f70365e24f24b398583b1
 
+Package: com.dao.milkywayreborn
+Name: MilkyWayReborn (RootHide)
+Description: 窗口化分屏，长按APP图标菜单—>窗口分屏；或者后台界面，按住程序卡片1.5秒，即可将此程序分屏；点击红按钮—>关闭窗口(长按彻底杀死)、黄按钮—>最小化(长按胶囊彻底杀死)、绿按钮—>最大化。
+Maintainer: MilkyWay Reborn
+Author: MilkyWay Reborn
+Section: 嗨-系统
+Depends: mobilesubstrate (>= 0.9.5000)
+Conflicts: com.milkyway.reborn
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/milkyway/js.json
+Architecture: iphoneos-arm64e
+Version: 1.4
+Installed-Size: 308
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.milkywayreborn_1.4_iphoneos-arm64e.deb
+Size: 49220
+MD5sum: 3150bd7695a04d8b89a457ae2233031d
+SHA1: b743949e88ce39d8c630c0876124348d8a0fef77
+SHA256: 5f6bce55853466ff8f1cafe044746ed2c51168d17f4d4213fc8ded8ed4e9fc35
+
 Package: com.dao.neofreebird.bht
 Name: NFX 中文版 (RootHide)
 Description: 推特多功能插件，NeoFreeBird版的BHTwitter，比常规BHTwitter功能多一点，设置通用，中文优化版，插件选项位于推特设置顶部。
