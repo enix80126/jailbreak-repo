@@ -1040,6 +1040,22 @@ MD5sum: ed85dfb43da1375b728948e1bc3b0c37
 SHA1: e3de7115b5e71203bf71e17feab9708edb0ec72f
 SHA256: 429ba914460a88abb1e63154999f5e7c1ad89a55cab3cf48d157be902a8b32e3
 
+Package: com.82flex.unseen
+Name: Unseen (RootHide)
+Description: Neutralizes CALayer disableUpdateMask in the render server
+Maintainer: 82flex
+Author: 82flex
+Section: Tweaks
+Depends: firmware (>= 14.0), preferenceloader
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Installed-Size: 492
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.82flex.unseen_0.0.5_iphoneos-arm64e.deb
+Size: 49798
+MD5sum: 616faaf2cc2b4e60939ffc5d0e67a569
+SHA1: 576b6c576a4e795aa6b4d8705588d2cfa8f5461c
+SHA256: 883d4605ea041bc20a0770c0ed20575991cdc57cd25a38143720ba270167d28c
+
 Package: com.charlieleung.liquidify
 Name: Liquidify (RootHide)
 Description: 为 iOS 界面注入液态玻璃质感。
