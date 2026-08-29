@@ -1126,6 +1126,27 @@ MD5sum: 9cc3fd032c4a9ceaca339cf9d7439f5d
 SHA1: d4588ea9d3af5b5692ba5dafdc51326cf49d9afe
 SHA256: 546c791a3ece2454be37e5656c49080e13bbc52c0ad90537f7225bdcbac5c8b2
 
+Package: com.exile90.icleanerpro
+Name: iCleaner Pro (RootHide)
+Version: 7.10.0
+Architecture: iphoneos-arm64e
+Depends: firmware (>= 17.0), findutils, apt, uikittools
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Description: iOS system cleanup and maintenance utility for rootless jailbreaks.
+ Full iOS 17 rootless compatibility build using a Darwin/iOS ABI-correct recursive directory enumerator. No original cleanup path is intentionally skipped.
+Author: Ivano Bilenchi <support@ib-soft.net>
+Maintainer: BarabaDev
+Homepage: https://ib-soft.net/icleaner
+Section: Utilities
+Priority: optional
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64e.deb
+Size: 2512582
+MD5sum: de122a9a703e3f3ce3fe48ef646e8733
+SHA1: c8b16439605349df9c09caf7531f2d24d498771c
+SHA256: 8706d7d67247e816dad02e5385af9d7bfc86c5f616dce7d43dbbb9d036fcc6b9
+
 Package: com.flex2areo.apptools15roothide
 Name: AppTools15-17 (RootHide)
 Depends: mobilesubstrate
