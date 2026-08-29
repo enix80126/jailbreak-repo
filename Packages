@@ -987,6 +987,24 @@ MD5sum: e28ccb49ac5e0b4a85238da4ffaff222
 SHA1: 7d4423472777775583df3a2f705a56e5a3e53793
 SHA256: 30b8e7639d1f70a2961917cc30ec2313266c90693ecb7f7f4b931cbe864bf354
 
+Package: cn.zqbb.jailfools
+Name: JailFools (RootHide)
+Section: Applications
+Depends: firmware (>= 15.0)
+Author: zqbb <zqbbzz@gmail.com>
+Maintainer: zqbb <zqbbzz@gmail.com>
+Description: Give me 108 yuan.
+SileoDepiction: https://apt.002599.xyz/web/cn.zqbb.jailfools
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.jailfools.png
+Architecture: iphoneos-arm64e
+Version: 5.2.3
+Installed-Size: 17696
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.jailfools_5.2.3_iphoneos-arm64e.deb
+Size: 4753832
+MD5sum: a4b935130c00bcb1cdf1157ec8ee4277
+SHA1: 6c98c7e54308be8e2d079bed76cf3e8744ee0057
+SHA256: 5863edbef481c62c705dbcd337dd05d6b48cd393b6d2ce9e89966acc123aa306
+
 Package: cn.zqbb.stopautolaunchapps
 Description: 别在后台热加载app咯! 
  - 优点:节约内存,少杀后台. 
@@ -1107,6 +1125,24 @@ Size: 7883560
 MD5sum: 42b1fa90d5d6e2da34a7b8a92c0bada6
 SHA1: e6cfb2065d97b476bd7d5fb4e34d8f8a733cfc0e
 SHA256: 84291591bd6623c6d800ab9492769e12d2fa5ae462edba282b0dd947300a908d
+
+Package: com.dao.speedster
+Name: Speedster (RootHide)
+Description: 更快的 iOS 动画，根据开源编译，已带汉化。
+Maintainer: Hoangdus & daodao
+Author: Hoangdus & daodao
+Section: 嗨-工具
+Depends: firmware (>=13.0)
+Conflicts: com.hoangdus.speedster, com.hk.speedster.cn.rl
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/speedster/js.json
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Installed-Size: 428
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.speedster_2.2.3_iphoneos-arm64e.deb
+Size: 39388
+MD5sum: 746fd2d41b5fbb5e2c04019e7e1385d8
+SHA1: 054db6a0f34f0ae5613cd304076277b3539f7fdd
+SHA256: 406c52c45149dff2432b1705841b06d9d8ab671e0ef6e2339fe6163b5e764358
 
 Package: com.daodao.goodwifi
 Name: GoodWiFi 中文版 (RootHide)
