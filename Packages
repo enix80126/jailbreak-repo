@@ -1158,6 +1158,22 @@ MD5sum: bc6868982146759966ca1a5ee78951bf
 SHA1: ddceb52f6d463ef8968367e8cefabbdb85f49f54
 SHA256: 45fec49e42c11d6fbe58726b98a348f3f7803dbfdd90690c32383e3b9aa78cb6
 
+Package: com.flex2areo.apptools15roothide
+Name: AppTools15-17 (RootHide)
+Depends: mobilesubstrate
+Description: AppTools for iOS15-17 Roothide
+Maintainer: aReo
+Author: aReo
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 2.8.3
+Installed-Size: 4424
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.flex2areo.apptools15roothide_2.8.3_iphoneos-arm64e.deb
+Size: 1464584
+MD5sum: 359d715b93c9ebb928160232cdc2af86
+SHA1: 0a6b051703c3f1761434879c4713e785598df96b
+SHA256: 5d2619cc54dc1022dee869aeeacde357a94d81cf75f904ca28dc35412753a25e
+
 Package: com.fluoxetine.jumor
 Name: 巨魔R (RootHide)
 Description: 巨魔R由Fluoxetine为Relaxin越狱特别制作。支持免签安装IPA,Tipa应用。支持注入任意dylib和deb插件。Bug反馈及意见建议:1103945342@qq.com。感谢Relaxin越狱，感谢opa334。
