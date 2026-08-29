@@ -1729,6 +1729,21 @@ MD5sum: 42f1842748252a4a2af0404210cf97cc
 SHA1: bfa2a221754b8ac0c2fad47c838f0407a280543b
 SHA256: 721fe9211378550280a7ef421292c27cf88e56e8dc1c2c28178bb4d5cac97dc1
 
+Package: com.opa334.trollstorelite
+Name: TrollStore Lite (RootHide)
+Description: TrollStore for RootHide jailbroken iOS
+Maintainer: opa334
+Author: opa334
+Section: Applications
+Architecture: iphoneos-arm64e
+Version: 2.1.1-1
+Installed-Size: 3844
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.opa334.trollstorelite_2.1.1-1_iphoneos-arm64e.deb
+Size: 1739500
+MD5sum: d47682640599305df16c5a29e17bcd08
+SHA1: f01bfd3128120b9bf254b520e5458b639f13d263
+SHA256: a606e0576be5d508ff92a4d842b49698088889b85fb3ceeee43f4269ee03e376
+
 Package: com.sini921.switchpro
 Name: SwitchPro (RootHide)
 Description: 开关简单美化, 旨在为需要SnowBoard的开关美化功能但不需要SnowBoard的其他功能的情况下使用
@@ -1746,6 +1761,22 @@ Size: 85322
 MD5sum: 6f19eb03dc2759a5ad13565782c14276
 SHA1: 4888abfe511ca727ed8f574ba575d84514f9ae05
 SHA256: cdfba570e317d2770db1b59c823c94a35c6afa989aa81c416471e76800d375d8
+
+Package: com.susudear.screencore
+Name: ScreenCore (RootHide)
+Description: 分屏而已
+Maintainer: SuSu
+Author: SuSu
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 0.2.2
+Installed-Size: 1788
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.susudear.screencore_0.2.2_iphoneos-arm64e.deb
+Size: 256794
+MD5sum: b9b5be7a5e14edbd6fc320c28b47f650
+SHA1: ccfab9db39ed7f1c1ca81ab9b7e83e9361e03bc7
+SHA256: 68db31150eafd59dfc13b1733ca7d3debaffa0bbd5fff506b87e63b42eee3e0e
 
 Package: com.susudear.stayshot.long-screenshot
 Name: StayShot Long Screenshot (RootHide)
