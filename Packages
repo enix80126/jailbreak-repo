@@ -1160,6 +1160,22 @@ MD5sum: 746fd2d41b5fbb5e2c04019e7e1385d8
 SHA1: 054db6a0f34f0ae5613cd304076277b3539f7fdd
 SHA256: 406c52c45149dff2432b1705841b06d9d8ab671e0ef6e2339fe6163b5e764358
 
+Package: com.dao.tslite
+Name: TrollStoreLite (RootHide)
+Description: 白巨魔，越狱专用的APP安装器，Relaxin(隐根)优化版，支持中英文翻译。
+Maintainer: opa334
+Author: opa334
+Section: 嗨-工具
+Conflicts: com.opa334.trollstorelite
+Architecture: iphoneos-arm64e
+Version: 2.1.1-1
+Installed-Size: 3948
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.dao.tslite_2.1.1-1_iphoneos-arm64e.deb
+Size: 1767676
+MD5sum: 0b450e0dff53c0791c0867d04c872dcf
+SHA1: 00d370c002a54b23c4daf031f89b118fe18cf67a
+SHA256: 6a5eee8c8d7d594c10b1194261d450177306a9cbcd11f688f7a3d890ec1211e3
+
 Package: com.daodao.goodwifi
 Name: GoodWiFi 中文版 (RootHide)
 Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
