@@ -1558,6 +1558,22 @@ MD5sum: 40f2a7e84a9a254f0020d25f7ee91612
 SHA1: 20c124fc928d1d6a43d3b60d0a50c23badd140f2
 SHA256: b6b1956252f4f6c9d3f2f73ec6d9a9c4251202c37acc793a0fc8f41bdcd39729
 
+Package: com.m4fn3.bajji
+Name: Bajji (RootHide)
+Description: Badge coloring from the app icon, for iOS 16 through 26.
+Maintainer: mafu
+Author: mafu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Installed-Size: 172
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.m4fn3.bajji_1.0.0_iphoneos-arm64e.deb
+Size: 9248
+MD5sum: f0baf1801a6dc1ffeb5aa234d876ecd2
+SHA1: b399aae380d23db8e3b01cc22a3d1d9f727a72ca
+SHA256: 3449ae849338a6a66f08ee7609c6fce62b25e31f2a7f7b48f478c498e217b110
+
 Package: com.m4fn3.mikkyy.pro
 Name: Mikkyy Pro (RootHide)
 Description: Everything in Mikkyy, plus UI theming beyond app icons and the full set of icon adjustments — corner radius, icon scale, label and overlay options. 
