@@ -2416,6 +2416,27 @@ MD5sum: 908850c183560db663bc20fc72dd3baf
 SHA1: b2fec1d8fd123afb71604c7e39171a1678b46d8d
 SHA256: ecb21f00f6c012e766cd6433cefc14099cb68e8e988023070a14512557ab7101
 
+Package: xyz.cypwn.prism
+Maintainer: CyPwn
+Depiction: https://repo.cypwn.xyz/depiction/3565
+SileoDepiction: https://repo.cypwn.xyz/sileo_depiction/3565
+Icon: https://repo.cypwn.xyz/packages/Prism-Rootless/icon.png
+Name: Prism (RootHide)
+Description: Capture, annotate, and pin what matters on screen. Cracked by Nya for Cypwn
+Author: blacknoisy, Nya 
+Section: Tweaks
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.7100), com.opa334.ccsupport, preferenceloader
+Conflicts: cn.blacknoisy.prism
+Architecture: iphoneos-arm64e
+Version: 1.1.0
+Installed-Size: 1992
+Pre-Depends: rootless-compat(>= 0.9)
+Filename: https://enix80126.github.io/jailbreak-repo/debs/xyz.cypwn.prism_1.1.0_iphoneos-arm64e.deb
+Size: 837830
+MD5sum: 96d80210ca8f7d0b641a46929debdbc5
+SHA1: 42ae78b68d4963db8cefbc391e91341a57d4e9fb
+SHA256: 88ae2cc61df23fa88ba63da4b3dd54fa51dae87a2f4306fbaa8ff47def733ff7
+
 Package: zone.uni9k.umount
 Name: UMount (RootHide)
 Description: Native SwiftUI system-directory bind-mount manager for Relaxin / RootHide, with kernel-ucred fallback, diagnostics, RootHide safe-mode gating, and bootloop protection.
