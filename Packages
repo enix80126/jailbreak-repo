@@ -2106,41 +2106,6 @@ MD5sum: 59e5ae95f3cb726d1dd9c01e65a6845f
 SHA1: 6d1c8f073e17f43c94c2d109758bbe2d637d8cbb
 SHA256: 4ee527cdf91e2bb9cf81ed1e3530c85bc55ec4ecce55866791b85e435510402d
 
-Package: dylv.liquidass
-Name: Liquid (Gl)ass (RootHide)
-Description: next level diarrhea
-Maintainer: dylv
-Author: dylv
-Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 14.0), preferenceloader
-Icon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png
-Architecture: iphoneos-arm64e
-Version: 0.1.0b
-Installed-Size: 3576
-Filename: https://enix80126.github.io/jailbreak-repo/debs/dylv.liquidass_0.1.0b_iphoneos-arm64e.deb
-Size: 1297246
-MD5sum: 474a65688270bbb1e1d00978785d281e
-SHA1: ddb2fe5c4c74372c5dd2eeb53a4051db21220c3b
-SHA256: caf947160a08c91a0651e28bd7c1acf1f91e39097670fd9d82a22f76103c6cf8
-
-Package: com.wkk.icleanerpro
-Section: 应用程序
-Maintainer: Ivano Bilenchi
-Architecture: iphoneos-arm64e
-Version: 7.10.0
-Depends: firmware (>= 4.0), findutils, apt | apt7
-Pre-Depends: rootless-compat (>= 0.9)
-Conflicts: org.altervista.exilecom.icleaner, xyz.cypwn.icleanerprocrackrootless, com.exile90.icleanerpro
-Description: 真正的iOS系统清理和管理实用程序，默认简体中文。
-Name: iCleaner Pro (RootHide)
-Author: Ivano Bilenchi
-Icon: https://s1.imagehub.cc/images/2025/01/01/3c86578830a5a4b2897f2780576e07a9.jpeg
-Filename: https://enix80126.github.io/jailbreak-repo/debs/iCleaner_7.10.0_iphoneos-arm64e.deb
-Size: 1145044
-MD5sum: 248481c013972e296244d724a1fdb9b8
-SHA1: 6e8c5a4344b7289e91cb4194194b3c2e7003e582
-SHA256: ce0bf5f72dec189ed34cc134c2bbcc945350a5e2778c85a9a229ca64492ca310
-
 Package: jp.uzra.aerial
 Name: Aerial (RootHide)
 Description: Stage Manager, redesigned for iOS
