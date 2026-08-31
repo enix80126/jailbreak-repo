@@ -824,6 +824,25 @@ MD5sum: 52c55ea565fc32ca58f03393fbb6762a
 SHA1: 61965f44328d4b24a98e41349386922ecd91b74f
 SHA256: 961ab8cf7862d69a91d0caec958ecd94fbe2bdcae9d69aad867675f3fdf38277
 
+Package: cn.zqbb.hello.ips
+Name: Hello IPS (RootHide)
+Description: 分析数据快速分享、清理、搜索、过滤!
+Maintainer: zqbb
+Author: zqbb
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Replaces: cn.zqbb.hello.diagnosticdata
+Conflicts: cn.zqbb.hello.diagnosticdata
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.ips
+Architecture: iphoneos-arm64e
+Version: 1.6.0
+Installed-Size: 952
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.hello.ips_1.6.0_iphoneos-arm64e.deb
+Size: 253868
+MD5sum: f9e199152652d54f582e9e773e7e841c
+SHA1: 5ea71ad4ea2acc47d9917691ea09fd6eb19375e2
+SHA256: 79d7b9821604d3c7f228d6bd8a65a82a73def53a58c8529e3275755767190796
+
 Package: cn.zqbb.hello.memorystatus
 Description: Set memorystatus to avoid being killed by the system
 Maintainer: zqbb
@@ -1086,6 +1105,24 @@ MD5sum: 9cc3fd032c4a9ceaca339cf9d7439f5d
 SHA1: d4588ea9d3af5b5692ba5dafdc51326cf49d9afe
 SHA256: 546c791a3ece2454be37e5656c49080e13bbc52c0ad90537f7225bdcbac5c8b2
 
+Package: com.daodao.goodwifi
+Name: GoodWiFi 中文版 (RootHide)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Description: 更好的 WiFi 配置，查看 WiFi 信道、加密方式和密码、信号值，去除 RSSI 限制，显示 MAC 地址等；简体中文优化版。
+Maintainer: daodao
+Author: julioverne & daodao
+Section: 嗨-工具
+Conflicts: com.julioverne.goodwifi, com.qms.goodwifi, com.hk.goodwifi, com.daodao.goodwifi16
+SileoDepiction: https://xiangfeidexiaohuo.github.io/sileodepiction/goodwifi/js.json
+Architecture: iphoneos-arm64e
+Version: 1.7.2
+Installed-Size: 448
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.daodao.goodwifi_1.7.2_iphoneos-arm64e.deb
+Size: 57308
+MD5sum: 9fc570a0cb5a6972f48acc4eea604b59
+SHA1: 0255440b067e963c313f9dd9fc4c98709667d21f
+SHA256: 40ff961c1b1f5fa5b4b47656be33b86d380283e2b3e6e0345269ba200bc551ae
+
 Package: com.exile90.icleanerpro
 Name: iCleaner Pro (RootHide)
 Version: 7.10.0
@@ -1345,6 +1382,33 @@ Size: 496354
 MD5sum: f132713a8c4b8fe6af4e44cf4fb38579
 SHA1: d633241637e563c27c0e7f16516b205aad43fe36
 SHA256: 8ef039cfcf1051b15bdd00b661f452343bc2c707e33ba67cd75888afb298b514
+
+Package: com.hmmzzz.marktheme
+Name: MarkTheme (RootHide)
+Description: 适用于现代 iOS 越狱环境的模块化主题引擎与管理器。
+ MarkTheme 0.2.7 支持导入 SnowBoard / IconBundles 风格主题，可主题化应用图标、
+ 文件夹、角标、状态栏、拨号盘、设置与分享界面。
+ .
+ 支持跨主题混搭和功能独立开关；切换主题或混搭后，按提示 Respring 即可应用新外观。
+ .
+ 提供 conventional rootless 与 RootHide 独立软件包，支持 iOS 17.0 至 18.x。
+ 请安装与你的越狱环境匹配的软件包，两个版本不可混装。
+Maintainer: Hmmzzz
+Author: Hmmzzz
+Section: Utilities
+Homepage: https://github.com/Hmmzzz/MarkTheme
+Depends: firmware (>= 17.0), uikittools, ellekit (>= 1.2)
+Icon: https://hmmzzz.github.io/repo/depictions/marktheme/icon.png
+Depiction: https://hmmzzz.github.io/repo/depictions/marktheme/
+SileoDepiction: https://hmmzzz.github.io/repo/depictions/marktheme/sileo.json
+Architecture: iphoneos-arm64e
+Version: 0.2.7
+Installed-Size: 8640
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.hmmzzz.marktheme_0.2.7_iphoneos-arm64e.deb
+Size: 2810962
+MD5sum: 3cfa0e07b5ae0d3c007ce16063b4669c
+SHA1: 0c56362bde5a2430931fc6cb476c479c6fbcb777
+SHA256: bd9862fdf5011ac970092df08f26e7c1258e8a62df6067fd433b237379d430f8
 
 Package: com.huami.dyyy.vita
 Name: 抖音 DYYY (RootHide)
@@ -2011,6 +2075,24 @@ Size: 3315120
 MD5sum: c8a76f80db44cbfa67fd5f6c28a7d492
 SHA1: 4b5b0c2afe38306122073be3678c93dcc81265fd
 SHA256: fc786cd2448a3ed280fa463066b657eaa6c72cdb82586857cdf61516d0748d2f
+
+Package: com.xybp888.callassist17.roothide
+Version: 1.8.4
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Architecture: iphoneos-arm64e
+Name: 电话助手iOS17-正式版 (RootHide)
+Author: xybp888
+Depiction: https://apt.htv123.com/view/827
+SileoDepiction: https://apt.htv123.com/sileo/827
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.xybp888.callassist17.roothide_1.8.4_iphoneos-arm64e.deb
+Size: 3329236
+MD5sum: cb3cf10c81c585904bbf7a65491f30b7
+SHA1: e3576df57538bfe28e77ea5a6b67dedad2ae2d63
+SHA256: bc10d5cfa890469d4204eb55c220482d03e2fdb7bda2f288516fa9baaed80eec
 
 Package: com.yourepo.llyy.supervip-rootless
 Name: SuperVIP (RootHide)
