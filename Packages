@@ -1810,10 +1810,10 @@ Architecture: iphoneos-arm64e
 Version: 1.4-5
 Installed-Size: 1568
 Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.systembox_1.4-5_iphoneos-arm64e.deb
-Size: 305478
-MD5sum: 233ff7489c85195f1cd86366e63beaec
-SHA1: aa04aabb260d761a3a5e91cda3e95d0880d82da2
-SHA256: 955c5121a86232342b1c57350b2e24b69c7c258b00c9ab69b9e8b1980b1e0394
+Size: 306734
+MD5sum: ad37313d74d70138bd1407140db54cf1
+SHA1: 9d66aed01d225647388c3a4054459d804674f933
+SHA256: 3e7771f7ec140b31d5c39e46c934ad8378dc52a002153319b0437d5e972db882
 
 Package: com.xx.gaodehook
 Name: 高德地图优化 (RootHide)
