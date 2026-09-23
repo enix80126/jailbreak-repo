@@ -2305,6 +2305,24 @@ MD5sum: 908850c183560db663bc20fc72dd3baf
 SHA1: b2fec1d8fd123afb71604c7e39171a1678b46d8d
 SHA256: ecb21f00f6c012e766cd6433cefc14099cb68e8e988023070a14512557ab7101
 
+Package: uikittools
+Essential: yes
+Version: 2.1.8
+Architecture: iphoneos-arm64e
+Maintainer: roothide <roothideDev@twitter>
+Section: Utilities
+Priority: required
+Suggests: uikittools-extra (= 2.1.8)
+Breaks: uikittools-extra (<< 2.1.6)
+Description: Command line access for UIKit/LaunchServices/CoreServices
+Depends: roothide (>= 0.1.0), libiosexec1 (>= 1.3.1-2)
+Installed-Size: 772
+Filename: https://enix80126.github.io/jailbreak-repo/debs/uikittools_2.1.8_iphoneos-arm64e.deb
+Size: 84146
+MD5sum: aa602578a5759b2d31c694960bc43a55
+SHA1: 787039e2ee239111dc04e28a18f2f9c0e8375f78
+SHA256: 3a064f5a371418823def41869790c024b51bf5c7035da5d720ec011299fe6c80
+
 Package: xyz.cypwn.prism
 Maintainer: CyPwn
 Depiction: https://repo.cypwn.xyz/depiction/3565
