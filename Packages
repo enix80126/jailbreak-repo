@@ -983,6 +983,22 @@ MD5sum: 838f9370ea93d3f598d14862dbb40ad4
 SHA1: 0fc1376b9a55d425404bf88f261927ecf48b477f
 SHA256: ed1fcbc4119c6f846e6e2b11650041649b59890a77097541522bc613fd793c0d
 
+Package: com.charlieleung.liquidify
+Name: Liquidify (RootHide)
+Description: 为 iOS 界面注入液态玻璃质感。
+Maintainer: Charlie Leung
+Author: Charlie Leung
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Architecture: iphoneos-arm64e
+Version: 1.3.8
+Installed-Size: 40068
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.charlieleung.liquidify_1.3.8_iphoneos-arm64e.deb
+Size: 15524432
+MD5sum: 3a298246a4746ca378704d0cbcd6deef
+SHA1: f4e970e859d6ebd9a201280cf64fcb301a9d7233
+SHA256: 4a33a3923e3b45ad662122af094c77523562cbc1788654e7295298bb3bf185e3
+
 Package: com.dao.choicy
 Name: Choicy (RootHide)
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
