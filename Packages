@@ -1912,6 +1912,22 @@ MD5sum: e52855c18416c47beabbacfd86691b0e
 SHA1: 790ff04df21ae58841853d15c45fcd5c1b711894
 SHA256: 823ca200ba3bc33ad8e334c60a8bd9c390f1f3d1bb0c81074111d6466aeab638
 
+Package: com.wkk.zhibo8noad
+Name: 直播吧去广告 (RootHide)
+Author: wkk
+Description: 去除直播吧开屏广告及应用内广告
+Depends: mobilesubstrate
+Maintainer: wkk
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.zhibo8noad_1.0_iphoneos-arm64e.deb
+Size: 4950
+MD5sum: 8663044b6f6522c224bf8708ec0fbe97
+SHA1: 67a204490148326ac69709633126b2c11428c1d0
+SHA256: 8b5886e1a97a523a5ee4749196b4174e4838c91fe8f12d161167c9df37d93a62
+
 Package: com.xx.gaodehook
 Name: 高德地图优化 (RootHide)
 Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
