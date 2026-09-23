@@ -1896,6 +1896,22 @@ MD5sum: b1624be372c1926872b0b9fbbf2e6bf8
 SHA1: eec8423a9ec00a002edd90e6916922f63a022d7b
 SHA256: 6a2d5532e6d9630c4cdb8eb3d33446dce2d3cb71f1e6fb58fe14093cac218c22
 
+Package: com.wkk.weifengadblock
+Name: 威锋去广告 (RootHide)
+Depends: mobilesubstrate
+Description: 去除威锋 App 的开屏、信息流、插屏及横幅广告
+Maintainer: wkk
+Author: wkk
+Section: Tweaks
+Architecture: iphoneos-arm64e
+Version: 1.0
+Installed-Size: 168
+Filename: https://enix80126.github.io/jailbreak-repo/debs/com.wkk.weifengadblock_1.0_iphoneos-arm64e.deb
+Size: 8166
+MD5sum: e52855c18416c47beabbacfd86691b0e
+SHA1: 790ff04df21ae58841853d15c45fcd5c1b711894
+SHA256: 823ca200ba3bc33ad8e334c60a8bd9c390f1f3d1bb0c81074111d6466aeab638
+
 Package: com.xx.gaodehook
 Name: 高德地图优化 (RootHide)
 Description: 自用 功能默认开启 | 去除启动广告 首页一些无用的悬浮 移除底部消息-打车 | 移除扫一扫按钮 | 如果需要某功能 可以长按底栏1秒出菜单自行关闭 || 1.0.4更新内容：修复问题
