@@ -861,6 +861,24 @@ MD5sum: 3144abe69e5f24b8a724652c5c122378
 SHA1: 51b1f64043dbeef7162941bea51baaaf2e3c9c6c
 SHA256: 40c3924f9139183c03130075f11d07f3152871319aa7549f14021f34d22300f0
 
+Package: cn.zqbb.hello.quick.panel
+Name: Hello QuickPanel (RootHide)
+Description: 快捷面板~
+Maintainer: zqbb
+Author: zqbb
+Section: zqbb Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.quick.panel.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.quick.panel
+Architecture: iphoneos-arm64e
+Version: 1.0.0-5
+Installed-Size: 5488
+Filename: https://enix80126.github.io/jailbreak-repo/debs/cn.zqbb.hello.quick.panel_1.0.0-5_iphoneos-arm64e.deb
+Size: 1498688
+MD5sum: 677002f21733799860208de00798c6dd
+SHA1: fd03c8aa72c5d0a16a0ad695ce19ebea366486c5
+SHA256: b1f984eb377d2eb244ca4cdcf735ab97f8f811050e2ef2d9664f8715fa1ad30e
+
 Package: cn.zqbb.holdcpu
 Name: Hello CPU (RootHide)
 Description:(解除温控) (锁定低电量CPU频率)
